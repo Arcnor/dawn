@@ -26,6 +26,8 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 add_library(dawn_platform ${DAWN_PLACEHOLDER_FILE})
+add_library(dawn::platform ALIAS dawn_platform)
+set_property(TARGET dawn_platform PROPERTY EXPORT_NAME platform)
 common_compile_options(dawn_platform)
 
 target_compile_definitions(dawn_platform PRIVATE "DAWN_PLATFORM_IMPLEMENTATION")
@@ -33,10 +35,10 @@ if(BUILD_SHARED_LIBS)
     target_compile_definitions(dawn_platform PRIVATE "DAWN_PLATFORM_SHARED_LIBRARY")
 endif()
 
-target_sources(dawn_platform PRIVATE
+target_sources(dawn_platform
   PUBLIC
-    "${DAWN_INCLUDE_DIR}/dawn/platform/DawnPlatform.h"
-    "${DAWN_INCLUDE_DIR}/dawn/platform/dawn_platform_export.h"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/platform/DawnPlatform.h>"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/platform/dawn_platform_export.h>"
   PRIVATE
     "DawnPlatform.cpp"
     "WorkerThread.cpp"

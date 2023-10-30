@@ -42,6 +42,9 @@ DawnGenerator(
 )
 
 add_library(dawn_common STATIC ${DAWN_PLACEHOLDER_FILE})
+add_library(dawn::common ALIAS dawn_common)
+set_property(TARGET dawn_common PROPERTY EXPORT_NAME common)
+
 common_compile_options(dawn_common)
 target_sources(dawn_common PRIVATE
     ${DAWN_VERSION_AUTOGEN_SOURCES}

@@ -28,6 +28,9 @@
 if(DAWN_USE_GLFW)
 
 add_library(dawn_glfw STATIC ${DAWN_PLACEHOLDER_FILE})
+add_library(dawn::glfw ALIAS dawn_glfw)
+set_property(TARGET dawn_glfw PROPERTY EXPORT_NAME glfw)
+
 common_compile_options(dawn_glfw)
 target_sources(dawn_glfw
   INTERFACE

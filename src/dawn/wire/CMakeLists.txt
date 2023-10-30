@@ -32,6 +32,9 @@ DawnJSONGenerator(
 )
 
 add_library(dawn_wire ${DAWN_PLACEHOLDER_FILE})
+add_library(dawn::wire ALIAS dawn_wire)
+set_property(TARGET dawn_wire PROPERTY EXPORT_NAME wire)
+
 common_compile_options(dawn_wire)
 
 target_compile_definitions(dawn_wire PRIVATE "DAWN_WIRE_IMPLEMENTATION")
@@ -41,10 +44,10 @@ endif()
 
 target_sources(dawn_wire PRIVATE
   INTERFACE
-    "${DAWN_INCLUDE_DIR}/dawn/wire/Wire.h"
-    "${DAWN_INCLUDE_DIR}/dawn/wire/WireClient.h"
-    "${DAWN_INCLUDE_DIR}/dawn/wire/WireServer.h"
-    "${DAWN_INCLUDE_DIR}/dawn/wire/dawn_wire_export.h"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/wire/Wire.h>"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/wire/WireClient.h>"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/wire/WireServer.h>"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/wire/dawn_wire_export.h>"
   PRIVATE
     ${DAWN_WIRE_GEN_SOURCES}
     "BufferConsumer.h"

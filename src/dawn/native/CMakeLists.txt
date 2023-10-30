@@ -32,6 +32,8 @@ DawnJSONGenerator(
 )
 
 add_library(dawn_native ${DAWN_PLACEHOLDER_FILE})
+add_library(dawn::native ALIAS dawn_native)
+set_property(TARGET dawn_native PROPERTY EXPORT_NAME native)
 common_compile_options(dawn_native)
 
 target_compile_definitions(dawn_native PRIVATE "DAWN_NATIVE_IMPLEMENTATION")
@@ -41,8 +43,8 @@ endif()
 
 target_sources(dawn_native
   INTERFACE
-    "${DAWN_INCLUDE_DIR}/dawn/native/DawnNative.h"
-    "${DAWN_INCLUDE_DIR}/dawn/native/dawn_native_export.h"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/native/DawnNative.h>"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/native/dawn_native_export.h>"
   PRIVATE
     ${DAWN_NATIVE_UTILS_GEN_SOURCES}
     "Adapter.h"
@@ -248,12 +250,9 @@ target_link_libraries(dawn_native
             dawn_platform
             dawn_internal_config
             libtint
-            SPIRV-Tools-opt
-            absl_strings
-            absl_str_format_internal
+            absl::strings
+            absl::str_format_internal
 )
-
-target_include_directories(dawn_native PRIVATE ${DAWN_ABSEIL_DIR})
 
 if (DAWN_USE_X11)
     target_include_directories(dawn_native PRIVATE ${X11_INCLUDE_DIR})
@@ -284,7 +283,7 @@ endif()
 if (DAWN_ENABLE_D3D11 OR DAWN_ENABLE_D3D12)
     target_sources(dawn_native
       INTERFACE
-        "${DAWN_INCLUDE_DIR}/dawn/native/D3DBackend.h"
+        "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/native/D3DBackend.h>"
       PRIVATE
         "d3d/BackendD3D.cpp"
         "d3d/BackendD3D.h"
@@ -323,7 +322,7 @@ endif()
 if (DAWN_ENABLE_D3D11)
     target_sources(dawn_native
       INTERFACE
-        "${DAWN_INCLUDE_DIR}/dawn/native/D3D11Backend.h"
+        "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/native/D3D11Backend.h>"
       PRIVATE
         "d3d11/BackendD3D11.cpp"
         "d3d11/BackendD3D11.h"
@@ -380,7 +379,7 @@ endif()
 if (DAWN_ENABLE_D3D12)
     target_sources(dawn_native
       INTERFACE
-        "${DAWN_INCLUDE_DIR}/dawn/native/D3D12Backend.h"
+        "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/native/D3D12Backend.h>"
       PRIVATE
         "d3d12/BackendD3D12.cpp"
         "d3d12/BackendD3D12.h"
@@ -467,7 +466,7 @@ endif()
 if (DAWN_ENABLE_METAL)
     target_sources(dawn_native
       INTERFACE
-        "${DAWN_INCLUDE_DIR}/dawn/native/MetalBackend.h"
+        "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/native/MetalBackend.h>"
       PRIVATE
         "Surface_metal.mm"
         "metal/BackendMTL.h"
@@ -524,7 +523,7 @@ endif()
 if (DAWN_ENABLE_NULL)
     target_sources(dawn_native
       INTERFACE
-        "${DAWN_INCLUDE_DIR}/dawn/native/NullBackend.h"
+        "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/native/NullBackend.h>"
       PRIVATE
         "null/DeviceNull.cpp"
         "null/DeviceNull.h"
@@ -552,7 +551,7 @@ if (DAWN_ENABLE_OPENGL)
 
     target_sources(dawn_native
       INTERFACE
-        "${DAWN_INCLUDE_DIR}/dawn/native/OpenGLBackend.h"
+        "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/native/OpenGLBackend.h>"
       PRIVATE
         ${DAWN_NATIVE_OPENGL_AUTOGEN_SOURCES}
         "opengl/BackendGL.cpp"
@@ -618,7 +617,7 @@ endif()
 if (DAWN_ENABLE_VULKAN)
     target_sources(dawn_native PRIVATE
        INTERFACE
-        "${DAWN_INCLUDE_DIR}/dawn/native/VulkanBackend.h"
+        "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/native/VulkanBackend.h>"
       PRIVATE
         "vulkan/BackendVk.cpp"
         "vulkan/BackendVk.h"
@@ -690,7 +689,7 @@ if (DAWN_ENABLE_VULKAN)
         "vulkan/external_semaphore/SemaphoreServiceImplementation.h"
     )
 
-    target_link_libraries(dawn_native PUBLIC Vulkan-Headers)
+    target_link_libraries(dawn_native PUBLIC Vulkan::Headers)
     target_include_directories(dawn_native PRIVATE ${DAWN_VULKAN_UTILITY_LIBRARIES_DIR}/include)
 
     if (ANDROID)

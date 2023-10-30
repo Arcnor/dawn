@@ -75,6 +75,7 @@ DawnJSONGenerator(
     PRINT_NAME "Dawn headers"
     RESULT_VARIABLE "DAWN_HEADERS_GEN_SOURCES"
 )
+add_includes_list("${DAWN_HEADERS_GEN_SOURCES}" "${DAWN_BUILD_GEN_DIR}/include")
 
 # Headers only INTERFACE library with generated headers don't work in CMake
 # because the GENERATED property is local to a directory. Instead we make a
@@ -85,9 +86,12 @@ DawnJSONGenerator(
 # directory, they don't see the GENERATED property and fail to configure
 # because the file doesn't exist on disk.
 add_library(dawn_headers STATIC ${DAWN_PLACEHOLDER_FILE})
+add_library(dawn::headers ALIAS dawn_headers)
+set_property(TARGET dawn_headers PROPERTY EXPORT_NAME headers)
+
 common_compile_options(dawn_headers)
 target_sources(dawn_headers INTERFACE
-    "${DAWN_INCLUDE_DIR}/webgpu/webgpu.h"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/webgpu/webgpu.h>"
     PRIVATE
     ${DAWN_HEADERS_GEN_SOURCES}
 )
@@ -103,14 +107,18 @@ DawnJSONGenerator(
     PRINT_NAME "Dawn C++ headers"
     RESULT_VARIABLE "DAWNCPP_HEADERS_GEN_SOURCES"
 )
+add_includes_list("${DAWNCPP_HEADERS_GEN_SOURCES}" "${DAWN_BUILD_GEN_DIR}/include")
 
 # This headers only library needs to be a STATIC library, see comment for
 # dawn_headers above.
 add_library(dawncpp_headers STATIC ${DAWN_PLACEHOLDER_FILE})
+add_library(dawn::cpp_headers ALIAS dawncpp_headers)
+set_property(TARGET dawncpp_headers PROPERTY EXPORT_NAME cpp_headers)
+
 common_compile_options(dawncpp_headers)
 target_sources(dawncpp_headers INTERFACE
-    "${DAWN_INCLUDE_DIR}/webgpu/webgpu_cpp.h"
-    "${DAWN_INCLUDE_DIR}/dawn/EnumClassBitmasks.h"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/webgpu/webgpu_cpp.h>"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/EnumClassBitmasks.h>"
     PRIVATE
     ${DAWNCPP_HEADERS_GEN_SOURCES}
 )
@@ -127,6 +135,8 @@ DawnJSONGenerator(
 )
 
 add_library(dawncpp STATIC ${DAWN_PLACEHOLDER_FILE})
+add_library(dawn::cpp ALIAS dawncpp)
+set_property(TARGET dawncpp PROPERTY EXPORT_NAME cpp)
 common_compile_options(dawncpp)
 target_sources(dawncpp PRIVATE ${DAWNCPP_GEN_SOURCES})
 target_link_libraries(dawncpp PUBLIC dawncpp_headers)
@@ -146,6 +156,9 @@ DawnJSONGenerator(
 )
 
 add_library(dawn_proc ${DAWN_PLACEHOLDER_FILE})
+add_library(dawn::proc ALIAS dawn_proc)
+set_property(TARGET dawn_proc PROPERTY EXPORT_NAME proc)
+
 common_compile_options(dawn_proc)
 target_compile_definitions(dawn_proc PRIVATE "WGPU_IMPLEMENTATION")
 if(BUILD_SHARED_LIBS)
@@ -153,8 +166,8 @@ if(BUILD_SHARED_LIBS)
 endif()
 target_sources(dawn_proc
   INTERFACE
-    "${DAWN_INCLUDE_DIR}/dawn/dawn_thread_dispatch_proc.h"
-    "${DAWN_INCLUDE_DIR}/dawn/dawn_proc.h"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/dawn_thread_dispatch_proc.h>"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}/dawn/dawn_proc.h>"
   PRIVATE
     ${DAWNPROC_GEN_SOURCES}
 )

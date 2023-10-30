@@ -38,6 +38,7 @@ project(
     Dawn
     DESCRIPTION "Dawn, a WebGPU implementation"
     LANGUAGES C CXX
+    VERSION 1.0.0
 )
 enable_testing()
 
@@ -369,7 +370,7 @@ if (NOT ${TINT_LIB_FUZZING_ENGINE_LINK_OPTIONS} STREQUAL "")
 endif()
 
 message(STATUS "Using python3")
-find_package(PythonInterp 3 REQUIRED)
+find_package(Python3 REQUIRED)
 
 ################################################################################
 # common_compile_options - sets compiler and linker options common for dawn and
@@ -435,16 +436,21 @@ endif()
 
 # The public config contains only the include paths for the Dawn headers.
 add_library(dawn_public_config INTERFACE)
+add_library(dawn::public_config ALIAS dawn_public_config)
+set_property(TARGET dawn_public_config PROPERTY EXPORT_NAME public_config)
 target_include_directories(dawn_public_config INTERFACE
-    "${DAWN_INCLUDE_DIR}"
-    "${DAWN_BUILD_GEN_DIR}/include"
+    "$<BUILD_INTERFACE:${DAWN_INCLUDE_DIR}>"
+    "$<BUILD_INTERFACE:${DAWN_BUILD_GEN_DIR}/include>"
+    "$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>"
 )
 
 # The internal config conatins additional path but includes the dawn_public_config include paths
 add_library(dawn_internal_config INTERFACE)
+add_library(dawn::internal_config ALIAS dawn_internal_config)
+set_property(TARGET dawn_internal_config PROPERTY EXPORT_NAME internal_config)
 target_include_directories(dawn_internal_config INTERFACE
-    "${DAWN_SRC_DIR}"
-    "${DAWN_BUILD_GEN_DIR}/src"
+    "$<BUILD_INTERFACE:${DAWN_SRC_DIR}>"
+    "$<BUILD_INTERFACE:${DAWN_BUILD_GEN_DIR}/src>"
 )
 target_link_libraries(dawn_internal_config INTERFACE dawn_public_config)
 
@@ -488,8 +494,6 @@ endif()
 if (WIN32)
     target_compile_definitions(dawn_internal_config INTERFACE "NOMINMAX" "WIN32_LEAN_AND_MEAN")
 endif()
-
-set(CMAKE_CXX_STANDARD "17")
 
 ################################################################################
 # Tint
@@ -568,7 +572,32 @@ endif()
 # Run on all subdirectories
 ################################################################################
 
-add_subdirectory(third_party)
+find_package(absl CONFIG REQUIRED)
+#find_package(SPIRV-Tools CONFIG REQUIRED)
+#find_package(SPIRV-Tools-opt CONFIG REQUIRED)
+
+if (DAWN_USE_GLFW)
+    find_package(glfw3 CONFIG REQUIRED)
+endif()
+
+include(GNUInstallDirs)
+
+function(add_includes_list HEADERS ROOT_DIR)
+    foreach(header ${HEADERS})
+        file(TO_CMAKE_PATH "${header}" FIXED_HEADER)
+        file(RELATIVE_PATH header_file_path "${ROOT_DIR}" "${FIXED_HEADER}")
+        get_filename_component(header_directory_path "${header_file_path}" DIRECTORY)
+        install(
+                FILES ${FIXED_HEADER}
+                DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}/${header_directory_path}"
+        )
+    endforeach()
+endfunction()
+
+function(add_includes_glob GLOB ROOT_DIR)
+    file(GLOB_RECURSE public_headers ${GLOB})
+    add_includes_list("${public_headers}" "${ROOT_DIR}")
+endfunction()
 
 # TODO(crbug.com/tint/455): Tint does not currently build with CMake when
 # BUILD_SHARED_LIBS=1, so always build it as static for now.
@@ -612,3 +641,121 @@ if (DAWN_EMIT_COVERAGE)
     VERBATIM)
 endif()
 
+
+# install the target and create export-set
+# TODO: Many of these are internal targets we actually don't want to expose. Create at least separate export sets for them
+install(TARGETS
+        dawn_native dawncpp dawn_headers dawncpp_headers dawn_common dawn_platform dawn_public_config dawn_internal_config
+        tint_api
+
+        tint_api_common
+        tint_api_options
+        tint_lang_core
+        tint_lang_core_constant
+        tint_lang_core_ir
+        tint_lang_core_type
+        tint_lang_hlsl_writer_common
+        tint_lang_spirv_reader_common
+        tint_lang_wgsl
+        tint_lang_wgsl_ast
+        tint_lang_wgsl_program
+        tint_lang_wgsl_sem
+        tint_utils_containers
+        tint_utils_diagnostic
+        tint_utils_ice
+        tint_utils_id
+        tint_utils_macros
+        tint_utils_math
+        tint_utils_memory
+        tint_utils_reflection
+        tint_utils_result
+        tint_utils_rtti
+        tint_utils_symbol
+        tint_utils_text
+        tint_utils_traits
+        tint_lang_hlsl_writer
+        tint_lang_wgsl_reader
+        tint_lang_wgsl_writer
+
+        # extra?
+        tint_lang_core_intrinsic
+        tint_utils_debug
+        tint_lang_wgsl_ast_transform
+        tint_lang_hlsl_writer_ast_printer
+        tint_lang_hlsl_writer_ast_raise
+        tint_lang_wgsl_reader_lower
+        tint_lang_wgsl_resolver
+        tint_lang_wgsl_reader_parser
+        tint_lang_wgsl_reader_program_to_ir
+        tint_lang_wgsl_writer_ir_to_program
+        tint_lang_wgsl_writer_raise
+        tint_lang_wgsl_writer_syntax_tree_printer
+        tint_utils_generator
+        tint_lang_wgsl_writer_ast_printer
+
+        tint_lang_wgsl_helpers
+        tint_lang_wgsl_intrinsic
+        tint_lang_wgsl_ir
+        tint_utils_strconv
+
+        tint_lang_wgsl_inspector
+
+        dawn_proc dawn_wire
+        EXPORT "${PROJECT_NAME}Targets"
+        # these get default values from GNUInstallDirs, no need to set them
+        #RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR} # bin
+        #LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR} # lib
+        #ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR} # lib
+        # except for public headers, as we want them to be inside a library folder
+        PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME} # include/SomeLibrary
+        INCLUDES DESTINATION ${CMAKE_INSTALL_INCLUDEDIR} # include
+        )
+
+if (DAWN_USE_GLFW)
+    # install the target and create export-set
+    install(TARGETS dawn_glfw
+            EXPORT "${PROJECT_NAME}Targets"
+            # these get default values from GNUInstallDirs, no need to set them
+            #RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR} # bin
+            #LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR} # lib
+            #ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR} # lib
+            # except for public headers, as we want them to be inside a library folder
+            PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME} # include/SomeLibrary
+            INCLUDES DESTINATION ${CMAKE_INSTALL_INCLUDEDIR} # include
+            )
+endif()
+
+# generate and install export file
+install(EXPORT "${PROJECT_NAME}Targets"
+        FILE "${PROJECT_NAME}Targets.cmake"
+        NAMESPACE dawn::
+        DESTINATION cmake
+        )
+
+add_includes_glob(${PROJECT_SOURCE_DIR}/include/*.h "${CMAKE_CURRENT_SOURCE_DIR}/include")
+add_includes_glob(${PROJECT_SOURCE_DIR}/src/tint/*.h "${CMAKE_CURRENT_SOURCE_DIR}/src")
+
+include(CMakePackageConfigHelpers)
+
+# generate the version file for the config file
+write_basic_package_version_file(
+        "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}ConfigVersion.cmake"
+        VERSION "${version}"
+        COMPATIBILITY AnyNewerVersion
+)
+# create config file
+configure_package_config_file(${CMAKE_CURRENT_SOURCE_DIR}/Config.cmake.in
+        "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Config.cmake"
+        INSTALL_DESTINATION cmake
+        )
+# install config files
+install(FILES
+        "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Config.cmake"
+        "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}ConfigVersion.cmake"
+        DESTINATION cmake
+        )
+# generate the export targets for the build tree
+export(EXPORT "${PROJECT_NAME}Targets"
+        FILE "${CMAKE_CURRENT_BINARY_DIR}/cmake/${PROJECT_NAME}Targets.cmake"
+        NAMESPACE ${namespace}::
+        )

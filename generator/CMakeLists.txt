@@ -25,14 +25,14 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-find_package(PythonInterp REQUIRED)
-message(STATUS "Dawn: using python at ${PYTHON_EXECUTABLE}")
+find_package(Python3 REQUIRED)
+message(STATUS "Dawn: using python at ${Python3_EXECUTABLE}")
 
 # Check for Jinja2
 if (NOT DAWN_JINJA2_DIR)
     message(STATUS "Dawn: Using system jinja2")
     execute_process(
-        COMMAND ${PYTHON_EXECUTABLE} -c "import jinja2"
+        COMMAND ${Python3_EXECUTABLE} -c "import jinja2"
         RESULT_VARIABLE RET
     )
     if (NOT RET EQUAL 0)
@@ -55,7 +55,7 @@ function(DawnGenerator)
 
     # Build the set of args common to all invocation of that generator.
     set(BASE_ARGS
-        ${PYTHON_EXECUTABLE}
+        ${Python3_EXECUTABLE}
         ${G_SCRIPT}
         --template-dir
         "${DAWN_TEMPLATE_DIR}"

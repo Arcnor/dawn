@@ -56,7 +56,7 @@ target_link_libraries(dawn_utils
             dawn_native
             dawn_proc
             dawn_wire
-            SPIRV-Tools-opt
+#            SPIRV-Tools-opt
 )
 
 if(WIN32 AND NOT WINDOWS_STORE)
