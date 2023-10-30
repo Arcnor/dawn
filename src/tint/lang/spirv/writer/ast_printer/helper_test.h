@@ -34,9 +34,9 @@
 
 #include "gtest/gtest.h"
 #include "spirv-tools/libspirv.hpp"
-#include "src/tint/lang/spirv/writer/ast_printer/ast_printer.h"
-#include "src/tint/lang/spirv/writer/common/binary_writer.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/spirv/writer/ast_printer/ast_printer.h"
+#include "tint/lang/spirv/writer/common/binary_writer.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
 
 namespace tint::spirv::writer {
 

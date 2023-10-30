@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutator.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutator.h"
 
 #include <cassert>
 #include <memory>
@@ -33,14 +33,14 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation_finders/change_binary_operators.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation_finders/change_unary_operators.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation_finders/delete_statements.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation_finders/replace_identifiers.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation_finders/wrap_unary_operators.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/node_id_map.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation_finders/change_binary_operators.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation_finders/change_unary_operators.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation_finders/delete_statements.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation_finders/replace_identifiers.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation_finders/wrap_unary_operators.h"
+#include "tint/fuzzers/tint_ast_fuzzer/node_id_map.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 namespace {

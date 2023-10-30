@@ -29,14 +29,14 @@
 
 #include "gtest/gtest.h"
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/change_unary_operator.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutator.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/node_id_map.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/probability_context.h"
-#include "src/tint/lang/wgsl/ast/call_statement.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/change_unary_operator.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutator.h"
+#include "tint/fuzzers/tint_ast_fuzzer/node_id_map.h"
+#include "tint/fuzzers/tint_ast_fuzzer/probability_context.h"
+#include "tint/lang/wgsl/ast/call_statement.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/writer/writer.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 namespace {

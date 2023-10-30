@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_regex_fuzzer/wgsl_mutator.h"
+#include "tint/fuzzers/tint_regex_fuzzer/wgsl_mutator.h"
 
 #include <cassert>
 #include <cstring>
@@ -36,7 +36,7 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/fuzzers/random_generator.h"
+#include "tint/fuzzers/random_generator.h"
 
 namespace tint::fuzzers::regex_fuzzer {
 

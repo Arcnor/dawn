@@ -25,37 +25,37 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/resolver/uniformity.h"
+#include "tint/lang/wgsl/resolver/uniformity.h"
 
 #include <limits>
 #include <string>
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/dependency_graph.h"
-#include "src/tint/lang/wgsl/sem/block_statement.h"
-#include "src/tint/lang/wgsl/sem/builtin_fn.h"
-#include "src/tint/lang/wgsl/sem/for_loop_statement.h"
-#include "src/tint/lang/wgsl/sem/function.h"
-#include "src/tint/lang/wgsl/sem/if_statement.h"
-#include "src/tint/lang/wgsl/sem/info.h"
-#include "src/tint/lang/wgsl/sem/load.h"
-#include "src/tint/lang/wgsl/sem/loop_statement.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/switch_statement.h"
-#include "src/tint/lang/wgsl/sem/value_constructor.h"
-#include "src/tint/lang/wgsl/sem/value_conversion.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/lang/wgsl/sem/while_statement.h"
-#include "src/tint/utils/containers/map.h"
-#include "src/tint/utils/containers/scope_stack.h"
-#include "src/tint/utils/containers/unique_vector.h"
-#include "src/tint/utils/macros/defer.h"
-#include "src/tint/utils/memory/block_allocator.h"
-#include "src/tint/utils/rtti/switch.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/dependency_graph.h"
+#include "tint/lang/wgsl/sem/block_statement.h"
+#include "tint/lang/wgsl/sem/builtin_fn.h"
+#include "tint/lang/wgsl/sem/for_loop_statement.h"
+#include "tint/lang/wgsl/sem/function.h"
+#include "tint/lang/wgsl/sem/if_statement.h"
+#include "tint/lang/wgsl/sem/info.h"
+#include "tint/lang/wgsl/sem/load.h"
+#include "tint/lang/wgsl/sem/loop_statement.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/switch_statement.h"
+#include "tint/lang/wgsl/sem/value_constructor.h"
+#include "tint/lang/wgsl/sem/value_conversion.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/lang/wgsl/sem/while_statement.h"
+#include "tint/utils/containers/map.h"
+#include "tint/utils/containers/scope_stack.h"
+#include "tint/utils/containers/unique_vector.h"
+#include "tint/utils/macros/defer.h"
+#include "tint/utils/memory/block_allocator.h"
+#include "tint/utils/rtti/switch.h"
+#include "tint/utils/text/string_stream.h"
 
 // Set to `1` to dump the uniformity graph for each function in graphviz format.
 #define TINT_DUMP_UNIFORMITY_GRAPH 0

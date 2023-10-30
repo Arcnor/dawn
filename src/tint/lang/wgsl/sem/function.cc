@@ -25,18 +25,18 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/sem/function.h"
+#include "tint/lang/wgsl/sem/function.h"
 
-#include "src/tint/lang/core/type/depth_texture.h"
-#include "src/tint/lang/core/type/external_texture.h"
-#include "src/tint/lang/core/type/multisampled_texture.h"
-#include "src/tint/lang/core/type/sampled_texture.h"
-#include "src/tint/lang/core/type/storage_texture.h"
-#include "src/tint/lang/wgsl/ast/function.h"
-#include "src/tint/lang/wgsl/ast/identifier.h"
-#include "src/tint/lang/wgsl/ast/must_use_attribute.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/containers/transform.h"
+#include "tint/lang/core/type/depth_texture.h"
+#include "tint/lang/core/type/external_texture.h"
+#include "tint/lang/core/type/multisampled_texture.h"
+#include "tint/lang/core/type/sampled_texture.h"
+#include "tint/lang/core/type/storage_texture.h"
+#include "tint/lang/wgsl/ast/function.h"
+#include "tint/lang/wgsl/ast/identifier.h"
+#include "tint/lang/wgsl/ast/must_use_attribute.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/containers/transform.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::sem::Function);
 

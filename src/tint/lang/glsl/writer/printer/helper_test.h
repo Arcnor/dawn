@@ -31,11 +31,11 @@
 #include <string>
 
 #include "gtest/gtest.h"
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/glsl/writer/common/version.h"
-#include "src/tint/lang/glsl/writer/printer/printer.h"
-#include "src/tint/lang/glsl/writer/raise/raise.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/glsl/writer/common/version.h"
+#include "tint/lang/glsl/writer/printer/printer.h"
+#include "tint/lang/glsl/writer/raise/raise.h"
 
 namespace tint::glsl::writer {
 

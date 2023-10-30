@@ -26,8 +26,8 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "gmock/gmock.h"
-#include "src/tint/lang/hlsl/writer/ast_printer/helper_test.h"
-#include "src/tint/lang/wgsl/ast/stage_attribute.h"
+#include "tint/lang/hlsl/writer/ast_printer/helper_test.h"
+#include "tint/lang/wgsl/ast/stage_attribute.h"
 
 using ::testing::HasSubstr;
 

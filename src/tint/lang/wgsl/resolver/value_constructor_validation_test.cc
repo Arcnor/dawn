@@ -26,12 +26,12 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "gmock/gmock.h"
-#include "src/tint/lang/core/type/reference.h"
-#include "src/tint/lang/wgsl/resolver/resolver_helper_test.h"
-#include "src/tint/lang/wgsl/sem/array.h"
-#include "src/tint/lang/wgsl/sem/value_constructor.h"
-#include "src/tint/lang/wgsl/sem/value_conversion.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/type/reference.h"
+#include "tint/lang/wgsl/resolver/resolver_helper_test.h"
+#include "tint/lang/wgsl/sem/array.h"
+#include "tint/lang/wgsl/sem/value_constructor.h"
+#include "tint/lang/wgsl/sem/value_conversion.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::resolver {
 namespace {

@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/type/storage_texture.h"
+#include "tint/lang/core/type/storage_texture.h"
 
-#include "src/tint/lang/core/type/f32.h"
-#include "src/tint/lang/core/type/i32.h"
-#include "src/tint/lang/core/type/manager.h"
-#include "src/tint/lang/core/type/u32.h"
-#include "src/tint/utils/math/hash.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/type/f32.h"
+#include "tint/lang/core/type/i32.h"
+#include "tint/lang/core/type/manager.h"
+#include "tint/lang/core/type/u32.h"
+#include "tint/utils/math/hash.h"
+#include "tint/utils/text/string_stream.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::core::type::StorageTexture);
 

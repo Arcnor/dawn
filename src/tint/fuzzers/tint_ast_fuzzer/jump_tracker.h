@@ -30,8 +30,8 @@
 
 #include <unordered_set>
 
-#include "src/tint/lang/wgsl/ast/statement.h"
-#include "src/tint/lang/wgsl/program/program.h"
+#include "tint/lang/wgsl/ast/statement.h"
+#include "tint/lang/wgsl/program/program.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

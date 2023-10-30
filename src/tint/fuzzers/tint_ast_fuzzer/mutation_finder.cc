@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation_finder.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation_finder.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

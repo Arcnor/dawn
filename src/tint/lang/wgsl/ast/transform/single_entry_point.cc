@@ -25,18 +25,18 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/single_entry_point.h"
+#include "tint/lang/wgsl/ast/transform/single_entry_point.h"
 
 #include <unordered_set>
 #include <utility>
 
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/array.h"
-#include "src/tint/lang/wgsl/sem/function.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/array.h"
+#include "tint/lang/wgsl/sem/function.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/rtti/switch.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::SingleEntryPoint);
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::SingleEntryPoint::Config);

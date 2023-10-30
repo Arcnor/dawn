@@ -27,9 +27,9 @@
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/transform/helper_test.h"
-#include "src/tint/lang/core/type/struct.h"
-#include "src/tint/lang/spirv/writer/raise/shader_io.h"
+#include "tint/lang/core/ir/transform/helper_test.h"
+#include "tint/lang/core/type/struct.h"
+#include "tint/lang/spirv/writer/raise/shader_io.h"
 
 namespace tint::spirv::writer::raise {
 namespace {

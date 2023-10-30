@@ -25,11 +25,11 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/msl/writer/ast_raise/module_scope_var_to_entry_point_param.h"
+#include "tint/lang/msl/writer/ast_raise/module_scope_var_to_entry_point_param.h"
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/transform/helper_test.h"
+#include "tint/lang/wgsl/ast/transform/helper_test.h"
 
 namespace tint::msl::writer {
 namespace {

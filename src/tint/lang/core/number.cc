@@ -25,15 +25,15 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/number.h"
+#include "tint/lang/core/number.h"
 
 #include <algorithm>
 #include <cmath>
 #include <cstring>
 
-#include "src/tint/utils/ice/ice.h"
-#include "src/tint/utils/memory/bitcast.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/ice/ice.h"
+#include "tint/utils/memory/bitcast.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::core {
 namespace {

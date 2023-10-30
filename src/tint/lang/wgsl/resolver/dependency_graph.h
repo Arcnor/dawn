@@ -31,16 +31,16 @@
 #include <string>
 #include <vector>
 
-#include "src/tint/lang/core/access.h"
-#include "src/tint/lang/core/builtin_type.h"
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/core/interpolation_sampling.h"
-#include "src/tint/lang/core/interpolation_type.h"
-#include "src/tint/lang/core/texel_format.h"
-#include "src/tint/lang/wgsl/ast/module.h"
-#include "src/tint/lang/wgsl/builtin_fn.h"
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/diagnostic/diagnostic.h"
+#include "tint/lang/core/access.h"
+#include "tint/lang/core/builtin_type.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/core/interpolation_sampling.h"
+#include "tint/lang/core/interpolation_type.h"
+#include "tint/lang/core/texel_format.h"
+#include "tint/lang/wgsl/ast/module.h"
+#include "tint/lang/wgsl/builtin_fn.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/diagnostic/diagnostic.h"
 
 namespace tint::resolver {
 

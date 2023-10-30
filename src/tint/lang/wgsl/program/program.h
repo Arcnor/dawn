@@ -31,12 +31,12 @@
 #include <string>
 #include <unordered_set>
 
-#include "src/tint/lang/core/constant/manager.h"
-#include "src/tint/lang/core/type/manager.h"
-#include "src/tint/lang/wgsl/ast/function.h"
-#include "src/tint/lang/wgsl/sem/info.h"
-#include "src/tint/utils/id/generation_id.h"
-#include "src/tint/utils/symbol/symbol_table.h"
+#include "tint/lang/core/constant/manager.h"
+#include "tint/lang/core/type/manager.h"
+#include "tint/lang/wgsl/ast/function.h"
+#include "tint/lang/wgsl/sem/info.h"
+#include "tint/utils/id/generation_id.h"
+#include "tint/utils/symbol/symbol_table.h"
 
 // Forward Declarations
 namespace tint::ast {

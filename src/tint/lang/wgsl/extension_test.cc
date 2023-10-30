@@ -34,13 +34,13 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/wgsl/extension.h"
+#include "tint/lang/wgsl/extension.h"
 
 #include <gtest/gtest.h>
 
 #include <string>
 
-#include "src/tint/utils/text/string.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::wgsl {
 namespace {

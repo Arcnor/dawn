@@ -35,10 +35,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "src/tint/lang/core/type/helper_test.h"
-#include "src/tint/lang/wgsl/resolver/resolver_helper_test.h"
-#include "src/tint/utils/rtti/switch.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/type/helper_test.h"
+#include "tint/lang/wgsl/resolver/resolver_helper_test.h"
+#include "tint/utils/rtti/switch.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::core::constant::test {
 

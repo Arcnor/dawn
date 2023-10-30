@@ -27,7 +27,7 @@
 
 // GEN_BUILD:CONDITION((!is_linux) && (!is_mac) && (!is_win))
 
-#include "src/tint/utils/command/command.h"
+#include "tint/utils/command/command.h"
 
 namespace tint {
 

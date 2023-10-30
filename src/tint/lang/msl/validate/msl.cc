@@ -25,12 +25,12 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/msl/validate/val.h"
+#include "tint/lang/msl/validate/val.h"
 
-#include "src/tint/lang/wgsl/ast/module.h"
-#include "src/tint/lang/wgsl/program/program.h"
-#include "src/tint/utils/command/command.h"
-#include "src/tint/utils/file/tmpfile.h"
+#include "tint/lang/wgsl/ast/module.h"
+#include "tint/lang/wgsl/program/program.h"
+#include "tint/utils/command/command.h"
+#include "tint/utils/file/tmpfile.h"
 
 namespace tint::msl::validate {
 

@@ -27,16 +27,16 @@
 
 #include "gmock/gmock.h"
 
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/core/type/depth_multisampled_texture.h"
-#include "src/tint/lang/core/type/depth_texture.h"
-#include "src/tint/lang/core/type/matrix.h"
-#include "src/tint/lang/core/type/multisampled_texture.h"
-#include "src/tint/lang/core/type/sampled_texture.h"
-#include "src/tint/lang/core/type/storage_texture.h"
-#include "src/tint/lang/core/type/struct.h"
-#include "src/tint/lang/msl/writer/printer/helper_test.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/core/type/depth_multisampled_texture.h"
+#include "tint/lang/core/type/depth_texture.h"
+#include "tint/lang/core/type/matrix.h"
+#include "tint/lang/core/type/multisampled_texture.h"
+#include "tint/lang/core/type/sampled_texture.h"
+#include "tint/lang/core/type/storage_texture.h"
+#include "tint/lang/core/type/struct.h"
+#include "tint/lang/msl/writer/printer/helper_test.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::msl::writer {
 namespace {

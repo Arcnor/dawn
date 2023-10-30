@@ -33,10 +33,10 @@
 #include <variant>
 
 #include "benchmark/benchmark.h"
-#include "src/tint/lang/wgsl/program/program.h"
-#include "src/tint/utils/macros/compiler.h"
-#include "src/tint/utils/macros/concat.h"
-#include "src/tint/utils/result/result.h"
+#include "tint/lang/wgsl/program/program.h"
+#include "tint/utils/macros/compiler.h"
+#include "tint/utils/macros/concat.h"
+#include "tint/utils/result/result.h"
 
 namespace tint::bench {
 

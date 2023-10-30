@@ -28,11 +28,11 @@
 #ifndef SRC_TINT_LANG_SPIRV_READER_AST_PARSER_ATTRIBUTES_H_
 #define SRC_TINT_LANG_SPIRV_READER_AST_PARSER_ATTRIBUTES_H_
 
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/wgsl/ast/attribute.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/utils/containers/enum_set.h"
-#include "src/tint/utils/containers/vector.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/wgsl/ast/attribute.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/utils/containers/enum_set.h"
+#include "tint/utils/containers/vector.h"
 
 namespace tint::spirv::reader::ast_parser {
 

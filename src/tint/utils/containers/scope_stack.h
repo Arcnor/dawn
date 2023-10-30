@@ -29,8 +29,8 @@
 
 #include <utility>
 
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/containers/vector.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/containers/vector.h"
 
 namespace tint {
 

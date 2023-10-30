@@ -30,7 +30,7 @@
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/block.h"
+#include "tint/lang/core/ir/block.h"
 
 // Forward declarations
 namespace tint::core::ir {

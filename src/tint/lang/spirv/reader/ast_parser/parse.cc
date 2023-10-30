@@ -25,21 +25,21 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/reader/ast_parser/parse.h"
+#include "tint/lang/spirv/reader/ast_parser/parse.h"
 
 #include <utility>
 
-#include "src/tint/lang/spirv/reader/ast_lower/atomics.h"
-#include "src/tint/lang/spirv/reader/ast_lower/decompose_strided_array.h"
-#include "src/tint/lang/spirv/reader/ast_lower/decompose_strided_matrix.h"
-#include "src/tint/lang/spirv/reader/ast_lower/fold_trivial_lets.h"
-#include "src/tint/lang/spirv/reader/ast_parser/ast_parser.h"
-#include "src/tint/lang/wgsl/ast/transform/manager.h"
-#include "src/tint/lang/wgsl/ast/transform/remove_unreachable_statements.h"
-#include "src/tint/lang/wgsl/ast/transform/simplify_pointers.h"
-#include "src/tint/lang/wgsl/ast/transform/unshadow.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/spirv/reader/ast_lower/atomics.h"
+#include "tint/lang/spirv/reader/ast_lower/decompose_strided_array.h"
+#include "tint/lang/spirv/reader/ast_lower/decompose_strided_matrix.h"
+#include "tint/lang/spirv/reader/ast_lower/fold_trivial_lets.h"
+#include "tint/lang/spirv/reader/ast_parser/ast_parser.h"
+#include "tint/lang/wgsl/ast/transform/manager.h"
+#include "tint/lang/wgsl/ast/transform/remove_unreachable_statements.h"
+#include "tint/lang/wgsl/ast/transform/simplify_pointers.h"
+#include "tint/lang/wgsl/ast/transform/unshadow.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
 
 namespace tint::spirv::reader::ast_parser {
 

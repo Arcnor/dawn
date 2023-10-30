@@ -33,10 +33,10 @@
 #include <tuple>
 #include <vector>
 
-#include "src/tint/api/common/override_id.h"
+#include "tint/api/common/override_id.h"
 
-#include "src/tint/lang/wgsl/ast/interpolate_attribute.h"
-#include "src/tint/lang/wgsl/ast/pipeline_stage.h"
+#include "tint/lang/wgsl/ast/interpolate_attribute.h"
+#include "tint/lang/wgsl/ast/pipeline_stage.h"
 
 namespace tint::inspector {
 

@@ -30,7 +30,7 @@
 
 #include <string>
 
-#include "src/tint/lang/core/type/texture.h"
+#include "tint/lang/core/type/texture.h"
 
 namespace tint::core::type {
 

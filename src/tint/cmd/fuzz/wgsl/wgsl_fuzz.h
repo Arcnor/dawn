@@ -30,9 +30,9 @@
 
 #include <string>
 
-#include "src/tint/lang/wgsl/program/program.h"
-#include "src/tint/utils/containers/slice.h"
-#include "src/tint/utils/macros/static_init.h"
+#include "tint/lang/wgsl/program/program.h"
+#include "tint/utils/containers/slice.h"
+#include "tint/utils/macros/static_init.h"
 
 namespace tint::fuzz::wgsl {
 

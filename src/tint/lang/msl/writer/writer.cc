@@ -25,18 +25,18 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/msl/writer/writer.h"
+#include "tint/lang/msl/writer/writer.h"
 
 #include <memory>
 #include <utility>
 
-#include "src/tint/lang/msl/writer/ast_printer/ast_printer.h"
-#include "src/tint/lang/msl/writer/printer/printer.h"
-#include "src/tint/lang/msl/writer/raise/raise.h"
+#include "tint/lang/msl/writer/ast_printer/ast_printer.h"
+#include "tint/lang/msl/writer/printer/printer.h"
+#include "tint/lang/msl/writer/raise/raise.h"
 
 #if TINT_BUILD_WGSL_READER
-#include "src/tint/lang/wgsl/reader/lower/lower.h"
-#include "src/tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
+#include "tint/lang/wgsl/reader/lower/lower.h"
+#include "tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
 #endif
 
 namespace tint::msl::writer {

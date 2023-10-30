@@ -25,24 +25,24 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/ast_raise/clamp_frag_depth.h"
+#include "tint/lang/spirv/writer/ast_raise/clamp_frag_depth.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/wgsl/ast/attribute.h"
-#include "src/tint/lang/wgsl/ast/builtin_attribute.h"
-#include "src/tint/lang/wgsl/ast/function.h"
-#include "src/tint/lang/wgsl/ast/module.h"
-#include "src/tint/lang/wgsl/ast/struct.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/function.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/struct.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/macros/scoped_assignment.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/wgsl/ast/attribute.h"
+#include "tint/lang/wgsl/ast/builtin_attribute.h"
+#include "tint/lang/wgsl/ast/function.h"
+#include "tint/lang/wgsl/ast/module.h"
+#include "tint/lang/wgsl/ast/struct.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/function.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/struct.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/macros/scoped_assignment.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::spirv::writer::ClampFragDepth);
 

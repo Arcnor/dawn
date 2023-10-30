@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/cmd/bench/bench.h"
+#include "tint/cmd/bench/bench.h"
 
 int main(int argc, char** argv) {
     benchmark::Initialize(&argc, argv);

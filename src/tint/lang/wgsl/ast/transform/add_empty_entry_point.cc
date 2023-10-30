@@ -25,13 +25,13 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/add_empty_entry_point.h"
+#include "tint/lang/wgsl/ast/transform/add_empty_entry_point.h"
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::AddEmptyEntryPoint);
 

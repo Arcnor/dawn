@@ -25,9 +25,9 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/fuzzer_init.h"
-#include "src/tint/fuzzers/tint_common_fuzzer.h"
-#include "src/tint/fuzzers/transform_builder.h"
+#include "tint/fuzzers/fuzzer_init.h"
+#include "tint/fuzzers/tint_common_fuzzer.h"
+#include "tint/fuzzers/transform_builder.h"
 
 namespace tint::fuzzers {
 

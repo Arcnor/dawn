@@ -35,12 +35,12 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/core/access.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/reader/parser/detail.h"
-#include "src/tint/lang/wgsl/reader/parser/token.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/utils/diagnostic/formatter.h"
+#include "tint/lang/core/access.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/reader/parser/detail.h"
+#include "tint/lang/wgsl/reader/parser/token.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/utils/diagnostic/formatter.h"
 
 namespace tint::ast {
 class BreakStatement;

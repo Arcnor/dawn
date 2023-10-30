@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/hlsl/writer/ast_raise/decompose_memory_access.h"
+#include "tint/lang/hlsl/writer/ast_raise/decompose_memory_access.h"
 
 #include <memory>
 #include <string>
@@ -33,27 +33,27 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/core/type/atomic.h"
-#include "src/tint/lang/core/type/reference.h"
-#include "src/tint/lang/core/unary_op.h"
-#include "src/tint/lang/wgsl/ast/assignment_statement.h"
-#include "src/tint/lang/wgsl/ast/call_statement.h"
-#include "src/tint/lang/wgsl/ast/disable_validation_attribute.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/call.h"
-#include "src/tint/lang/wgsl/sem/member_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/struct.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/containers/map.h"
-#include "src/tint/utils/math/hash.h"
-#include "src/tint/utils/memory/block_allocator.h"
-#include "src/tint/utils/rtti/switch.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/core/type/atomic.h"
+#include "tint/lang/core/type/reference.h"
+#include "tint/lang/core/unary_op.h"
+#include "tint/lang/wgsl/ast/assignment_statement.h"
+#include "tint/lang/wgsl/ast/call_statement.h"
+#include "tint/lang/wgsl/ast/disable_validation_attribute.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/call.h"
+#include "tint/lang/wgsl/sem/member_accessor_expression.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/struct.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/containers/map.h"
+#include "tint/utils/math/hash.h"
+#include "tint/utils/memory/block_allocator.h"
+#include "tint/utils/rtti/switch.h"
+#include "tint/utils/text/string_stream.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 using namespace tint::core::fluent_types;     // NOLINT

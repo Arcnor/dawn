@@ -25,12 +25,12 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/replace_identifier.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/replace_identifier.h"
 
 #include <utility>
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/util.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
+#include "tint/fuzzers/tint_ast_fuzzer/util.h"
+#include "tint/lang/wgsl/program/program_builder.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

@@ -25,26 +25,26 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/raise/builtin_polyfill.h"
+#include "tint/lang/spirv/writer/raise/builtin_polyfill.h"
 
 #include <utility>
 
 #include "spirv/unified1/spirv.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/core/type/builtin_structs.h"
-#include "src/tint/lang/core/type/depth_multisampled_texture.h"
-#include "src/tint/lang/core/type/depth_texture.h"
-#include "src/tint/lang/core/type/multisampled_texture.h"
-#include "src/tint/lang/core/type/sampled_texture.h"
-#include "src/tint/lang/core/type/storage_texture.h"
-#include "src/tint/lang/core/type/texture.h"
-#include "src/tint/lang/spirv/ir/builtin_call.h"
-#include "src/tint/lang/spirv/ir/literal_operand.h"
-#include "src/tint/lang/spirv/type/sampled_image.h"
-#include "src/tint/utils/ice/ice.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/core/type/builtin_structs.h"
+#include "tint/lang/core/type/depth_multisampled_texture.h"
+#include "tint/lang/core/type/depth_texture.h"
+#include "tint/lang/core/type/multisampled_texture.h"
+#include "tint/lang/core/type/sampled_texture.h"
+#include "tint/lang/core/type/storage_texture.h"
+#include "tint/lang/core/type/texture.h"
+#include "tint/lang/spirv/ir/builtin_call.h"
+#include "tint/lang/spirv/ir/literal_operand.h"
+#include "tint/lang/spirv/type/sampled_image.h"
+#include "tint/utils/ice/ice.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 using namespace tint::core::fluent_types;     // NOLINT

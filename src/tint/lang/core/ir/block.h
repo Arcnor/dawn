@@ -30,9 +30,9 @@
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/instruction.h"
-#include "src/tint/lang/core/ir/terminator.h"
-#include "src/tint/utils/containers/vector.h"
+#include "tint/lang/core/ir/instruction.h"
+#include "tint/lang/core/ir/terminator.h"
+#include "tint/utils/containers/vector.h"
 
 // Forward declarations
 namespace tint::core::ir {

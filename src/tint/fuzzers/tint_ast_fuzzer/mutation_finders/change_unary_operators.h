@@ -28,7 +28,7 @@
 #ifndef SRC_TINT_FUZZERS_TINT_AST_FUZZER_MUTATION_FINDERS_CHANGE_UNARY_OPERATORS_H_
 #define SRC_TINT_FUZZERS_TINT_AST_FUZZER_MUTATION_FINDERS_CHANGE_UNARY_OPERATORS_H_
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation_finder.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation_finder.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

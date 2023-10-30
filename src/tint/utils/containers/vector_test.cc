@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/containers/vector.h"
+#include "tint/utils/containers/vector.h"
 
 #include <string>
 #include <tuple>
@@ -33,10 +33,10 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest-spi.h"
 
-#include "src/tint/utils/containers/predicates.h"
-#include "src/tint/utils/macros/compiler.h"
-#include "src/tint/utils/memory/bitcast.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/containers/predicates.h"
+#include "tint/utils/macros/compiler.h"
+#include "tint/utils/memory/bitcast.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint {
 namespace {

@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/constant/eval.h"
+#include "tint/lang/core/constant/eval.h"
 
 #include <algorithm>
 #include <iomanip>
@@ -35,29 +35,29 @@
 #include <type_traits>
 #include <utility>
 
-#include "src/tint/lang/core/constant/composite.h"
-#include "src/tint/lang/core/constant/scalar.h"
-#include "src/tint/lang/core/constant/splat.h"
-#include "src/tint/lang/core/constant/value.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/number.h"
-#include "src/tint/lang/core/type/abstract_float.h"
-#include "src/tint/lang/core/type/abstract_int.h"
-#include "src/tint/lang/core/type/bool.h"
-#include "src/tint/lang/core/type/f16.h"
-#include "src/tint/lang/core/type/f32.h"
-#include "src/tint/lang/core/type/i32.h"
-#include "src/tint/lang/core/type/matrix.h"
-#include "src/tint/lang/core/type/struct.h"
-#include "src/tint/lang/core/type/u32.h"
-#include "src/tint/lang/core/type/vector.h"
-#include "src/tint/utils/containers/map.h"
-#include "src/tint/utils/containers/transform.h"
-#include "src/tint/utils/diagnostic/diagnostic.h"
-#include "src/tint/utils/macros/compiler.h"
-#include "src/tint/utils/memory/bitcast.h"
-#include "src/tint/utils/rtti/switch.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/constant/composite.h"
+#include "tint/lang/core/constant/scalar.h"
+#include "tint/lang/core/constant/splat.h"
+#include "tint/lang/core/constant/value.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/number.h"
+#include "tint/lang/core/type/abstract_float.h"
+#include "tint/lang/core/type/abstract_int.h"
+#include "tint/lang/core/type/bool.h"
+#include "tint/lang/core/type/f16.h"
+#include "tint/lang/core/type/f32.h"
+#include "tint/lang/core/type/i32.h"
+#include "tint/lang/core/type/matrix.h"
+#include "tint/lang/core/type/struct.h"
+#include "tint/lang/core/type/u32.h"
+#include "tint/lang/core/type/vector.h"
+#include "tint/utils/containers/map.h"
+#include "tint/utils/containers/transform.h"
+#include "tint/utils/diagnostic/diagnostic.h"
+#include "tint/utils/macros/compiler.h"
+#include "tint/utils/memory/bitcast.h"
+#include "tint/utils/rtti/switch.h"
+#include "tint/utils/text/string_stream.h"
 
 using namespace tint::core::fluent_types;     // NOLINT
 using namespace tint::core::number_suffixes;  // NOLINT

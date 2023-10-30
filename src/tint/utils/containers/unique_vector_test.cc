@@ -25,11 +25,11 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/containers/unique_vector.h"
+#include "tint/utils/containers/unique_vector.h"
 
 #include <vector>
 
-#include "src/tint/utils/containers/reverse.h"
+#include "tint/utils/containers/reverse.h"
 
 #include "gtest/gtest.h"
 

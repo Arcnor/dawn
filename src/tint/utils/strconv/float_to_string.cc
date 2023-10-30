@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/strconv/float_to_string.h"
+#include "tint/utils/strconv/float_to_string.h"
 
 #include <cmath>
 #include <cstring>
@@ -33,8 +33,8 @@
 #include <iomanip>
 #include <limits>
 
-#include "src/tint/utils/ice/ice.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/ice/ice.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::writer {
 

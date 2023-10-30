@@ -31,10 +31,10 @@
 #include <string>
 #include <unordered_map>
 
-#include "src/tint/api/common/override_id.h"
+#include "tint/api/common/override_id.h"
 
-#include "src/tint/lang/wgsl/ast/transform/transform.h"
-#include "src/tint/utils/reflection/reflection.h"
+#include "tint/lang/wgsl/ast/transform/transform.h"
+#include "tint/utils/reflection/reflection.h"
 
 namespace tint::ast::transform {
 

@@ -31,7 +31,7 @@
 #include <cstddef>
 #include <vector>
 
-#include "src/tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/statement.h"
 
 // Forward declarations
 namespace tint::ast {

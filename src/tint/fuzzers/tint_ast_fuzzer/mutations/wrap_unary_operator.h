@@ -30,10 +30,10 @@
 
 #include <vector>
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation.h"
 
-#include "src/tint/lang/core/unary_op.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
+#include "tint/lang/core/unary_op.h"
+#include "tint/lang/wgsl/sem/variable.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

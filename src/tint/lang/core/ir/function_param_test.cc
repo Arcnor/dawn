@@ -28,8 +28,8 @@
 #include <string>
 
 #include "gtest/gtest-spi.h"
-#include "src/tint/lang/core/ir/function_param.h"
-#include "src/tint/lang/core/ir/ir_helper_test.h"
+#include "tint/lang/core/ir/function_param.h"
+#include "tint/lang/core/ir/ir_helper_test.h"
 
 namespace tint::core::ir {
 namespace {

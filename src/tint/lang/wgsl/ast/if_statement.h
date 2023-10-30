@@ -30,8 +30,8 @@
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/block_statement.h"
-#include "src/tint/lang/wgsl/ast/expression.h"
+#include "tint/lang/wgsl/ast/block_statement.h"
+#include "tint/lang/wgsl/ast/expression.h"
 
 namespace tint::ast {
 

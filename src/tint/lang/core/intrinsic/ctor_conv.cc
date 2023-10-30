@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/intrinsic/ctor_conv.h"
+#include "tint/lang/core/intrinsic/ctor_conv.h"
 
 namespace tint::core::intrinsic {
 

@@ -31,8 +31,8 @@
 #include <optional>
 #include <string>
 
-#include "src/tint/utils/macros/compiler.h"
-#include "src/tint/utils/result/result.h"
+#include "tint/utils/macros/compiler.h"
+#include "tint/utils/result/result.h"
 
 namespace tint {
 

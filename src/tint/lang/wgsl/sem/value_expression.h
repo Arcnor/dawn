@@ -28,10 +28,10 @@
 #ifndef SRC_TINT_LANG_WGSL_SEM_VALUE_EXPRESSION_H_
 #define SRC_TINT_LANG_WGSL_SEM_VALUE_EXPRESSION_H_
 
-#include "src/tint/lang/core/constant/value.h"
-#include "src/tint/lang/core/evaluation_stage.h"
-#include "src/tint/lang/wgsl/sem/behavior.h"
-#include "src/tint/lang/wgsl/sem/expression.h"
+#include "tint/lang/core/constant/value.h"
+#include "tint/lang/core/evaluation_stage.h"
+#include "tint/lang/wgsl/sem/behavior.h"
+#include "tint/lang/wgsl/sem/expression.h"
 
 // Forward declarations
 namespace tint::sem {

@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/text/string_stream.h"
 
 #include <math.h>
 #include <cstring>
@@ -33,7 +33,7 @@
 
 #include "gtest/gtest.h"
 
-#include "src/tint/utils/traits/traits.h"
+#include "tint/utils/traits/traits.h"
 
 namespace tint::utils {
 namespace {

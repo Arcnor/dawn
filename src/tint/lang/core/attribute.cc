@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/attribute.h"
+#include "tint/lang/core/attribute.h"
 
 namespace tint::core {
 

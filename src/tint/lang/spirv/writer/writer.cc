@@ -25,19 +25,19 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/writer.h"
+#include "tint/lang/spirv/writer/writer.h"
 
 #include <memory>
 #include <utility>
 
-#include "src/tint/lang/spirv/writer/ast_printer/ast_printer.h"
-#include "src/tint/lang/spirv/writer/common/option_builder.h"
-#include "src/tint/lang/spirv/writer/printer/printer.h"
-#include "src/tint/lang/spirv/writer/raise/raise.h"
-#include "src/tint/lang/wgsl/reader/lower/lower.h"
+#include "tint/lang/spirv/writer/ast_printer/ast_printer.h"
+#include "tint/lang/spirv/writer/common/option_builder.h"
+#include "tint/lang/spirv/writer/printer/printer.h"
+#include "tint/lang/spirv/writer/raise/raise.h"
+#include "tint/lang/wgsl/reader/lower/lower.h"
 
 #if TINT_BUILD_WGSL_READER
-#include "src/tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
+#include "tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
 #endif
 
 // Included by 'ast_printer.h', included again here for './tools/run gen' track the dependency.

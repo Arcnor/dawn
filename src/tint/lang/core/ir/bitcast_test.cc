@@ -27,11 +27,11 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest-spi.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/constant.h"
-#include "src/tint/lang/core/ir/instruction.h"
-#include "src/tint/lang/core/ir/ir_helper_test.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/constant.h"
+#include "tint/lang/core/ir/instruction.h"
+#include "tint/lang/core/ir/ir_helper_test.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 using namespace tint::core::fluent_types;     // NOLINT

@@ -30,10 +30,10 @@
 
 #include <string>
 
-#include "src/tint/lang/core/binary_op.h"
-#include "src/tint/lang/wgsl/sem/struct.h"
-#include "src/tint/utils/generator/text_generator.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/binary_op.h"
+#include "tint/lang/wgsl/sem/struct.h"
+#include "tint/utils/generator/text_generator.h"
+#include "tint/utils/text/string_stream.h"
 
 // Forward declarations
 namespace tint {

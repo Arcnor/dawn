@@ -28,12 +28,12 @@
 #include <utility>
 
 #include "gtest/gtest-spi.h"
-#include "src/tint/lang/wgsl/ast/transform/get_insertion_point.h"
-#include "src/tint/lang/wgsl/ast/transform/helper_test.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/utils/ice/ice.h"
+#include "tint/lang/wgsl/ast/transform/get_insertion_point.h"
+#include "tint/lang/wgsl/ast/transform/helper_test.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/utils/ice/ice.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 

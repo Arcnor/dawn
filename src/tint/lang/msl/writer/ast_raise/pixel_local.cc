@@ -25,18 +25,18 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/msl/writer/ast_raise/pixel_local.h"
+#include "tint/lang/msl/writer/ast_raise/pixel_local.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/function.h"
-#include "src/tint/lang/wgsl/sem/module.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/struct.h"
-#include "src/tint/utils/containers/transform.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/function.h"
+#include "tint/lang/wgsl/sem/module.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/struct.h"
+#include "tint/utils/containers/transform.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::msl::writer::PixelLocal);
 TINT_INSTANTIATE_TYPEINFO(tint::msl::writer::PixelLocal::Attachment);

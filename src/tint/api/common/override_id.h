@@ -31,7 +31,7 @@
 #include <stdint.h>
 #include <functional>
 
-#include "src/tint/utils/reflection/reflection.h"
+#include "tint/utils/reflection/reflection.h"
 
 namespace tint {
 

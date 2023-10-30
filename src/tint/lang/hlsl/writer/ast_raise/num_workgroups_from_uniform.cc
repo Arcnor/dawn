@@ -25,21 +25,21 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/hlsl/writer/ast_raise/num_workgroups_from_uniform.h"
+#include "tint/lang/hlsl/writer/ast_raise/num_workgroups_from_uniform.h"
 
 #include <memory>
 #include <string>
 #include <unordered_set>
 #include <utility>
 
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/wgsl/ast/transform/canonicalize_entry_point_io.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/function.h"
-#include "src/tint/utils/math/hash.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/wgsl/ast/transform/canonicalize_entry_point_io.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/function.h"
+#include "tint/utils/math/hash.h"
 
 using namespace tint::core::fluent_types;  // NOLINT
 

@@ -40,9 +40,9 @@
 #include <string>
 #include <unordered_map>
 
-#include "src/tint/lang/wgsl/diagnostic_rule.h"
-#include "src/tint/utils/diagnostic/diagnostic.h"
-#include "src/tint/utils/traits/traits.h"
+#include "tint/lang/wgsl/diagnostic_rule.h"
+#include "tint/utils/diagnostic/diagnostic.h"
+#include "tint/utils/traits/traits.h"
 
 namespace tint::wgsl {
 

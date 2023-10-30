@@ -28,7 +28,7 @@
 #ifndef SRC_TINT_FUZZERS_TINT_REGEX_FUZZER_OVERRIDE_CLI_PARAMS_H_
 #define SRC_TINT_FUZZERS_TINT_REGEX_FUZZER_OVERRIDE_CLI_PARAMS_H_
 
-#include "src/tint/fuzzers/tint_regex_fuzzer/cli.h"
+#include "tint/fuzzers/tint_regex_fuzzer/cli.h"
 
 namespace tint::fuzzers::regex_fuzzer {
 

@@ -31,9 +31,9 @@
 #include <variant>
 #include <vector>
 
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/utils/macros/compiler.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/utils/macros/compiler.h"
+#include "tint/utils/text/string_stream.h"
 
 #include "gtest/gtest.h"
 

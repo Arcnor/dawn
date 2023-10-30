@@ -30,11 +30,11 @@
 
 #include <string>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/core/interpolation.h"
-#include "src/tint/lang/core/ir/operand_instruction.h"
-#include "src/tint/utils/rtti/castable.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/core/interpolation.h"
+#include "tint/lang/core/ir/operand_instruction.h"
+#include "tint/utils/rtti/castable.h"
 
 namespace tint::core::ir {
 

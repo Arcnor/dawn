@@ -25,11 +25,11 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/core/type/matrix.h"
-#include "src/tint/lang/msl/writer/printer/helper_test.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/core/type/matrix.h"
+#include "tint/lang/msl/writer/printer/helper_test.h"
+#include "tint/utils/text/string.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 using namespace tint::core::fluent_types;     // NOLINT

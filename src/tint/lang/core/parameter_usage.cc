@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/parameter_usage.h"
+#include "tint/lang/core/parameter_usage.h"
 
 namespace tint::core {
 

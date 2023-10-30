@@ -30,7 +30,7 @@
 
 #include "gtest/gtest.h"
 
-#include "src/tint/fuzzers/tint_regex_fuzzer/wgsl_mutator.h"
+#include "tint/fuzzers/tint_regex_fuzzer/wgsl_mutator.h"
 
 namespace tint::fuzzers::regex_fuzzer {
 namespace {

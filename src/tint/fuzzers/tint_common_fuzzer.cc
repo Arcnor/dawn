@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_common_fuzzer.h"
+#include "tint/fuzzers/tint_common_fuzzer.h"
 
 #include <algorithm>
 #include <cassert>
@@ -43,19 +43,19 @@
 #include "spirv-tools/libspirv.hpp"
 #endif  // TINT_BUILD_SPV_READER || TINT_BUILD_SPV_WRITER
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/lang/core/type/external_texture.h"
-#include "src/tint/lang/wgsl/ast/module.h"
-#include "src/tint/lang/wgsl/helpers/apply_substitute_overrides.h"
-#include "src/tint/lang/wgsl/helpers/flatten_bindings.h"
-#include "src/tint/lang/wgsl/program/program.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/diagnostic/formatter.h"
-#include "src/tint/utils/diagnostic/printer.h"
-#include "src/tint/utils/math/hash.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/lang/core/type/external_texture.h"
+#include "tint/lang/wgsl/ast/module.h"
+#include "tint/lang/wgsl/helpers/apply_substitute_overrides.h"
+#include "tint/lang/wgsl/helpers/flatten_bindings.h"
+#include "tint/lang/wgsl/program/program.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/diagnostic/formatter.h"
+#include "tint/utils/diagnostic/printer.h"
+#include "tint/utils/math/hash.h"
 
 #if TINT_BUILD_SPV_WRITER
-#include "src/tint/lang/spirv/writer/helpers/generate_bindings.h"
+#include "tint/lang/spirv/writer/helpers/generate_bindings.h"
 #endif  // TINT_BUILD_SPV_WRITER
 
 namespace tint::fuzzers {

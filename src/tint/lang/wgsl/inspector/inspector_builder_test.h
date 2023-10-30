@@ -33,21 +33,21 @@
 #include <tuple>
 #include <vector>
 
-#include "src/tint/lang/core/type/depth_texture.h"
-#include "src/tint/lang/core/type/external_texture.h"
-#include "src/tint/lang/core/type/multisampled_texture.h"
-#include "src/tint/lang/core/type/sampled_texture.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
-#include "src/tint/lang/wgsl/ast/call_statement.h"
-#include "src/tint/lang/wgsl/ast/disable_validation_attribute.h"
-#include "src/tint/lang/wgsl/ast/id_attribute.h"
-#include "src/tint/lang/wgsl/ast/stage_attribute.h"
-#include "src/tint/lang/wgsl/ast/workgroup_attribute.h"
-#include "src/tint/lang/wgsl/inspector/entry_point.h"
-#include "src/tint/lang/wgsl/inspector/inspector.h"
-#include "src/tint/lang/wgsl/inspector/resource_binding.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
+#include "tint/lang/core/type/depth_texture.h"
+#include "tint/lang/core/type/external_texture.h"
+#include "tint/lang/core/type/multisampled_texture.h"
+#include "tint/lang/core/type/sampled_texture.h"
+#include "tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/wgsl/ast/call_statement.h"
+#include "tint/lang/wgsl/ast/disable_validation_attribute.h"
+#include "tint/lang/wgsl/ast/id_attribute.h"
+#include "tint/lang/wgsl/ast/stage_attribute.h"
+#include "tint/lang/wgsl/ast/workgroup_attribute.h"
+#include "tint/lang/wgsl/inspector/entry_point.h"
+#include "tint/lang/wgsl/inspector/inspector.h"
+#include "tint/lang/wgsl/inspector/resource_binding.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/sem/variable.h"
 
 namespace tint::inspector {
 

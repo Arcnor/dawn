@@ -30,9 +30,9 @@
 
 #include <string>
 
-#include "src/tint/lang/core/type/array_count.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
+#include "tint/lang/core/type/array_count.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/lang/wgsl/sem/variable.h"
 
 namespace tint::sem {
 

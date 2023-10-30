@@ -34,15 +34,15 @@
 #include <unordered_set>
 #include <utility>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/api/options/array_length_from_uniform.h"
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/hlsl/writer/ast_raise/decompose_memory_access.h"
-#include "src/tint/lang/hlsl/writer/common/options.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/utils/containers/scope_stack.h"
-#include "src/tint/utils/generator/text_generator.h"
-#include "src/tint/utils/math/hash.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/api/options/array_length_from_uniform.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/hlsl/writer/ast_raise/decompose_memory_access.h"
+#include "tint/lang/hlsl/writer/common/options.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/utils/containers/scope_stack.h"
+#include "tint/utils/generator/text_generator.h"
+#include "tint/utils/math/hash.h"
 
 // Forward declarations
 namespace tint::sem {

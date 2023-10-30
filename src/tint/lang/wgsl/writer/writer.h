@@ -30,10 +30,10 @@
 
 #include <string>
 
-#include "src/tint/lang/wgsl/writer/options.h"
-#include "src/tint/lang/wgsl/writer/output.h"
-#include "src/tint/utils/diagnostic/diagnostic.h"
-#include "src/tint/utils/result/result.h"
+#include "tint/lang/wgsl/writer/options.h"
+#include "tint/lang/wgsl/writer/output.h"
+#include "tint/utils/diagnostic/diagnostic.h"
+#include "tint/utils/result/result.h"
 
 // Forward declarations
 namespace tint {

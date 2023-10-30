@@ -33,11 +33,11 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "src/tint/lang/hlsl/writer/ast_printer/ast_printer.h"
-#include "src/tint/lang/hlsl/writer/common/options.h"
-#include "src/tint/lang/wgsl/ast/transform/manager.h"
-#include "src/tint/lang/wgsl/ast/transform/renamer.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/hlsl/writer/ast_printer/ast_printer.h"
+#include "tint/lang/hlsl/writer/common/options.h"
+#include "tint/lang/wgsl/ast/transform/manager.h"
+#include "tint/lang/wgsl/ast/transform/renamer.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
 
 namespace tint::hlsl::writer {
 

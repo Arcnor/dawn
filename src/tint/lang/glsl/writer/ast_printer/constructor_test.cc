@@ -26,7 +26,7 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "gmock/gmock.h"
-#include "src/tint/lang/glsl/writer/ast_printer/helper_test.h"
+#include "tint/lang/glsl/writer/ast_printer/helper_test.h"
 
 namespace tint::glsl::writer {
 namespace {

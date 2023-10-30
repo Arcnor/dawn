@@ -27,12 +27,12 @@
 
 // GEN_BUILD:CONDITION(tint_build_wgsl_reader && tint_build_wgsl_writer)
 
-#include "src/tint/lang/wgsl/helpers/ir_program_test.h"
-#include "src/tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
-#include "src/tint/lang/wgsl/writer/ir_to_program/ir_to_program.h"
-#include "src/tint/lang/wgsl/writer/writer.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/wgsl/helpers/ir_program_test.h"
+#include "tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
+#include "tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/writer/ir_to_program/ir_to_program.h"
+#include "tint/lang/wgsl/writer/writer.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::wgsl {
 namespace {

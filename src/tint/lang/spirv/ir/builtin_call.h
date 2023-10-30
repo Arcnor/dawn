@@ -30,11 +30,11 @@
 
 #include <string>
 
-#include "src/tint/lang/core/intrinsic/table_data.h"
-#include "src/tint/lang/core/ir/builtin_call.h"
-#include "src/tint/lang/spirv/builtin_fn.h"
-#include "src/tint/lang/spirv/intrinsic/dialect.h"
-#include "src/tint/utils/rtti/castable.h"
+#include "tint/lang/core/intrinsic/table_data.h"
+#include "tint/lang/core/ir/builtin_call.h"
+#include "tint/lang/spirv/builtin_fn.h"
+#include "tint/lang/spirv/intrinsic/dialect.h"
+#include "tint/utils/rtti/castable.h"
 
 namespace tint::spirv::ir {
 

@@ -25,15 +25,15 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/cli/cli.h"
+#include "tint/utils/cli/cli.h"
 
 #include <algorithm>
 #include <sstream>
 #include <utility>
 
-#include "src/tint/utils/containers/hashset.h"
-#include "src/tint/utils/containers/transform.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/utils/containers/hashset.h"
+#include "tint/utils/containers/transform.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::cli {
 

@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/wgsl/diagnostic_severity.h"
+#include "tint/lang/wgsl/diagnostic_severity.h"
 
 #include <string>
 

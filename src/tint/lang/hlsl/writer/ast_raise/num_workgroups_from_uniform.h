@@ -30,8 +30,8 @@
 
 #include <optional>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/lang/wgsl/ast/transform/transform.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/lang/wgsl/ast/transform/transform.h"
 
 namespace tint::hlsl::writer {
 

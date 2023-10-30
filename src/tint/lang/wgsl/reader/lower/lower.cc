@@ -25,16 +25,16 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/reader/lower/lower.h"
+#include "tint/lang/wgsl/reader/lower/lower.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/builtin_fn.h"
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/core_builtin_call.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/wgsl/builtin_fn.h"
-#include "src/tint/lang/wgsl/ir/builtin_call.h"
+#include "tint/lang/core/builtin_fn.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/core_builtin_call.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/wgsl/builtin_fn.h"
+#include "tint/lang/wgsl/ir/builtin_call.h"
 
 namespace tint::wgsl::reader {
 namespace {

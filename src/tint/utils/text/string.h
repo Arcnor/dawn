@@ -31,9 +31,9 @@
 #include <string>
 #include <variant>
 
-#include "src/tint/utils/containers/slice.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/containers/slice.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint {
 

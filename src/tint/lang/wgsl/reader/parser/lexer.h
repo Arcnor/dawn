@@ -32,7 +32,7 @@
 #include <string>
 #include <vector>
 
-#include "src/tint/lang/wgsl/reader/parser/token.h"
+#include "tint/lang/wgsl/reader/parser/token.h"
 
 namespace tint::wgsl::reader {
 

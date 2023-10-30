@@ -25,12 +25,12 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/containers/enum_set.h"
+#include "tint/utils/containers/enum_set.h"
 
 #include <vector>
 
 #include "gmock/gmock.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint {
 namespace {

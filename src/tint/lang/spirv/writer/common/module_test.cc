@@ -27,7 +27,7 @@
 
 #include "gtest/gtest.h"
 #include "spirv/unified1/spirv.h"
-#include "src/tint/lang/spirv/writer/common/spv_dump_test.h"
+#include "tint/lang/spirv/writer/common/spv_dump_test.h"
 
 namespace tint::spirv::writer {
 namespace {

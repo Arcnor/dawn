@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/texel_format.h"
+#include "tint/lang/core/texel_format.h"
 
 namespace tint::core {
 

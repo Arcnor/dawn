@@ -30,10 +30,10 @@
 
 #include <string>
 
-#include "src/tint/lang/wgsl/ast/node_id.h"
-#include "src/tint/utils/diagnostic/source.h"
-#include "src/tint/utils/id/generation_id.h"
-#include "src/tint/utils/rtti/castable.h"
+#include "tint/lang/wgsl/ast/node_id.h"
+#include "tint/utils/diagnostic/source.h"
+#include "tint/utils/id/generation_id.h"
+#include "tint/utils/rtti/castable.h"
 
 // Forward declarations
 namespace tint::ast {

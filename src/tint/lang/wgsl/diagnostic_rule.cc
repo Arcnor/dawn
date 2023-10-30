@@ -34,11 +34,11 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/wgsl/diagnostic_rule.h"
+#include "tint/lang/wgsl/diagnostic_rule.h"
 
 #include <string>
 
-#include "src/tint/utils/traits/traits.h"
+#include "tint/utils/traits/traits.h"
 
 namespace tint::wgsl {
 

@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/glsl/writer/ast_raise/texture_builtins_from_uniform.h"
+#include "tint/lang/glsl/writer/ast_raise/texture_builtins_from_uniform.h"
 
 #include <memory>
 #include <queue>
@@ -34,18 +34,18 @@
 #include <variant>
 #include <vector>
 
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/call.h"
-#include "src/tint/lang/wgsl/sem/function.h"
-#include "src/tint/lang/wgsl/sem/module.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/call.h"
+#include "tint/lang/wgsl/sem/function.h"
+#include "tint/lang/wgsl/sem/module.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/variable.h"
 
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/rtti/switch.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::glsl::writer::TextureBuiltinsFromUniform);
 TINT_INSTANTIATE_TYPEINFO(tint::glsl::writer::TextureBuiltinsFromUniform::Config);

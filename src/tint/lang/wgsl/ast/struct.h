@@ -31,10 +31,10 @@
 #include <string>
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/attribute.h"
-#include "src/tint/lang/wgsl/ast/struct_member.h"
-#include "src/tint/lang/wgsl/ast/type_decl.h"
-#include "src/tint/utils/containers/vector.h"
+#include "tint/lang/wgsl/ast/attribute.h"
+#include "tint/lang/wgsl/ast/struct_member.h"
+#include "tint/lang/wgsl/ast/type_decl.h"
+#include "tint/utils/containers/vector.h"
 
 namespace tint::ast {
 

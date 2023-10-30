@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/reader/ast_parser/ast_parser.h"
+#include "tint/lang/spirv/reader/ast_parser/ast_parser.h"
 
 #include <algorithm>
 #include <limits>
@@ -33,20 +33,20 @@
 #include <utility>
 
 #include "source/opt/build_module.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/type/depth_texture.h"
-#include "src/tint/lang/core/type/multisampled_texture.h"
-#include "src/tint/lang/core/type/sampled_texture.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
-#include "src/tint/lang/spirv/reader/ast_parser/function.h"
-#include "src/tint/lang/wgsl/ast/bitcast_expression.h"
-#include "src/tint/lang/wgsl/ast/disable_validation_attribute.h"
-#include "src/tint/lang/wgsl/ast/id_attribute.h"
-#include "src/tint/lang/wgsl/ast/interpolate_attribute.h"
-#include "src/tint/lang/wgsl/ast/unary_op_expression.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/utils/containers/unique_vector.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/type/depth_texture.h"
+#include "tint/lang/core/type/multisampled_texture.h"
+#include "tint/lang/core/type/sampled_texture.h"
+#include "tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/spirv/reader/ast_parser/function.h"
+#include "tint/lang/wgsl/ast/bitcast_expression.h"
+#include "tint/lang/wgsl/ast/disable_validation_attribute.h"
+#include "tint/lang/wgsl/ast/id_attribute.h"
+#include "tint/lang/wgsl/ast/interpolate_attribute.h"
+#include "tint/lang/wgsl/ast/unary_op_expression.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/utils/containers/unique_vector.h"
+#include "tint/utils/rtti/switch.h"
 
 using namespace tint::core::fluent_types;  // NOLINT
 

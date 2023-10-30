@@ -31,9 +31,9 @@
 #include <unordered_map>
 #include <unordered_set>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/api/options/texture_builtins_from_uniform.h"
-#include "src/tint/lang/wgsl/ast/transform/transform.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/api/options/texture_builtins_from_uniform.h"
+#include "tint/lang/wgsl/ast/transform/transform.h"
 
 // Forward declarations
 namespace tint {

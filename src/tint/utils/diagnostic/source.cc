@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/diagnostic/source.h"
+#include "tint/utils/diagnostic/source.h"
 
 #include <algorithm>
 #include <string_view>
 #include <utility>
 
-#include "src/tint/utils/text/string_stream.h"
-#include "src/tint/utils/text/unicode.h"
+#include "tint/utils/text/string_stream.h"
+#include "tint/utils/text/unicode.h"
 
 namespace tint {
 namespace {

@@ -30,8 +30,8 @@
 
 #include <memory>
 
-#include "src/tint/fuzzers/tint_common_fuzzer.h"
-#include "src/tint/fuzzers/transform_builder.h"
+#include "tint/fuzzers/tint_common_fuzzer.h"
+#include "tint/fuzzers/transform_builder.h"
 
 namespace tint::fuzzers {
 

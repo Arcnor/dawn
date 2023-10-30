@@ -25,13 +25,13 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/get_insertion_point.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program.h"
-#include "src/tint/lang/wgsl/sem/for_loop_statement.h"
-#include "src/tint/utils/diagnostic/diagnostic.h"
-#include "src/tint/utils/ice/ice.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/wgsl/ast/transform/get_insertion_point.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program.h"
+#include "tint/lang/wgsl/sem/for_loop_statement.h"
+#include "tint/utils/diagnostic/diagnostic.h"
+#include "tint/utils/ice/ice.h"
+#include "tint/utils/rtti/switch.h"
 
 namespace tint::ast::transform::utils {
 

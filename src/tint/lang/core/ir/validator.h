@@ -30,7 +30,7 @@
 
 #include <string>
 
-#include "src/tint/utils/result/result.h"
+#include "tint/utils/result/result.h"
 
 // Forward declarations
 namespace tint::core::ir {

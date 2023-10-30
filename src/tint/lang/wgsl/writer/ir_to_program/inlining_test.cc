@@ -29,13 +29,13 @@
 
 #include <string>
 
-#include "src/tint/lang/core/ir/disassembler.h"
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/core/type/matrix.h"
-#include "src/tint/lang/wgsl/writer/ir_to_program/ir_to_program.h"
-#include "src/tint/lang/wgsl/writer/ir_to_program/ir_to_program_test.h"
-#include "src/tint/lang/wgsl/writer/writer.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/core/ir/disassembler.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/core/type/matrix.h"
+#include "tint/lang/wgsl/writer/ir_to_program/ir_to_program.h"
+#include "tint/lang/wgsl/writer/ir_to_program/ir_to_program_test.h"
+#include "tint/lang/wgsl/writer/writer.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::wgsl::writer {
 namespace {

@@ -27,8 +27,8 @@
 
 #include <string>
 
-#include "src/tint/cmd/bench/bench.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
+#include "tint/cmd/bench/bench.h"
+#include "tint/lang/wgsl/reader/reader.h"
 
 namespace tint::wgsl::reader {
 namespace {

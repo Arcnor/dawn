@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/builtin_texture_helper_test.h"
+#include "tint/lang/wgsl/ast/builtin_texture_helper_test.h"
 
-#include "src/tint/lang/core/texel_format.h"
-#include "src/tint/lang/core/type/depth_texture.h"
-#include "src/tint/lang/core/type/multisampled_texture.h"
-#include "src/tint/lang/core/type/sampled_texture.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/core/texel_format.h"
+#include "tint/lang/core/type/depth_texture.h"
+#include "tint/lang/core/type/multisampled_texture.h"
+#include "tint/lang/core/type/sampled_texture.h"
+#include "tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/wgsl/program/program_builder.h"
 
 namespace tint::ast::test {
 namespace {

@@ -45,8 +45,7 @@ endif()
 # Helper functions
 ################################################################################
 function(tint_core_compile_options TARGET)
-  target_include_directories(${TARGET} PUBLIC "${TINT_ROOT_SOURCE_DIR}")
-  target_include_directories(${TARGET} PUBLIC "${TINT_ROOT_SOURCE_DIR}/include")
+  target_include_directories(${TARGET} PUBLIC "$<BUILD_INTERFACE:${TINT_ROOT_SOURCE_DIR}>")
   target_compile_definitions(${TARGET} PUBLIC -DTINT_BUILD_SPV_READER=$<BOOL:${TINT_BUILD_SPV_READER}>)
   target_compile_definitions(${TARGET} PUBLIC -DTINT_BUILD_WGSL_READER=$<BOOL:${TINT_BUILD_WGSL_READER}>)
   target_compile_definitions(${TARGET} PUBLIC -DTINT_BUILD_GLSL_WRITER=$<BOOL:${TINT_BUILD_GLSL_WRITER}>)

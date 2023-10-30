@@ -30,8 +30,8 @@
 
 #include <string>
 
-#include "src/tint/lang/wgsl/ast/type.h"
-#include "src/tint/lang/wgsl/ast/type_decl.h"
+#include "tint/lang/wgsl/ast/type.h"
+#include "tint/lang/wgsl/ast/type_decl.h"
 
 namespace tint::ast {
 

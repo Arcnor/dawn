@@ -25,17 +25,17 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/raise/handle_matrix_arithmetic.h"
+#include "tint/lang/spirv/writer/raise/handle_matrix_arithmetic.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/core/type/matrix.h"
-#include "src/tint/lang/spirv/ir/builtin_call.h"
-#include "src/tint/utils/ice/ice.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/core/type/matrix.h"
+#include "tint/lang/spirv/ir/builtin_call.h"
+#include "tint/utils/ice/ice.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 using namespace tint::core::fluent_types;     // NOLINT

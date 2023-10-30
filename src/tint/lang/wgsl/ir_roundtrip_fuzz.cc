@@ -29,15 +29,15 @@
 
 #include <iostream>
 
-#include "src/tint/cmd/fuzz/wgsl/wgsl_fuzz.h"
-#include "src/tint/lang/core/ir/disassembler.h"
-#include "src/tint/lang/wgsl/helpers/apply_substitute_overrides.h"
-#include "src/tint/lang/wgsl/reader/lower/lower.h"
-#include "src/tint/lang/wgsl/reader/parser/parser.h"
-#include "src/tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
-#include "src/tint/lang/wgsl/writer/ir_to_program/ir_to_program.h"
-#include "src/tint/lang/wgsl/writer/raise/raise.h"
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/cmd/fuzz/wgsl/wgsl_fuzz.h"
+#include "tint/lang/core/ir/disassembler.h"
+#include "tint/lang/wgsl/helpers/apply_substitute_overrides.h"
+#include "tint/lang/wgsl/reader/lower/lower.h"
+#include "tint/lang/wgsl/reader/parser/parser.h"
+#include "tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
+#include "tint/lang/wgsl/writer/ir_to_program/ir_to_program.h"
+#include "tint/lang/wgsl/writer/raise/raise.h"
+#include "tint/lang/wgsl/writer/writer.h"
 
 namespace tint::wgsl {
 namespace {

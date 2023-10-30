@@ -37,16 +37,16 @@
 #include <variant>
 
 #include "gtest/gtest.h"
-#include "src/tint/lang/core/type/abstract_float.h"
-#include "src/tint/lang/core/type/abstract_int.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolver.h"
-#include "src/tint/lang/wgsl/sem/array.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/traits/traits.h"
+#include "tint/lang/core/type/abstract_float.h"
+#include "tint/lang/core/type/abstract_int.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolver.h"
+#include "tint/lang/wgsl/sem/array.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/traits/traits.h"
 
 namespace tint::resolver {
 

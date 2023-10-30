@@ -27,8 +27,8 @@
 
 #include <vector>
 
-#include "src/tint/fuzzers/fuzzer_init.h"
-#include "src/tint/fuzzers/tint_common_fuzzer.h"
+#include "tint/fuzzers/fuzzer_init.h"
+#include "tint/fuzzers/tint_common_fuzzer.h"
 
 namespace tint::fuzzers {
 

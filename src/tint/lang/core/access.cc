@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/access.h"
+#include "tint/lang/core/access.h"
 
 namespace tint::core {
 

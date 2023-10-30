@@ -25,30 +25,30 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/direct_variable_access.h"
+#include "tint/lang/wgsl/ast/transform/direct_variable_access.h"
 
 #include <algorithm>
 #include <string>
 #include <utility>
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/type/abstract_int.h"
-#include "src/tint/lang/wgsl/ast/transform/hoist_to_decl_before.h"
-#include "src/tint/lang/wgsl/ast/traverse_expressions.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/call.h"
-#include "src/tint/lang/wgsl/sem/function.h"
-#include "src/tint/lang/wgsl/sem/index_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/member_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/module.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/struct.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/containers/reverse.h"
-#include "src/tint/utils/macros/scoped_assignment.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/type/abstract_int.h"
+#include "tint/lang/wgsl/ast/transform/hoist_to_decl_before.h"
+#include "tint/lang/wgsl/ast/traverse_expressions.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/call.h"
+#include "tint/lang/wgsl/sem/function.h"
+#include "tint/lang/wgsl/sem/index_accessor_expression.h"
+#include "tint/lang/wgsl/sem/member_accessor_expression.h"
+#include "tint/lang/wgsl/sem/module.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/struct.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/containers/reverse.h"
+#include "tint/utils/macros/scoped_assignment.h"
+#include "tint/utils/text/string_stream.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::DirectVariableAccess);
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::DirectVariableAccess::Config);

@@ -25,24 +25,24 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/reader/ast_lower/decompose_strided_array.h"
+#include "tint/lang/spirv/reader/ast_lower/decompose_strided_array.h"
 
 #include <unordered_map>
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/wgsl/ast/transform/simplify_pointers.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/call.h"
-#include "src/tint/lang/wgsl/sem/member_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/type_expression.h"
-#include "src/tint/lang/wgsl/sem/value_constructor.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/utils/containers/map.h"
-#include "src/tint/utils/math/hash.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/wgsl/ast/transform/simplify_pointers.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/call.h"
+#include "tint/lang/wgsl/sem/member_accessor_expression.h"
+#include "tint/lang/wgsl/sem/type_expression.h"
+#include "tint/lang/wgsl/sem/value_constructor.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/utils/containers/map.h"
+#include "tint/utils/math/hash.h"
 
 using namespace tint::core::fluent_types;  // NOLINT
 

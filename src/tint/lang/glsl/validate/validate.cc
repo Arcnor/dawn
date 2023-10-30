@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/glsl/validate/validate.h"
+#include "tint/lang/glsl/validate/validate.h"
 
 #include <string>
 
 #include "glslang/Public/ResourceLimits.h"
 #include "glslang/Public/ShaderLang.h"
-#include "src/tint/utils/macros/static_init.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/macros/static_init.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::glsl::validate {
 

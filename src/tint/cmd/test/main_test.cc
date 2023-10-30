@@ -27,8 +27,8 @@
 
 #include "gmock/gmock.h"
 
-#include "src/tint/api/tint.h"
-#include "src/tint/utils/ice/ice.h"
+#include "tint/api/tint.h"
+#include "tint/utils/ice/ice.h"
 
 namespace {
 

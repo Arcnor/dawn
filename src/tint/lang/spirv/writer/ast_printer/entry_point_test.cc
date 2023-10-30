@@ -28,19 +28,19 @@
 #include <memory>
 
 #include "gtest/gtest.h"
-#include "src/tint/lang/core/address_space.h"
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/core/type/f32.h"
-#include "src/tint/lang/core/type/vector.h"
-#include "src/tint/lang/spirv/writer/ast_printer/builder.h"
-#include "src/tint/lang/spirv/writer/ast_printer/helper_test.h"
-#include "src/tint/lang/spirv/writer/common/spv_dump_test.h"
-#include "src/tint/lang/wgsl/ast/builtin_attribute.h"
-#include "src/tint/lang/wgsl/ast/location_attribute.h"
-#include "src/tint/lang/wgsl/ast/return_statement.h"
-#include "src/tint/lang/wgsl/ast/stage_attribute.h"
-#include "src/tint/lang/wgsl/ast/variable.h"
-#include "src/tint/lang/wgsl/program/program.h"
+#include "tint/lang/core/address_space.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/core/type/f32.h"
+#include "tint/lang/core/type/vector.h"
+#include "tint/lang/spirv/writer/ast_printer/builder.h"
+#include "tint/lang/spirv/writer/ast_printer/helper_test.h"
+#include "tint/lang/spirv/writer/common/spv_dump_test.h"
+#include "tint/lang/wgsl/ast/builtin_attribute.h"
+#include "tint/lang/wgsl/ast/location_attribute.h"
+#include "tint/lang/wgsl/ast/return_statement.h"
+#include "tint/lang/wgsl/ast/stage_attribute.h"
+#include "tint/lang/wgsl/ast/variable.h"
+#include "tint/lang/wgsl/program/program.h"
 
 namespace tint::spirv::writer {
 namespace {

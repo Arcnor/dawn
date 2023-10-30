@@ -33,11 +33,11 @@
 #include <unordered_map>
 #include <vector>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/api/options/array_length_from_uniform.h"
-#include "src/tint/api/options/binding_remapper.h"
-#include "src/tint/api/options/external_texture.h"
-#include "src/tint/utils/reflection/reflection.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/api/options/array_length_from_uniform.h"
+#include "tint/api/options/binding_remapper.h"
+#include "tint/api/options/external_texture.h"
+#include "tint/utils/reflection/reflection.h"
 
 namespace tint::hlsl::writer {
 

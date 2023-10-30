@@ -29,7 +29,7 @@
 
 #import <Metal/Metal.h>
 
-#include "src/tint/lang/msl/validate/val.h"
+#include "tint/lang/msl/validate/val.h"
 
 namespace tint::msl::validate {
 

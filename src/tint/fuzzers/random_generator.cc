@@ -25,15 +25,15 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/random_generator.h"
+#include "tint/fuzzers/random_generator.h"
 
 #include <algorithm>
 #include <cassert>
 #include <utility>
 
-#include "src/tint/fuzzers/mersenne_twister_engine.h"
-#include "src/tint/fuzzers/random_generator_engine.h"
-#include "src/tint/utils/math/hash.h"
+#include "tint/fuzzers/mersenne_twister_engine.h"
+#include "tint/fuzzers/random_generator_engine.h"
+#include "tint/utils/math/hash.h"
 
 namespace tint::fuzzers {
 

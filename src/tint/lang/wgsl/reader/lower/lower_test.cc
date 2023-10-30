@@ -27,11 +27,11 @@
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/transform/helper_test.h"
-#include "src/tint/lang/core/type/struct.h"
-#include "src/tint/lang/wgsl/builtin_fn.h"
-#include "src/tint/lang/wgsl/ir/builtin_call.h"
-#include "src/tint/lang/wgsl/reader/lower/lower.h"
+#include "tint/lang/core/ir/transform/helper_test.h"
+#include "tint/lang/core/type/struct.h"
+#include "tint/lang/wgsl/builtin_fn.h"
+#include "tint/lang/wgsl/ir/builtin_call.h"
+#include "tint/lang/wgsl/reader/lower/lower.h"
 
 namespace tint::wgsl::reader::lower {
 namespace {

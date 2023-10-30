@@ -27,8 +27,8 @@
 
 #include <cassert>
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/cli.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/override_cli_params.h"
+#include "tint/fuzzers/tint_ast_fuzzer/cli.h"
+#include "tint/fuzzers/tint_ast_fuzzer/override_cli_params.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

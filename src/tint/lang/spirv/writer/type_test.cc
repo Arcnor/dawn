@@ -25,20 +25,20 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/type/type.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/type/bool.h"
-#include "src/tint/lang/core/type/depth_multisampled_texture.h"
-#include "src/tint/lang/core/type/depth_texture.h"
-#include "src/tint/lang/core/type/f16.h"
-#include "src/tint/lang/core/type/f32.h"
-#include "src/tint/lang/core/type/i32.h"
-#include "src/tint/lang/core/type/multisampled_texture.h"
-#include "src/tint/lang/core/type/sampled_texture.h"
-#include "src/tint/lang/core/type/storage_texture.h"
-#include "src/tint/lang/core/type/u32.h"
-#include "src/tint/lang/core/type/void.h"
-#include "src/tint/lang/spirv/writer/common/helper_test.h"
+#include "tint/lang/core/type/type.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/type/bool.h"
+#include "tint/lang/core/type/depth_multisampled_texture.h"
+#include "tint/lang/core/type/depth_texture.h"
+#include "tint/lang/core/type/f16.h"
+#include "tint/lang/core/type/f32.h"
+#include "tint/lang/core/type/i32.h"
+#include "tint/lang/core/type/multisampled_texture.h"
+#include "tint/lang/core/type/sampled_texture.h"
+#include "tint/lang/core/type/storage_texture.h"
+#include "tint/lang/core/type/u32.h"
+#include "tint/lang/core/type/void.h"
+#include "tint/lang/spirv/writer/common/helper_test.h"
 
 using namespace tint::core::fluent_types;  // NOLINT
 

@@ -28,8 +28,8 @@
 #ifndef SRC_TINT_LANG_WGSL_SEM_LOAD_H_
 #define SRC_TINT_LANG_WGSL_SEM_LOAD_H_
 
-#include "src/tint/lang/core/type/reference.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
+#include "tint/lang/core/type/reference.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
 
 namespace tint::sem {
 

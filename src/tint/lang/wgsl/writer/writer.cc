@@ -25,18 +25,18 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/lang/wgsl/writer/writer.h"
 
 #include <memory>
 #include <utility>
 
-#include "src/tint/lang/wgsl/program/program.h"
-#include "src/tint/lang/wgsl/writer/ast_printer/ast_printer.h"
-#include "src/tint/lang/wgsl/writer/ir_to_program/ir_to_program.h"
-#include "src/tint/lang/wgsl/writer/raise/raise.h"
+#include "tint/lang/wgsl/program/program.h"
+#include "tint/lang/wgsl/writer/ast_printer/ast_printer.h"
+#include "tint/lang/wgsl/writer/ir_to_program/ir_to_program.h"
+#include "tint/lang/wgsl/writer/raise/raise.h"
 
 #if TINT_BUILD_SYNTAX_TREE_WRITER
-#include "src/tint/lang/wgsl/writer/syntax_tree_printer/syntax_tree_printer.h"
+#include "tint/lang/wgsl/writer/syntax_tree_printer/syntax_tree_printer.h"
 #endif  // TINT_BUILD_SYNTAX_TREE_WRITER
 
 namespace tint::wgsl::writer {

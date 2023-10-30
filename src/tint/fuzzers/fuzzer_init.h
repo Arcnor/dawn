@@ -28,7 +28,7 @@
 #ifndef SRC_TINT_FUZZERS_FUZZER_INIT_H_
 #define SRC_TINT_FUZZERS_FUZZER_INIT_H_
 
-#include "src/tint/fuzzers/cli.h"
+#include "tint/fuzzers/cli.h"
 
 namespace tint::fuzzers {
 

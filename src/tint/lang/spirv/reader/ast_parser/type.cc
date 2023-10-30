@@ -25,22 +25,22 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/reader/ast_parser/type.h"
+#include "tint/lang/spirv/reader/ast_parser/type.h"
 
 #include <sstream>
 #include <string>
 #include <unordered_map>
 #include <utility>
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/utils/containers/map.h"
-#include "src/tint/utils/containers/unique_allocator.h"
-#include "src/tint/utils/math/hash.h"
-#include "src/tint/utils/rtti/switch.h"
-#include "src/tint/utils/text/string.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/utils/containers/map.h"
+#include "tint/utils/containers/unique_allocator.h"
+#include "tint/utils/math/hash.h"
+#include "tint/utils/rtti/switch.h"
+#include "tint/utils/text/string.h"
+#include "tint/utils/text/string_stream.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::spirv::reader::ast_parser::Type);
 TINT_INSTANTIATE_TYPEINFO(tint::spirv::reader::ast_parser::Void);

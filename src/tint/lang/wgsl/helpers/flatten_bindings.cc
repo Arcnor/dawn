@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/helpers/flatten_bindings.h"
+#include "tint/lang/wgsl/helpers/flatten_bindings.h"
 
 #include <utility>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/lang/wgsl/ast/transform/binding_remapper.h"
-#include "src/tint/lang/wgsl/ast/transform/manager.h"
-#include "src/tint/lang/wgsl/inspector/inspector.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/lang/wgsl/ast/transform/binding_remapper.h"
+#include "tint/lang/wgsl/ast/transform/manager.h"
+#include "tint/lang/wgsl/inspector/inspector.h"
 
 namespace tint::wgsl {
 

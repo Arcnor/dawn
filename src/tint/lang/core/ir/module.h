@@ -31,19 +31,19 @@
 #include <memory>
 #include <string>
 
-#include "src/tint/lang/core/constant/manager.h"
-#include "src/tint/lang/core/ir/block.h"
-#include "src/tint/lang/core/ir/constant.h"
-#include "src/tint/lang/core/ir/function.h"
-#include "src/tint/lang/core/ir/instruction.h"
-#include "src/tint/lang/core/ir/value.h"
-#include "src/tint/lang/core/type/manager.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/diagnostic/source.h"
-#include "src/tint/utils/id/generation_id.h"
-#include "src/tint/utils/memory/block_allocator.h"
-#include "src/tint/utils/result/result.h"
-#include "src/tint/utils/symbol/symbol_table.h"
+#include "tint/lang/core/constant/manager.h"
+#include "tint/lang/core/ir/block.h"
+#include "tint/lang/core/ir/constant.h"
+#include "tint/lang/core/ir/function.h"
+#include "tint/lang/core/ir/instruction.h"
+#include "tint/lang/core/ir/value.h"
+#include "tint/lang/core/type/manager.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/diagnostic/source.h"
+#include "tint/utils/id/generation_id.h"
+#include "tint/utils/memory/block_allocator.h"
+#include "tint/utils/result/result.h"
+#include "tint/utils/symbol/symbol_table.h"
 
 namespace tint::core::ir {
 

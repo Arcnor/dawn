@@ -26,8 +26,8 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "gtest/gtest-spi.h"
-#include "src/tint/lang/spirv/writer/ast_printer/helper_test.h"
-#include "src/tint/lang/spirv/writer/common/spv_dump_test.h"
+#include "tint/lang/spirv/writer/ast_printer/helper_test.h"
+#include "tint/lang/spirv/writer/common/spv_dump_test.h"
 
 namespace tint::spirv::writer {
 namespace {

@@ -25,23 +25,23 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/type/manager.h"
+#include "tint/lang/core/type/manager.h"
 
 #include <algorithm>
 
-#include "src/tint/lang/core/type/abstract_float.h"
-#include "src/tint/lang/core/type/abstract_int.h"
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/core/type/bool.h"
-#include "src/tint/lang/core/type/f16.h"
-#include "src/tint/lang/core/type/f32.h"
-#include "src/tint/lang/core/type/i32.h"
-#include "src/tint/lang/core/type/matrix.h"
-#include "src/tint/lang/core/type/pointer.h"
-#include "src/tint/lang/core/type/type.h"
-#include "src/tint/lang/core/type/u32.h"
-#include "src/tint/lang/core/type/vector.h"
-#include "src/tint/lang/core/type/void.h"
+#include "tint/lang/core/type/abstract_float.h"
+#include "tint/lang/core/type/abstract_int.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/core/type/bool.h"
+#include "tint/lang/core/type/f16.h"
+#include "tint/lang/core/type/f32.h"
+#include "tint/lang/core/type/i32.h"
+#include "tint/lang/core/type/matrix.h"
+#include "tint/lang/core/type/pointer.h"
+#include "tint/lang/core/type/type.h"
+#include "tint/lang/core/type/u32.h"
+#include "tint/lang/core/type/vector.h"
+#include "tint/lang/core/type/void.h"
 
 namespace tint::core::type {
 

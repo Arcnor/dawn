@@ -27,8 +27,8 @@
 
 #include <string>
 
-#include "src/tint/cmd/bench/bench.h"
-#include "src/tint/lang/hlsl/writer/writer.h"
+#include "tint/cmd/bench/bench.h"
+#include "tint/lang/hlsl/writer/writer.h"
 
 namespace tint::hlsl::writer {
 namespace {

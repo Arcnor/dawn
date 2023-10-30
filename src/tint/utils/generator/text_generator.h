@@ -33,8 +33,8 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/utils/diagnostic/diagnostic.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/diagnostic/diagnostic.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint {
 

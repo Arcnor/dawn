@@ -31,11 +31,11 @@
 #include <tuple>
 #include <utility>
 
-#include "src/tint/utils/ice/ice.h"
-#include "src/tint/utils/macros/defer.h"
-#include "src/tint/utils/memory/bitcast.h"
-#include "src/tint/utils/rtti/castable.h"
-#include "src/tint/utils/rtti/ignore.h"
+#include "tint/utils/ice/ice.h"
+#include "tint/utils/macros/defer.h"
+#include "tint/utils/memory/bitcast.h"
+#include "tint/utils/rtti/castable.h"
+#include "tint/utils/rtti/ignore.h"
 
 namespace tint {
 

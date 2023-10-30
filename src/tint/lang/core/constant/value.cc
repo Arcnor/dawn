@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/constant/value.h"
+#include "tint/lang/core/constant/value.h"
 
-#include "src/tint/lang/core/constant/splat.h"
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/core/type/matrix.h"
-#include "src/tint/lang/core/type/struct.h"
-#include "src/tint/lang/core/type/vector.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/core/constant/splat.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/core/type/matrix.h"
+#include "tint/lang/core/type/struct.h"
+#include "tint/lang/core/type/vector.h"
+#include "tint/utils/rtti/switch.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::core::constant::Value);
 

@@ -25,10 +25,10 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/reader/ast_parser/helper_test.h"
-#include "src/tint/lang/wgsl/writer/ast_printer/ast_printer.h"
-#include "src/tint/utils/rtti/switch.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/spirv/reader/ast_parser/helper_test.h"
+#include "tint/lang/wgsl/writer/ast_printer/ast_printer.h"
+#include "tint/utils/rtti/switch.h"
+#include "tint/utils/text/string_stream.h"
 
 #include "gmock/gmock.h"
 

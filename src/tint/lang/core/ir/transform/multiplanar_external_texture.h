@@ -30,8 +30,8 @@
 
 #include <string>
 
-#include "src/tint/api/options/external_texture.h"
-#include "src/tint/utils/result/result.h"
+#include "tint/api/options/external_texture.h"
+#include "tint/utils/result/result.h"
 
 // Forward declarations.
 namespace tint::core::ir {

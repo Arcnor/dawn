@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/builtin_value.h"
+#include "tint/lang/core/builtin_value.h"
 
 namespace tint::core {
 

@@ -27,9 +27,9 @@
 
 #include <type_traits>
 
-#include "src/tint/lang/wgsl/ast/bitcast_expression.h"
-#include "src/tint/lang/wgsl/resolver/resolver.h"
-#include "src/tint/lang/wgsl/resolver/resolver_helper_test.h"
+#include "tint/lang/wgsl/ast/bitcast_expression.h"
+#include "tint/lang/wgsl/resolver/resolver.h"
+#include "tint/lang/wgsl/resolver/resolver_helper_test.h"
 
 #include "gmock/gmock.h"
 

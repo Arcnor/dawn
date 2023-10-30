@@ -30,8 +30,8 @@
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/builder.h"
-#include "src/tint/lang/wgsl/sem/block_statement.h"
+#include "tint/lang/wgsl/ast/builder.h"
+#include "tint/lang/wgsl/sem/block_statement.h"
 
 // Forward declarations
 namespace tint::program {

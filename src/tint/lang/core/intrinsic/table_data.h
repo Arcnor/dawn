@@ -32,11 +32,11 @@
 #include <limits>
 #include <string>
 
-#include "src/tint/lang/core/constant/eval.h"
-#include "src/tint/lang/core/evaluation_stage.h"
-#include "src/tint/lang/core/parameter_usage.h"
-#include "src/tint/utils/containers/enum_set.h"
-#include "src/tint/utils/containers/slice.h"
+#include "tint/lang/core/constant/eval.h"
+#include "tint/lang/core/evaluation_stage.h"
+#include "tint/lang/core/parameter_usage.h"
+#include "tint/utils/containers/enum_set.h"
+#include "tint/utils/containers/slice.h"
 
 /// Forward declaration
 namespace tint::core::intrinsic {

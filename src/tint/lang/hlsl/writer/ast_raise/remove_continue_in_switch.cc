@@ -25,22 +25,22 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/hlsl/writer/ast_raise/remove_continue_in_switch.h"
+#include "tint/lang/hlsl/writer/ast_raise/remove_continue_in_switch.h"
 
 #include <string>
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/continue_statement.h"
-#include "src/tint/lang/wgsl/ast/switch_statement.h"
-#include "src/tint/lang/wgsl/ast/transform/get_insertion_point.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/block_statement.h"
-#include "src/tint/lang/wgsl/sem/loop_statement.h"
-#include "src/tint/lang/wgsl/sem/switch_statement.h"
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/containers/hashset.h"
+#include "tint/lang/wgsl/ast/continue_statement.h"
+#include "tint/lang/wgsl/ast/switch_statement.h"
+#include "tint/lang/wgsl/ast/transform/get_insertion_point.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/block_statement.h"
+#include "tint/lang/wgsl/sem/loop_statement.h"
+#include "tint/lang/wgsl/sem/switch_statement.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/containers/hashset.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::hlsl::writer::RemoveContinueInSwitch);
 

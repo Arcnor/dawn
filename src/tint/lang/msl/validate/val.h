@@ -31,7 +31,7 @@
 #include <string>
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/pipeline_stage.h"
+#include "tint/lang/wgsl/ast/pipeline_stage.h"
 
 // Forward declarations
 namespace tint {

@@ -25,13 +25,13 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation_finders/change_binary_operators.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation_finders/change_binary_operators.h"
 
 #include <memory>
 #include <vector>
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/change_binary_operator.h"
-#include "src/tint/lang/wgsl/ast/binary_expression.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/change_binary_operator.h"
+#include "tint/lang/wgsl/ast/binary_expression.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

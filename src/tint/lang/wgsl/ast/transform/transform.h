@@ -30,9 +30,9 @@
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/transform/data.h"
-#include "src/tint/lang/wgsl/program/program.h"
-#include "src/tint/utils/rtti/castable.h"
+#include "tint/lang/wgsl/ast/transform/data.h"
+#include "tint/lang/wgsl/program/program.h"
+#include "tint/utils/rtti/castable.h"
 
 // Forward declarations
 namespace tint::program {

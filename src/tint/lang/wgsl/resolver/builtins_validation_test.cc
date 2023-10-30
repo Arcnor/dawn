@@ -25,10 +25,10 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/wgsl/ast/call_statement.h"
-#include "src/tint/lang/wgsl/resolver/resolver_helper_test.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/wgsl/ast/call_statement.h"
+#include "tint/lang/wgsl/resolver/resolver_helper_test.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::resolver {
 namespace {

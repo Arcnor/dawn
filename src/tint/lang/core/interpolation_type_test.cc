@@ -34,12 +34,12 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/interpolation_type.h"
+#include "tint/lang/core/interpolation_type.h"
 
 #include <gtest/gtest.h>
 #include <string>
 
-#include "src/tint/utils/text/string.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::core {
 namespace {

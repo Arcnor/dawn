@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/cmd/common/helper.h"
+#include "tint/cmd/common/helper.h"
 
 #include <iostream>
 #include <utility>
@@ -33,21 +33,21 @@
 
 #if TINT_BUILD_SPV_READER
 #include "spirv-tools/libspirv.hpp"
-#include "src/tint/lang/spirv/reader/reader.h"
+#include "tint/lang/spirv/reader/reader.h"
 #endif
 
 #if TINT_BUILD_WGSL_WRITER
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/lang/wgsl/writer/writer.h"
 #endif
 
 #if TINT_BUILD_WGSL_READER
-#include "src/tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/reader/reader.h"
 #endif
 
-#include "src/tint/utils/diagnostic/formatter.h"
-#include "src/tint/utils/diagnostic/printer.h"
-#include "src/tint/utils/text/string.h"
-#include "src/tint/utils/traits/traits.h"
+#include "tint/utils/diagnostic/formatter.h"
+#include "tint/utils/diagnostic/printer.h"
+#include "tint/utils/text/string.h"
+#include "tint/utils/traits/traits.h"
 
 namespace tint::cmd {
 namespace {

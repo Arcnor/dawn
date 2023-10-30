@@ -25,15 +25,15 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/sem/builtin_enum_expression.h"
+#include "tint/lang/wgsl/sem/builtin_enum_expression.h"
 
-#include "src/tint/lang/core/access.h"
-#include "src/tint/lang/core/address_space.h"
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/core/interpolation_sampling.h"
-#include "src/tint/lang/core/interpolation_type.h"
-#include "src/tint/lang/core/texel_format.h"
-#include "src/tint/lang/wgsl/builtin_fn.h"
+#include "tint/lang/core/access.h"
+#include "tint/lang/core/address_space.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/core/interpolation_sampling.h"
+#include "tint/lang/core/interpolation_type.h"
+#include "tint/lang/core/texel_format.h"
+#include "tint/lang/wgsl/builtin_fn.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::sem::BuiltinEnumExpressionBase);
 

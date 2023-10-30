@@ -28,8 +28,8 @@
 #include <cstring>
 
 #include "gmock/gmock.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/wgsl/reader/parser/helper_test.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/wgsl/reader/parser/helper_test.h"
 
 using namespace tint::core::fluent_types;  // NOLINT
 

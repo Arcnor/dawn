@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/helpers/check_supported_extensions.h"
+#include "tint/lang/wgsl/helpers/check_supported_extensions.h"
 
 #include <string>
 
-#include "src/tint/lang/wgsl/ast/module.h"
-#include "src/tint/utils/containers/hashset.h"
-#include "src/tint/utils/diagnostic/diagnostic.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/wgsl/ast/module.h"
+#include "tint/utils/containers/hashset.h"
+#include "tint/utils/diagnostic/diagnostic.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::wgsl {
 

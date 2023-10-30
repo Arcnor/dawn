@@ -27,10 +27,10 @@
 
 #include <string>
 
-#include "src/tint/cmd/bench/bench.h"
-#include "src/tint/lang/msl/writer/writer.h"
-#include "src/tint/lang/wgsl/ast/module.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
+#include "tint/cmd/bench/bench.h"
+#include "tint/lang/msl/writer/writer.h"
+#include "tint/lang/wgsl/ast/module.h"
+#include "tint/lang/wgsl/sem/variable.h"
 
 namespace tint::msl::writer {
 namespace {

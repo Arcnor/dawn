@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/ir/operand_instruction.h"
+#include "tint/lang/core/ir/operand_instruction.h"
 
 using Op10 = tint::core::ir::OperandInstruction<1, 0>;
 using Op11 = tint::core::ir::OperandInstruction<1, 1>;

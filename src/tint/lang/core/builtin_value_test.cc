@@ -34,13 +34,13 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/builtin_value.h"
+#include "tint/lang/core/builtin_value.h"
 
 #include <gtest/gtest.h>
 
 #include <string>
 
-#include "src/tint/utils/text/string.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::core {
 namespace {

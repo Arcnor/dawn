@@ -25,19 +25,19 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/vectorize_scalar_matrix_initializers.h"
+#include "tint/lang/wgsl/ast/transform/vectorize_scalar_matrix_initializers.h"
 
 #include <unordered_map>
 #include <utility>
 
-#include "src/tint/lang/core/type/abstract_numeric.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/call.h"
-#include "src/tint/lang/wgsl/sem/value_constructor.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/utils/containers/map.h"
+#include "tint/lang/core/type/abstract_numeric.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/call.h"
+#include "tint/lang/wgsl/sem/value_constructor.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/utils/containers/map.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::VectorizeScalarMatrixInitializers);
 

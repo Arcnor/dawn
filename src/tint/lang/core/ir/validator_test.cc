@@ -29,14 +29,14 @@
 #include <utility>
 
 #include "gmock/gmock.h"
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/ir_helper_test.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/core/type/matrix.h"
-#include "src/tint/lang/core/type/pointer.h"
-#include "src/tint/lang/core/type/struct.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/ir_helper_test.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/core/type/matrix.h"
+#include "tint/lang/core/type/pointer.h"
+#include "tint/lang/core/type/struct.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::core::ir {
 namespace {

@@ -28,9 +28,9 @@
 #ifndef SRC_TINT_LANG_CORE_IR_VALUE_H_
 #define SRC_TINT_LANG_CORE_IR_VALUE_H_
 
-#include "src/tint/lang/core/type/type.h"
-#include "src/tint/utils/containers/hashset.h"
-#include "src/tint/utils/rtti/castable.h"
+#include "tint/lang/core/type/type.h"
+#include "tint/utils/containers/hashset.h"
+#include "tint/utils/rtti/castable.h"
 
 // Forward declarations
 namespace tint::core::ir {

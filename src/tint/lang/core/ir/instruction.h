@@ -30,10 +30,10 @@
 
 #include <string>
 
-#include "src/tint/lang/core/ir/instruction_result.h"
-#include "src/tint/lang/core/ir/value.h"
-#include "src/tint/utils/containers/enum_set.h"
-#include "src/tint/utils/rtti/castable.h"
+#include "tint/lang/core/ir/instruction_result.h"
+#include "tint/lang/core/ir/value.h"
+#include "tint/utils/containers/enum_set.h"
+#include "tint/utils/rtti/castable.h"
 
 // Forward declarations
 namespace tint::core::ir {

@@ -501,7 +501,7 @@ endif()
 
 set(TINT_LIB_FUZZING_ENGINE_LINK_OPTIONS "" CACHE STRING "Used by OSS-Fuzz to control, via link options, which fuzzing engine should be used")
 
-set(TINT_ROOT_SOURCE_DIR ${PROJECT_SOURCE_DIR})
+set(TINT_ROOT_SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)
 set(TINT_SPIRV_HEADERS_DIR ${DAWN_SPIRV_HEADERS_DIR})
 set(TINT_SPIRV_TOOLS_DIR   ${DAWN_SPIRV_TOOLS_DIR})
 

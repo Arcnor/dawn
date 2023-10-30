@@ -31,10 +31,10 @@
 #include <cstdint>
 #include <string>
 
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/core/interpolation.h"
-#include "src/tint/lang/core/type/type.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/core/interpolation.h"
+#include "tint/lang/core/type/type.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::msl::writer {
 

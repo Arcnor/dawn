@@ -25,17 +25,17 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/add_block_attribute.h"
+#include "tint/lang/wgsl/ast/transform/add_block_attribute.h"
 
 #include <unordered_set>
 #include <utility>
 
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/containers/hashset.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/containers/hashset.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::AddBlockAttribute);
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::AddBlockAttribute::BlockAttribute);

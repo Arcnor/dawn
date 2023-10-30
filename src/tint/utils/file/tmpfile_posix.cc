@@ -27,12 +27,12 @@
 
 // GEN_BUILD:CONDITION(is_linux || is_mac)
 
-#include "src/tint/utils/file/tmpfile.h"
+#include "tint/utils/file/tmpfile.h"
 
 #include <unistd.h>
 #include <limits>
 
-#include "src/tint/utils/ice/ice.h"
+#include "tint/utils/ice/ice.h"
 
 namespace tint {
 

@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/change_binary_operator.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/change_binary_operator.h"
 
 #include <string>
 #include <unordered_set>
@@ -33,11 +33,11 @@
 
 #include "gtest/gtest.h"
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutator.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/node_id_map.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutator.h"
+#include "tint/fuzzers/tint_ast_fuzzer/node_id_map.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/writer/writer.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 namespace {

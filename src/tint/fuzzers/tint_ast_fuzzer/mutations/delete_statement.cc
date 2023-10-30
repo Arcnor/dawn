@@ -25,24 +25,24 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/delete_statement.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/delete_statement.h"
 
 #include <algorithm>
 #include <utility>
 #include <vector>
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/jump_tracker.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/util.h"
-#include "src/tint/lang/wgsl/ast/block_statement.h"
-#include "src/tint/lang/wgsl/ast/for_loop_statement.h"
-#include "src/tint/lang/wgsl/ast/if_statement.h"
-#include "src/tint/lang/wgsl/ast/loop_statement.h"
-#include "src/tint/lang/wgsl/ast/variable_decl_statement.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/sem/for_loop_statement.h"
-#include "src/tint/lang/wgsl/sem/if_statement.h"
-#include "src/tint/lang/wgsl/sem/loop_statement.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
+#include "tint/fuzzers/tint_ast_fuzzer/jump_tracker.h"
+#include "tint/fuzzers/tint_ast_fuzzer/util.h"
+#include "tint/lang/wgsl/ast/block_statement.h"
+#include "tint/lang/wgsl/ast/for_loop_statement.h"
+#include "tint/lang/wgsl/ast/if_statement.h"
+#include "tint/lang/wgsl/ast/loop_statement.h"
+#include "tint/lang/wgsl/ast/variable_decl_statement.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/sem/for_loop_statement.h"
+#include "tint/lang/wgsl/sem/if_statement.h"
+#include "tint/lang/wgsl/sem/loop_statement.h"
+#include "tint/lang/wgsl/sem/statement.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

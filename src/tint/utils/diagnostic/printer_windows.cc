@@ -29,7 +29,7 @@
 
 #include <cstring>
 
-#include "src/tint/utils/diagnostic/printer.h"
+#include "tint/utils/diagnostic/printer.h"
 
 #define WIN32_LEAN_AND_MEAN 1
 #include <Windows.h>

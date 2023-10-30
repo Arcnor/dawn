@@ -30,7 +30,7 @@
 
 #include <string>
 
-#include "src/tint/utils/id/generation_id.h"
+#include "tint/utils/id/generation_id.h"
 
 namespace tint {
 

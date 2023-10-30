@@ -32,7 +32,7 @@
 #include <string>
 #include <utility>
 
-#include "src/tint/utils/macros/compiler.h"
+#include "tint/utils/macros/compiler.h"
 
 namespace tint {
 

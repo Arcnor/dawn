@@ -31,11 +31,11 @@
 #include <memory>
 #include <vector>
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/node_id_map.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/probability_context.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation.h"
+#include "tint/fuzzers/tint_ast_fuzzer/node_id_map.h"
+#include "tint/fuzzers/tint_ast_fuzzer/probability_context.h"
 
-#include "src/tint/lang/wgsl/program/program.h"
+#include "tint/lang/wgsl/program/program.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

@@ -28,11 +28,11 @@
 #ifndef SRC_TINT_LANG_MSL_WRITER_COMMON_OPTIONS_H_
 #define SRC_TINT_LANG_MSL_WRITER_COMMON_OPTIONS_H_
 
-#include "src/tint/api/options/array_length_from_uniform.h"
-#include "src/tint/api/options/binding_remapper.h"
-#include "src/tint/api/options/external_texture.h"
-#include "src/tint/api/options/pixel_local.h"
-#include "src/tint/utils/reflection/reflection.h"
+#include "tint/api/options/array_length_from_uniform.h"
+#include "tint/api/options/binding_remapper.h"
+#include "tint/api/options/external_texture.h"
+#include "tint/api/options/pixel_local.h"
+#include "tint/utils/reflection/reflection.h"
 
 namespace tint::msl::writer {
 

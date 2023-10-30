@@ -30,9 +30,9 @@
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/statement.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/diagnostic/source.h"
+#include "tint/lang/wgsl/ast/statement.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/diagnostic/source.h"
 
 // Forward declarations
 namespace tint::ast {

@@ -27,10 +27,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest-spi.h"
-#include "src/tint/lang/spirv/writer/ast_printer/helper_test.h"
-#include "src/tint/lang/spirv/writer/common/spv_dump_test.h"
-#include "src/tint/lang/wgsl/ast/stage_attribute.h"
-#include "src/tint/lang/wgsl/ast/workgroup_attribute.h"
+#include "tint/lang/spirv/writer/ast_printer/helper_test.h"
+#include "tint/lang/spirv/writer/common/spv_dump_test.h"
+#include "tint/lang/wgsl/ast/stage_attribute.h"
+#include "tint/lang/wgsl/ast/workgroup_attribute.h"
 
 namespace tint::spirv::writer {
 namespace {

@@ -27,11 +27,11 @@
 
 #include <string>
 
-#include "src/tint/lang/hlsl/validate/val.h"
+#include "tint/lang/hlsl/validate/val.h"
 
-#include "src/tint/utils/command/command.h"
-#include "src/tint/utils/file/tmpfile.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/utils/command/command.h"
+#include "tint/utils/file/tmpfile.h"
+#include "tint/utils/text/string.h"
 
 #ifdef _WIN32
 #include <Windows.h>

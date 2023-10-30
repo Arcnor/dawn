@@ -30,12 +30,12 @@
 
 #include "spirv/unified1/spirv.h"
 #include "spirv/unified1/spirv.hpp11"
-#include "src/tint/lang/core/address_space.h"
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/core/type/storage_texture.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
-#include "src/tint/lang/spirv/reader/ast_parser/fail_stream.h"
-#include "src/tint/lang/wgsl/ast/pipeline_stage.h"
+#include "tint/lang/core/address_space.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/core/type/storage_texture.h"
+#include "tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/spirv/reader/ast_parser/fail_stream.h"
+#include "tint/lang/wgsl/ast/pipeline_stage.h"
 
 namespace tint::spirv::reader::ast_parser {
 

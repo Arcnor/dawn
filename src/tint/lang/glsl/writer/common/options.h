@@ -32,12 +32,12 @@
 #include <string>
 #include <unordered_map>
 
-#include "src/tint/api/options/binding_remapper.h"
-#include "src/tint/api/options/external_texture.h"
-#include "src/tint/api/options/texture_builtins_from_uniform.h"
-#include "src/tint/lang/core/access.h"
-#include "src/tint/lang/glsl/writer/common/version.h"
-#include "src/tint/lang/wgsl/sem/sampler_texture_pair.h"
+#include "tint/api/options/binding_remapper.h"
+#include "tint/api/options/external_texture.h"
+#include "tint/api/options/texture_builtins_from_uniform.h"
+#include "tint/lang/core/access.h"
+#include "tint/lang/glsl/writer/common/version.h"
+#include "tint/lang/wgsl/sem/sampler_texture_pair.h"
 
 namespace tint::glsl::writer {
 

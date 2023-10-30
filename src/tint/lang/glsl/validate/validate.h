@@ -32,8 +32,8 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/wgsl/ast/pipeline_stage.h"
-#include "src/tint/utils/result/result.h"
+#include "tint/lang/wgsl/ast/pipeline_stage.h"
+#include "tint/utils/result/result.h"
 
 // Forward declarations
 namespace tint {

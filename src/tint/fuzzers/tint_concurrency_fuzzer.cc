@@ -32,17 +32,17 @@
 
 #include <thread>
 
-#include "src/tint/lang/glsl/writer/writer.h"
-#include "src/tint/lang/hlsl/writer/writer.h"
-#include "src/tint/lang/msl/writer/writer.h"
-#include "src/tint/lang/spirv/writer/writer.h"
-#include "src/tint/lang/wgsl/helpers/apply_substitute_overrides.h"
-#include "src/tint/lang/wgsl/helpers/flatten_bindings.h"
-#include "src/tint/lang/wgsl/inspector/inspector.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
-#include "src/tint/lang/wgsl/sem/module.h"
-#include "src/tint/lang/wgsl/writer/writer.h"
-#include "src/tint/utils/math/hash.h"
+#include "tint/lang/glsl/writer/writer.h"
+#include "tint/lang/hlsl/writer/writer.h"
+#include "tint/lang/msl/writer/writer.h"
+#include "tint/lang/spirv/writer/writer.h"
+#include "tint/lang/wgsl/helpers/apply_substitute_overrides.h"
+#include "tint/lang/wgsl/helpers/flatten_bindings.h"
+#include "tint/lang/wgsl/inspector/inspector.h"
+#include "tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/sem/module.h"
+#include "tint/lang/wgsl/writer/writer.h"
+#include "tint/utils/math/hash.h"
 
 static constexpr size_t kNumThreads = 8;
 

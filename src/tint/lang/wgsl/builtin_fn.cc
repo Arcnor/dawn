@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/wgsl/builtin_fn.h"
+#include "tint/lang/wgsl/builtin_fn.h"
 
 namespace tint::wgsl {
 

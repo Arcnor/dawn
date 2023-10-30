@@ -25,18 +25,18 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/statement.h"
+#include "tint/lang/wgsl/ast/statement.h"
 
-#include "src/tint/lang/wgsl/ast/assignment_statement.h"
-#include "src/tint/lang/wgsl/ast/break_statement.h"
-#include "src/tint/lang/wgsl/ast/call_statement.h"
-#include "src/tint/lang/wgsl/ast/continue_statement.h"
-#include "src/tint/lang/wgsl/ast/discard_statement.h"
-#include "src/tint/lang/wgsl/ast/if_statement.h"
-#include "src/tint/lang/wgsl/ast/loop_statement.h"
-#include "src/tint/lang/wgsl/ast/return_statement.h"
-#include "src/tint/lang/wgsl/ast/switch_statement.h"
-#include "src/tint/lang/wgsl/ast/variable_decl_statement.h"
+#include "tint/lang/wgsl/ast/assignment_statement.h"
+#include "tint/lang/wgsl/ast/break_statement.h"
+#include "tint/lang/wgsl/ast/call_statement.h"
+#include "tint/lang/wgsl/ast/continue_statement.h"
+#include "tint/lang/wgsl/ast/discard_statement.h"
+#include "tint/lang/wgsl/ast/if_statement.h"
+#include "tint/lang/wgsl/ast/loop_statement.h"
+#include "tint/lang/wgsl/ast/return_statement.h"
+#include "tint/lang/wgsl/ast/switch_statement.h"
+#include "tint/lang/wgsl/ast/variable_decl_statement.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::Statement);
 

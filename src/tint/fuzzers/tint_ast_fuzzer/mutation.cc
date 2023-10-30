@@ -25,15 +25,15 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation.h"
 
 #include <cassert>
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/change_binary_operator.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/change_unary_operator.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/delete_statement.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/replace_identifier.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/wrap_unary_operator.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/change_binary_operator.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/change_unary_operator.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/delete_statement.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/replace_identifier.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/wrap_unary_operator.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

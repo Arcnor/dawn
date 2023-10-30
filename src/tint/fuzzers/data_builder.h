@@ -35,7 +35,7 @@
 #include <unordered_map>
 #include <vector>
 
-#include "src/tint/fuzzers/random_generator.h"
+#include "tint/fuzzers/random_generator.h"
 
 namespace tint::fuzzers {
 

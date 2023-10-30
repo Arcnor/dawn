@@ -28,7 +28,7 @@
 #ifndef SRC_TINT_LANG_CORE_IR_TRANSFORM_DIRECT_VARIABLE_ACCESS_H_
 #define SRC_TINT_LANG_CORE_IR_TRANSFORM_DIRECT_VARIABLE_ACCESS_H_
 
-#include "src/tint/utils/result/result.h"
+#include "tint/utils/result/result.h"
 
 // Forward declarations.
 namespace tint::core::ir {

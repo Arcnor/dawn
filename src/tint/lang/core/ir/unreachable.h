@@ -30,7 +30,7 @@
 
 #include <string>
 
-#include "src/tint/lang/core/ir/terminator.h"
+#include "tint/lang/core/ir/terminator.h"
 
 namespace tint::core::ir {
 

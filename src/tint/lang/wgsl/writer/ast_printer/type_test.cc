@@ -25,13 +25,13 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/core/type/depth_texture.h"
-#include "src/tint/lang/core/type/multisampled_texture.h"
-#include "src/tint/lang/core/type/sampled_texture.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
-#include "src/tint/lang/wgsl/writer/ast_printer/helper_test.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/core/type/depth_texture.h"
+#include "tint/lang/core/type/multisampled_texture.h"
+#include "tint/lang/core/type/sampled_texture.h"
+#include "tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/wgsl/writer/ast_printer/helper_test.h"
+#include "tint/utils/text/string_stream.h"
 
 #include "gmock/gmock.h"
 

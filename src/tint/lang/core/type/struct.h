@@ -34,13 +34,13 @@
 #include <unordered_set>
 #include <utility>
 
-#include "src/tint/lang/core/address_space.h"
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/core/interpolation.h"
-#include "src/tint/lang/core/type/node.h"
-#include "src/tint/lang/core/type/type.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/symbol/symbol.h"
+#include "tint/lang/core/address_space.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/core/interpolation.h"
+#include "tint/lang/core/type/node.h"
+#include "tint/lang/core/type/type.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/symbol/symbol.h"
 
 // Forward declarations
 namespace tint::core::type {

@@ -25,23 +25,23 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/intrinsic/table.h"
+#include "tint/lang/core/intrinsic/table.h"
 
 #include <algorithm>
 #include <limits>
 #include <utility>
 
-#include "src/tint/lang/core/evaluation_stage.h"
-#include "src/tint/lang/core/intrinsic/table_data.h"
-#include "src/tint/lang/core/type/manager.h"
-#include "src/tint/lang/core/type/void.h"
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/diagnostic/diagnostic.h"
-#include "src/tint/utils/macros/scoped_assignment.h"
-#include "src/tint/utils/math/hash.h"
-#include "src/tint/utils/math/math.h"
-#include "src/tint/utils/rtti/switch.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/evaluation_stage.h"
+#include "tint/lang/core/intrinsic/table_data.h"
+#include "tint/lang/core/type/manager.h"
+#include "tint/lang/core/type/void.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/diagnostic/diagnostic.h"
+#include "tint/utils/macros/scoped_assignment.h"
+#include "tint/utils/math/hash.h"
+#include "tint/utils/math/math.h"
+#include "tint/utils/rtti/switch.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::core::intrinsic {
 

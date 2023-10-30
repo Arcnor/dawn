@@ -30,7 +30,7 @@
 
 #include <string>
 
-#include "src/tint/lang/core/ir/control_instruction.h"
+#include "tint/lang/core/ir/control_instruction.h"
 
 // Forward declarations
 namespace tint::core::ir {

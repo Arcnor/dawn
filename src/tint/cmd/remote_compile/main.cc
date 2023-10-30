@@ -37,11 +37,11 @@
 #include <vector>
 
 #if TINT_BUILD_MSL_WRITER
-#include "src/tint/lang/msl/validate/val.h"
+#include "tint/lang/msl/validate/val.h"
 #endif
 
-#include "src/tint/utils/macros/compiler.h"
-#include "src/tint/utils/socket/socket.h"
+#include "tint/utils/macros/compiler.h"
+#include "tint/utils/socket/socket.h"
 
 namespace {
 

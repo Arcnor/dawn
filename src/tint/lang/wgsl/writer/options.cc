@@ -27,7 +27,7 @@
 
 #ifdef TINT_BUILD_SYNTAX_TREE_WRITER
 
-#include "src/tint/lang/wgsl/writer/options.h"
+#include "tint/lang/wgsl/writer/options.h"
 
 namespace tint::wgsl::writer {
 

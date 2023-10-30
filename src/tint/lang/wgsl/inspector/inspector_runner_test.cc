@@ -25,8 +25,8 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/inspector/inspector_runner_test.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/inspector/inspector_runner_test.h"
+#include "tint/lang/wgsl/reader/reader.h"
 
 namespace tint::inspector {
 

@@ -25,16 +25,16 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/ast_raise/merge_return.h"
+#include "tint/lang/spirv/writer/ast_raise/merge_return.h"
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/utils/macros/scoped_assignment.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/utils/macros/scoped_assignment.h"
+#include "tint/utils/rtti/switch.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::spirv::writer::MergeReturn);
 

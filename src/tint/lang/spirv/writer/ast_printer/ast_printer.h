@@ -31,10 +31,10 @@
 #include <string>
 #include <vector>
 
-#include "src/tint/lang/spirv/writer/ast_printer/builder.h"
-#include "src/tint/lang/spirv/writer/common/binary_writer.h"
-#include "src/tint/lang/spirv/writer/common/options.h"
-#include "src/tint/lang/wgsl/program/program.h"
+#include "tint/lang/spirv/writer/ast_printer/builder.h"
+#include "tint/lang/spirv/writer/common/binary_writer.h"
+#include "tint/lang/spirv/writer/common/options.h"
+#include "tint/lang/wgsl/program/program.h"
 
 namespace tint::spirv::writer {
 

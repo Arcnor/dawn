@@ -25,16 +25,16 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/reader/ast_lower/fold_trivial_lets.h"
+#include "tint/lang/spirv/reader/ast_lower/fold_trivial_lets.h"
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/traverse_expressions.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/utils/containers/hashmap.h"
+#include "tint/lang/wgsl/ast/traverse_expressions.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/utils/containers/hashmap.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::spirv::reader::FoldTrivialLets);
 

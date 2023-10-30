@@ -33,7 +33,7 @@
 #include <variant>
 #include <vector>
 
-#include "src/tint/utils/math/hash.h"
+#include "tint/utils/math/hash.h"
 
 namespace tint::spirv::writer {
 

@@ -34,18 +34,18 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/wgsl/ast/builder.h"
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/containers/hashset.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/diagnostic/diagnostic.h"
-#include "src/tint/utils/diagnostic/source.h"
-#include "src/tint/utils/ice/ice.h"
-#include "src/tint/utils/id/generation_id.h"
-#include "src/tint/utils/macros/compiler.h"
-#include "src/tint/utils/rtti/castable.h"
-#include "src/tint/utils/symbol/symbol.h"
-#include "src/tint/utils/traits/traits.h"
+#include "tint/lang/wgsl/ast/builder.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/containers/hashset.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/diagnostic/diagnostic.h"
+#include "tint/utils/diagnostic/source.h"
+#include "tint/utils/ice/ice.h"
+#include "tint/utils/id/generation_id.h"
+#include "tint/utils/macros/compiler.h"
+#include "tint/utils/rtti/castable.h"
+#include "tint/utils/symbol/symbol.h"
+#include "tint/utils/traits/traits.h"
 
 // Forward declarations
 namespace tint::ast {

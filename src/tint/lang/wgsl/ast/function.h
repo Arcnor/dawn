@@ -33,15 +33,15 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/wgsl/ast/attribute.h"
-#include "src/tint/lang/wgsl/ast/binding_attribute.h"
-#include "src/tint/lang/wgsl/ast/block_statement.h"
-#include "src/tint/lang/wgsl/ast/builtin_attribute.h"
-#include "src/tint/lang/wgsl/ast/group_attribute.h"
-#include "src/tint/lang/wgsl/ast/location_attribute.h"
-#include "src/tint/lang/wgsl/ast/parameter.h"
-#include "src/tint/lang/wgsl/ast/pipeline_stage.h"
-#include "src/tint/utils/symbol/symbol.h"
+#include "tint/lang/wgsl/ast/attribute.h"
+#include "tint/lang/wgsl/ast/binding_attribute.h"
+#include "tint/lang/wgsl/ast/block_statement.h"
+#include "tint/lang/wgsl/ast/builtin_attribute.h"
+#include "tint/lang/wgsl/ast/group_attribute.h"
+#include "tint/lang/wgsl/ast/location_attribute.h"
+#include "tint/lang/wgsl/ast/parameter.h"
+#include "tint/lang/wgsl/ast/pipeline_stage.h"
+#include "tint/utils/symbol/symbol.h"
 
 // Forward declarations
 namespace tint::ast {

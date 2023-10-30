@@ -28,7 +28,7 @@
 #ifndef SRC_TINT_LANG_CORE_IR_EXIT_H_
 #define SRC_TINT_LANG_CORE_IR_EXIT_H_
 
-#include "src/tint/lang/core/ir/terminator.h"
+#include "tint/lang/core/ir/terminator.h"
 
 // Forward declarations
 namespace tint::core::ir {

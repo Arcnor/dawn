@@ -28,12 +28,12 @@
 #ifndef SRC_TINT_LANG_CORE_CONSTANT_COMPOSITE_H_
 #define SRC_TINT_LANG_CORE_CONSTANT_COMPOSITE_H_
 
-#include "src/tint/lang/core/constant/value.h"
-#include "src/tint/lang/core/number.h"
-#include "src/tint/lang/core/type/type.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/math/hash.h"
-#include "src/tint/utils/rtti/castable.h"
+#include "tint/lang/core/constant/value.h"
+#include "tint/lang/core/number.h"
+#include "tint/lang/core/type/type.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/math/hash.h"
+#include "tint/utils/rtti/castable.h"
 
 namespace tint::core::constant {
 

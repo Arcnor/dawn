@@ -25,27 +25,27 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/robustness.h"
+#include "tint/lang/wgsl/ast/transform/robustness.h"
 
 #include <algorithm>
 #include <limits>
 #include <utility>
 
-#include "src/tint/lang/core/type/reference.h"
-#include "src/tint/lang/wgsl/ast/transform/hoist_to_decl_before.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/block_statement.h"
-#include "src/tint/lang/wgsl/sem/builtin_fn.h"
-#include "src/tint/lang/wgsl/sem/call.h"
-#include "src/tint/lang/wgsl/sem/function.h"
-#include "src/tint/lang/wgsl/sem/index_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/load.h"
-#include "src/tint/lang/wgsl/sem/member_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/core/type/reference.h"
+#include "tint/lang/wgsl/ast/transform/hoist_to_decl_before.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/block_statement.h"
+#include "tint/lang/wgsl/sem/builtin_fn.h"
+#include "tint/lang/wgsl/sem/call.h"
+#include "tint/lang/wgsl/sem/function.h"
+#include "tint/lang/wgsl/sem/index_accessor_expression.h"
+#include "tint/lang/wgsl/sem/load.h"
+#include "tint/lang/wgsl/sem/member_accessor_expression.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/utils/rtti/switch.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::Robustness);
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::Robustness::Config);

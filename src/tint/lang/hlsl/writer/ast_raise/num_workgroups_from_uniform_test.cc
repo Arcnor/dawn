@@ -25,13 +25,13 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/hlsl/writer/ast_raise/num_workgroups_from_uniform.h"
+#include "tint/lang/hlsl/writer/ast_raise/num_workgroups_from_uniform.h"
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/transform/canonicalize_entry_point_io.h"
-#include "src/tint/lang/wgsl/ast/transform/helper_test.h"
-#include "src/tint/lang/wgsl/ast/transform/unshadow.h"
+#include "tint/lang/wgsl/ast/transform/canonicalize_entry_point_io.h"
+#include "tint/lang/wgsl/ast/transform/helper_test.h"
+#include "tint/lang/wgsl/ast/transform/unshadow.h"
 
 namespace tint::hlsl::writer {
 namespace {

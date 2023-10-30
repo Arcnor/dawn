@@ -30,11 +30,11 @@
 #include <utility>
 
 #include "gmock/gmock.h"
-#include "src/tint/lang/core/address_space.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
-#include "src/tint/lang/wgsl/resolver/dependency_graph.h"
-#include "src/tint/lang/wgsl/resolver/resolver_helper_test.h"
-#include "src/tint/utils/containers/transform.h"
+#include "tint/lang/core/address_space.h"
+#include "tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/wgsl/resolver/dependency_graph.h"
+#include "tint/lang/wgsl/resolver/resolver_helper_test.h"
+#include "tint/utils/containers/transform.h"
 
 namespace tint::resolver {
 namespace {

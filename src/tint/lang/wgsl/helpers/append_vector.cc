@@ -25,17 +25,17 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/helpers/append_vector.h"
+#include "tint/lang/wgsl/helpers/append_vector.h"
 
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/wgsl/sem/call.h"
-#include "src/tint/lang/wgsl/sem/value_constructor.h"
-#include "src/tint/lang/wgsl/sem/value_conversion.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/utils/containers/transform.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/wgsl/sem/call.h"
+#include "tint/lang/wgsl/sem/value_constructor.h"
+#include "tint/lang/wgsl/sem/value_conversion.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/utils/containers/transform.h"
+#include "tint/utils/rtti/switch.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 

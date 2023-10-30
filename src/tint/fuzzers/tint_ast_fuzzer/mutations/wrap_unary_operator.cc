@@ -25,16 +25,16 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutations/wrap_unary_operator.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutations/wrap_unary_operator.h"
 
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/core/type/abstract_float.h"
-#include "src/tint/lang/core/type/abstract_int.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/sem/call.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/core/type/abstract_float.h"
+#include "tint/lang/core/type/abstract_int.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/sem/call.h"
+#include "tint/lang/wgsl/sem/statement.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

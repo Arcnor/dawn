@@ -25,26 +25,26 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/std140.h"
+#include "tint/lang/wgsl/ast/transform/std140.h"
 
 #include <algorithm>
 #include <string>
 #include <utility>
 #include <variant>
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/index_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/member_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/module.h"
-#include "src/tint/lang/wgsl/sem/struct.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/containers/transform.h"
-#include "src/tint/utils/macros/compiler.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/index_accessor_expression.h"
+#include "tint/lang/wgsl/sem/member_accessor_expression.h"
+#include "tint/lang/wgsl/sem/module.h"
+#include "tint/lang/wgsl/sem/struct.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/containers/transform.h"
+#include "tint/utils/macros/compiler.h"
+#include "tint/utils/rtti/switch.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::Std140);
 

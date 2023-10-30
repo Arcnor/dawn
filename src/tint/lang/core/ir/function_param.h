@@ -30,12 +30,12 @@
 
 #include <utility>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/lang/core/ir/location.h"
-#include "src/tint/lang/core/ir/value.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/ice/ice.h"
-#include "src/tint/utils/rtti/castable.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/lang/core/ir/location.h"
+#include "tint/lang/core/ir/value.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/ice/ice.h"
+#include "tint/utils/rtti/castable.h"
 
 namespace tint::core::ir {
 

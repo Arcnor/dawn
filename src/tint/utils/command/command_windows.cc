@@ -27,15 +27,15 @@
 
 // GEN_BUILD:CONDITION(is_win)
 
-#include "src/tint/utils/command/command.h"
+#include "tint/utils/command/command.h"
 
 #define WIN32_LEAN_AND_MEAN 1
 #include <Windows.h>
 #include <dbghelp.h>
 #include <string>
 
-#include "src/tint/utils/macros/defer.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/macros/defer.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint {
 

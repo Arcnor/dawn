@@ -31,9 +31,9 @@
 #include <cstdint>
 #include <functional>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/utils/reflection/reflection.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/utils/reflection/reflection.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::sem {
 

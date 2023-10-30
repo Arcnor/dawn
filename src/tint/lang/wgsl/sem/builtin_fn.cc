@@ -28,12 +28,12 @@
 // Doxygen seems to trip over this file for some unknown reason. Disable.
 //! @cond Doxygen_Suppress
 
-#include "src/tint/lang/wgsl/sem/builtin_fn.h"
+#include "tint/lang/wgsl/sem/builtin_fn.h"
 
 #include <utility>
 #include <vector>
 
-#include "src/tint/utils/containers/transform.h"
+#include "tint/utils/containers/transform.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::sem::BuiltinFn);
 

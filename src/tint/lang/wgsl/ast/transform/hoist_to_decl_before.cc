@@ -25,21 +25,21 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/hoist_to_decl_before.h"
+#include "tint/lang/wgsl/ast/transform/hoist_to_decl_before.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/type/reference.h"
-#include "src/tint/lang/wgsl/ast/builder.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/sem/block_statement.h"
-#include "src/tint/lang/wgsl/sem/for_loop_statement.h"
-#include "src/tint/lang/wgsl/sem/if_statement.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/lang/wgsl/sem/while_statement.h"
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/containers/reverse.h"
-#include "src/tint/utils/containers/transform.h"
+#include "tint/lang/core/type/reference.h"
+#include "tint/lang/wgsl/ast/builder.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/sem/block_statement.h"
+#include "tint/lang/wgsl/sem/for_loop_statement.h"
+#include "tint/lang/wgsl/sem/if_statement.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/lang/wgsl/sem/while_statement.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/containers/reverse.h"
+#include "tint/utils/containers/transform.h"
 
 namespace tint::ast::transform {
 

@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/type/multisampled_texture.h"
+#include "tint/lang/core/type/multisampled_texture.h"
 
-#include "src/tint/lang/core/type/depth_texture.h"
-#include "src/tint/lang/core/type/external_texture.h"
-#include "src/tint/lang/core/type/helper_test.h"
-#include "src/tint/lang/core/type/sampled_texture.h"
-#include "src/tint/lang/core/type/storage_texture.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/core/type/depth_texture.h"
+#include "tint/lang/core/type/external_texture.h"
+#include "tint/lang/core/type/helper_test.h"
+#include "tint/lang/core/type/sampled_texture.h"
+#include "tint/lang/core/type/storage_texture.h"
+#include "tint/lang/core/type/texture_dimension.h"
 
 namespace tint::core::type {
 namespace {

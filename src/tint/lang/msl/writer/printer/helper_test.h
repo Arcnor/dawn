@@ -32,10 +32,10 @@
 #include <string>
 
 #include "gtest/gtest.h"
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/msl/writer/printer/printer.h"
-#include "src/tint/lang/msl/writer/raise/raise.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/msl/writer/printer/printer.h"
+#include "tint/lang/msl/writer/raise/raise.h"
 
 namespace tint::msl::writer {
 

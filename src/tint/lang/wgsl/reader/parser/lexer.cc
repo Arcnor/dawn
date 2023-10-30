@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/reader/parser/lexer.h"
+#include "tint/lang/wgsl/reader/parser/lexer.h"
 
 #include <cctype>
 #include <charconv>
@@ -38,11 +38,11 @@
 #include <type_traits>
 #include <utility>
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/number.h"
-#include "src/tint/utils/ice/ice.h"
-#include "src/tint/utils/strconv/parse_num.h"
-#include "src/tint/utils/text/unicode.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/number.h"
+#include "tint/utils/ice/ice.h"
+#include "tint/utils/strconv/parse_num.h"
+#include "tint/utils/text/unicode.h"
 
 using namespace tint::core::fluent_types;  // NOLINT
 

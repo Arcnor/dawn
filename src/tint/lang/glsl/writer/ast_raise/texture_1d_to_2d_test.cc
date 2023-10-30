@@ -25,9 +25,9 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/glsl/writer/ast_raise/texture_1d_to_2d.h"
+#include "tint/lang/glsl/writer/ast_raise/texture_1d_to_2d.h"
 
-#include "src/tint/lang/wgsl/ast/transform/helper_test.h"
+#include "tint/lang/wgsl/ast/transform/helper_test.h"
 
 namespace tint::glsl::writer {
 namespace {

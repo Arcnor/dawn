@@ -31,10 +31,10 @@
 #include <functional>
 #include <string>
 
-#include "src/tint/lang/core/type/clone_context.h"
-#include "src/tint/lang/core/type/unique_node.h"
-#include "src/tint/utils/containers/enum_set.h"
-#include "src/tint/utils/containers/vector.h"
+#include "tint/lang/core/type/clone_context.h"
+#include "tint/lang/core/type/unique_node.h"
+#include "tint/utils/containers/enum_set.h"
+#include "tint/utils/containers/vector.h"
 
 // Forward declarations
 namespace tint {

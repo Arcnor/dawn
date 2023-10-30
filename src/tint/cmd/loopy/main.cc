@@ -27,40 +27,40 @@
 
 #include <iostream>
 
-#include "src/tint/api/tint.h"
-#include "src/tint/cmd/common/generate_external_texture_bindings.h"
-#include "src/tint/cmd/common/helper.h"
-#include "src/tint/lang/core/ir/module.h"
+#include "tint/api/tint.h"
+#include "tint/cmd/common/generate_external_texture_bindings.h"
+#include "tint/cmd/common/helper.h"
+#include "tint/lang/core/ir/module.h"
 
 #if TINT_BUILD_GLSL_WRITER
-#include "src/tint/lang/glsl/writer/writer.h"
+#include "tint/lang/glsl/writer/writer.h"
 #endif  // TINT_BUILD_GLSL_WRITER
 
 #if TINT_BUILD_HLSL_WRITER
-#include "src/tint/lang/hlsl/writer/writer.h"
+#include "tint/lang/hlsl/writer/writer.h"
 #endif  // TINT_BUILD_HLSL_WRITER
 
 #if TINT_BUILD_MSL_WRITER
-#include "src/tint/lang/msl/writer/writer.h"
+#include "tint/lang/msl/writer/writer.h"
 #endif  // TINT_BUILD_MSL_WRITER
 
 #if TINT_BUILD_SPV_READER
-#include "src/tint/lang/spirv/reader/reader.h"
+#include "tint/lang/spirv/reader/reader.h"
 #endif  // TINT_BUILD_SPV_READER
 
 #if TINT_BUILD_SPV_WRITER
-#include "src/tint/lang/spirv/writer/helpers/generate_bindings.h"
-#include "src/tint/lang/spirv/writer/writer.h"
+#include "tint/lang/spirv/writer/helpers/generate_bindings.h"
+#include "tint/lang/spirv/writer/writer.h"
 #endif  // TINT_BUILD_SPV_WRITER
 
 #if TINT_BUILD_WGSL_READER
-#include "src/tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
+#include "tint/lang/wgsl/reader/reader.h"
 #endif  // TINT_BUILD_WGSL_READER
 
 #if TINT_BUILD_WGSL_WRITER
-#include "src/tint/lang/wgsl/helpers/flatten_bindings.h"
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/lang/wgsl/helpers/flatten_bindings.h"
+#include "tint/lang/wgsl/writer/writer.h"
 #endif  // TINT_BUILD_WGSL_WRITER
 
 namespace {

@@ -25,16 +25,16 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/writer/raise/raise.h"
+#include "tint/lang/wgsl/writer/raise/raise.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/builtin_fn.h"
-#include "src/tint/lang/core/ir/core_builtin_call.h"
-#include "src/tint/lang/core/ir/load.h"
-#include "src/tint/lang/core/type/pointer.h"
-#include "src/tint/lang/wgsl/builtin_fn.h"
-#include "src/tint/lang/wgsl/ir/builtin_call.h"
+#include "tint/lang/core/builtin_fn.h"
+#include "tint/lang/core/ir/core_builtin_call.h"
+#include "tint/lang/core/ir/load.h"
+#include "tint/lang/core/type/pointer.h"
+#include "tint/lang/wgsl/builtin_fn.h"
+#include "tint/lang/wgsl/ir/builtin_call.h"
 
 namespace tint::wgsl::writer {
 namespace {

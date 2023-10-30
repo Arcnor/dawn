@@ -25,23 +25,23 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/msl/writer/common/printer_support.h"
+#include "tint/lang/msl/writer/common/printer_support.h"
 
 #include <cmath>
 #include <limits>
 
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/core/type/atomic.h"
-#include "src/tint/lang/core/type/f16.h"
-#include "src/tint/lang/core/type/f32.h"
-#include "src/tint/lang/core/type/i32.h"
-#include "src/tint/lang/core/type/matrix.h"
-#include "src/tint/lang/core/type/struct.h"
-#include "src/tint/lang/core/type/u32.h"
-#include "src/tint/lang/core/type/vector.h"
-#include "src/tint/utils/ice/ice.h"
-#include "src/tint/utils/rtti/switch.h"
-#include "src/tint/utils/strconv/float_to_string.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/core/type/atomic.h"
+#include "tint/lang/core/type/f16.h"
+#include "tint/lang/core/type/f32.h"
+#include "tint/lang/core/type/i32.h"
+#include "tint/lang/core/type/matrix.h"
+#include "tint/lang/core/type/struct.h"
+#include "tint/lang/core/type/u32.h"
+#include "tint/lang/core/type/vector.h"
+#include "tint/utils/ice/ice.h"
+#include "tint/utils/rtti/switch.h"
+#include "tint/utils/strconv/float_to_string.h"
 
 namespace tint::msl::writer {
 

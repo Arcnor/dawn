@@ -28,11 +28,11 @@
 #ifndef SRC_TINT_LANG_CORE_IR_TRAVERSE_H_
 #define SRC_TINT_LANG_CORE_IR_TRAVERSE_H_
 
-#include "src/tint/lang/core/ir/block.h"
-#include "src/tint/lang/core/ir/control_instruction.h"
-#include "src/tint/utils/containers/reverse.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/traits/traits.h"
+#include "tint/lang/core/ir/block.h"
+#include "tint/lang/core/ir/control_instruction.h"
+#include "tint/utils/containers/reverse.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/traits/traits.h"
 
 namespace tint::core::ir {
 

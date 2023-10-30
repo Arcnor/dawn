@@ -15,13 +15,13 @@ See:
 {{- Import "src/tint/utils/templates/enums.tmpl.inc" -}}
 {{- $enum := ($I.Sem.Enum "address_space") -}}
 
-#include "src/tint/lang/core/address_space.h"
+#include "tint/lang/core/address_space.h"
 
 #include <gtest/gtest.h>
 
 #include <string>
 
-#include "src/tint/utils/text/string.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::core {
 namespace {

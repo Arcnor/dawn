@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/builtin_fn.h"
+#include "tint/lang/core/builtin_fn.h"
 
 namespace tint::core {
 

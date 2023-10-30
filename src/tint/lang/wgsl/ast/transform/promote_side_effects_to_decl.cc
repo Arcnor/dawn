@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/promote_side_effects_to_decl.h"
+#include "tint/lang/wgsl/ast/transform/promote_side_effects_to_decl.h"
 
 #include <memory>
 #include <string>
@@ -33,21 +33,21 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/wgsl/ast/transform/get_insertion_point.h"
-#include "src/tint/lang/wgsl/ast/transform/hoist_to_decl_before.h"
-#include "src/tint/lang/wgsl/ast/transform/manager.h"
-#include "src/tint/lang/wgsl/ast/traverse_expressions.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/block_statement.h"
-#include "src/tint/lang/wgsl/sem/call.h"
-#include "src/tint/lang/wgsl/sem/for_loop_statement.h"
-#include "src/tint/lang/wgsl/sem/if_statement.h"
-#include "src/tint/lang/wgsl/sem/member_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/lang/wgsl/sem/while_statement.h"
-#include "src/tint/utils/macros/scoped_assignment.h"
+#include "tint/lang/wgsl/ast/transform/get_insertion_point.h"
+#include "tint/lang/wgsl/ast/transform/hoist_to_decl_before.h"
+#include "tint/lang/wgsl/ast/transform/manager.h"
+#include "tint/lang/wgsl/ast/traverse_expressions.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/block_statement.h"
+#include "tint/lang/wgsl/sem/call.h"
+#include "tint/lang/wgsl/sem/for_loop_statement.h"
+#include "tint/lang/wgsl/sem/if_statement.h"
+#include "tint/lang/wgsl/sem/member_accessor_expression.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/lang/wgsl/sem/while_statement.h"
+#include "tint/utils/macros/scoped_assignment.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::PromoteSideEffectsToDecl);
 

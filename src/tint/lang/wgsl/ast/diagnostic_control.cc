@@ -25,13 +25,13 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/diagnostic_control.h"
+#include "tint/lang/wgsl/ast/diagnostic_control.h"
 
 #include <string>
 
-#include "src/tint/lang/wgsl/ast/identifier.h"
-#include "src/tint/lang/wgsl/ast/templated_identifier.h"
-#include "src/tint/lang/wgsl/diagnostic_severity.h"
+#include "tint/lang/wgsl/ast/identifier.h"
+#include "tint/lang/wgsl/ast/templated_identifier.h"
+#include "tint/lang/wgsl/diagnostic_severity.h"
 
 namespace tint::ast {
 

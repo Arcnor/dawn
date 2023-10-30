@@ -25,21 +25,21 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/msl/writer/ast_raise/packed_vec3.h"
+#include "tint/lang/msl/writer/ast_raise/packed_vec3.h"
 
 #include <string>
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/wgsl/ast/module.h"
-#include "src/tint/lang/wgsl/ast/transform/helper_test.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/struct.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/wgsl/ast/module.h"
+#include "tint/lang/wgsl/ast/transform/helper_test.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/struct.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/text/string.h"
 
 using namespace tint::core::fluent_types;  // NOLINT
 

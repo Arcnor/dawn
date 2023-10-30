@@ -37,7 +37,7 @@
 
 #include "include/tint/tint.h"
 
-#include "src/tint/fuzzers/data_builder.h"
+#include "tint/fuzzers/data_builder.h"
 
 namespace tint::fuzzers {
 

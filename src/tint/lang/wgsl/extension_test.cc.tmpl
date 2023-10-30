@@ -12,13 +12,13 @@ See:
 {{- Import "src/tint/utils/templates/enums.tmpl.inc" -}}
 {{- $enum := ($I.Sem.Enum "extension") -}}
 
-#include "src/tint/lang/wgsl/extension.h"
+#include "tint/lang/wgsl/extension.h"
 
 #include <gtest/gtest.h>
 
 #include <string>
 
-#include "src/tint/utils/text/string.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::wgsl {
 namespace {

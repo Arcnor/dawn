@@ -25,15 +25,15 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/ir/transform/block_decorated_structs.h"
+#include "tint/lang/core/ir/transform/block_decorated_structs.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/core/type/pointer.h"
-#include "src/tint/lang/core/type/struct.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/core/type/pointer.h"
+#include "tint/lang/core/type/struct.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 

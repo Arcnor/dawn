@@ -28,8 +28,8 @@
 #ifndef SRC_TINT_LANG_CORE_TYPE_TEXTURE_H_
 #define SRC_TINT_LANG_CORE_TYPE_TEXTURE_H_
 
-#include "src/tint/lang/core/type/texture_dimension.h"
-#include "src/tint/lang/core/type/type.h"
+#include "tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/core/type/type.h"
 
 namespace tint::core::type {
 

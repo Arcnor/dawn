@@ -28,8 +28,8 @@
 #ifndef SRC_TINT_LANG_WGSL_READER_READER_H_
 #define SRC_TINT_LANG_WGSL_READER_READER_H_
 
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/wgsl/program/program.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/wgsl/program/program.h"
 
 namespace tint::wgsl::reader {
 

@@ -32,13 +32,13 @@
 #include "spirv-tools/libspirv.hpp"
 #endif  // TINT_BUILD_SPV_READER
 
-#include "src/tint/cmd/common/helper.h"
-#include "src/tint/lang/core/type/struct.h"
-#include "src/tint/lang/wgsl/ast/module.h"
-#include "src/tint/lang/wgsl/inspector/entry_point.h"
-#include "src/tint/utils/command/command.h"
-#include "src/tint/utils/containers/transform.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/cmd/common/helper.h"
+#include "tint/lang/core/type/struct.h"
+#include "tint/lang/wgsl/ast/module.h"
+#include "tint/lang/wgsl/inspector/entry_point.h"
+#include "tint/utils/command/command.h"
+#include "tint/utils/containers/transform.h"
+#include "tint/utils/text/string.h"
 
 namespace {
 

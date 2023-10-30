@@ -30,7 +30,7 @@
 
 #include <string>
 
-#include "src/tint/lang/core/ir/ir_helper_test.h"
+#include "tint/lang/core/ir/ir_helper_test.h"
 
 namespace tint::wgsl::writer {
 

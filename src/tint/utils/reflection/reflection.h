@@ -30,8 +30,8 @@
 
 #include <type_traits>
 
-#include "src/tint/utils/macros/concat.h"
-#include "src/tint/utils/macros/foreach.h"
+#include "tint/utils/macros/concat.h"
+#include "tint/utils/macros/foreach.h"
 
 namespace tint {
 

@@ -25,20 +25,20 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/glsl/writer/printer/printer.h"
+#include "tint/lang/glsl/writer/printer/printer.h"
 
 #include <string>
 #include <utility>
 
-#include "src/tint/lang/core/ir/function.h"
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/core/ir/return.h"
-#include "src/tint/lang/core/ir/unreachable.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/glsl/writer/common/version.h"
-#include "src/tint/utils/generator/text_generator.h"
-#include "src/tint/utils/macros/scoped_assignment.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/core/ir/function.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/core/ir/return.h"
+#include "tint/lang/core/ir/unreachable.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/glsl/writer/common/version.h"
+#include "tint/utils/generator/text_generator.h"
+#include "tint/utils/macros/scoped_assignment.h"
+#include "tint/utils/rtti/switch.h"
 
 using namespace tint::core::fluent_types;  // NOLINT
 

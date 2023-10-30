@@ -30,8 +30,8 @@
 #include <unordered_set>
 
 #include "gtest/gtest.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/writer/writer.h"
 
 namespace tint::ast {
 namespace {

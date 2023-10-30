@@ -27,7 +27,7 @@
 
 // GEN_BUILD:CONDITION(is_win)
 
-#include "src/tint/utils/file/tmpfile.h"
+#include "tint/utils/file/tmpfile.h"
 
 #include <stdio.h>
 #include <cstdio>

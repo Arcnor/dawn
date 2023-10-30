@@ -27,8 +27,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest-spi.h"
-#include "src/tint/lang/wgsl/ast/binary_expression.h"
-#include "src/tint/lang/wgsl/ast/helper_test.h"
+#include "tint/lang/wgsl/ast/binary_expression.h"
+#include "tint/lang/wgsl/ast/helper_test.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 

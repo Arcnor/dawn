@@ -25,9 +25,9 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/sem/struct.h"
+#include "tint/lang/wgsl/sem/struct.h"
 
-#include "src/tint/lang/wgsl/ast/struct_member.h"
+#include "tint/lang/wgsl/ast/struct_member.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::sem::Struct);
 TINT_INSTANTIATE_TYPEINFO(tint::sem::StructMember);

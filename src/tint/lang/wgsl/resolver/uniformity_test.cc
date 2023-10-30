@@ -32,11 +32,11 @@
 #include <tuple>
 #include <utility>
 
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/resolver/uniformity.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/resolver/uniformity.h"
+#include "tint/utils/text/string_stream.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"

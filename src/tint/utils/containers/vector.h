@@ -37,11 +37,11 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/utils/containers/slice.h"
-#include "src/tint/utils/ice/ice.h"
-#include "src/tint/utils/macros/compiler.h"
-#include "src/tint/utils/math/hash.h"
-#include "src/tint/utils/memory/bitcast.h"
+#include "tint/utils/containers/slice.h"
+#include "tint/utils/ice/ice.h"
+#include "tint/utils/macros/compiler.h"
+#include "tint/utils/math/hash.h"
+#include "tint/utils/memory/bitcast.h"
 
 #ifndef TINT_VECTOR_MUTATION_CHECKS_ENABLED
 #ifdef NDEBUG

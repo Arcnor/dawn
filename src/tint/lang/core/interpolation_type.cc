@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/interpolation_type.h"
+#include "tint/lang/core/interpolation_type.h"
 
 #include <string>
 

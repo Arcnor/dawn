@@ -25,15 +25,15 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/helpers/apply_substitute_overrides.h"
+#include "tint/lang/wgsl/helpers/apply_substitute_overrides.h"
 
 #include <memory>
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/transform/manager.h"
-#include "src/tint/lang/wgsl/ast/transform/substitute_override.h"
-#include "src/tint/lang/wgsl/inspector/inspector.h"
-#include "src/tint/lang/wgsl/program/program.h"
+#include "tint/lang/wgsl/ast/transform/manager.h"
+#include "tint/lang/wgsl/ast/transform/substitute_override.h"
+#include "tint/lang/wgsl/inspector/inspector.h"
+#include "tint/lang/wgsl/program/program.h"
 
 namespace tint::wgsl {
 

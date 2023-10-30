@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/cli/cli.h"
+#include "tint/utils/cli/cli.h"
 
 #include <sstream>
 
 #include "gmock/gmock.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/utils/text/string.h"
 
-#include "src/tint/utils/containers/transform.h"  // Used by ToStringList()
+#include "tint/utils/containers/transform.h"  // Used by ToStringList()
 
 namespace tint::cli {
 namespace {

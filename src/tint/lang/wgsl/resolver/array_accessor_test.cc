@@ -25,13 +25,13 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/resolver/resolver.h"
+#include "tint/lang/wgsl/resolver/resolver.h"
 
 #include "gmock/gmock.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/type/reference.h"
-#include "src/tint/lang/wgsl/resolver/resolver_helper_test.h"
-#include "src/tint/lang/wgsl/sem/index_accessor_expression.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/type/reference.h"
+#include "tint/lang/wgsl/resolver/resolver_helper_test.h"
+#include "tint/lang/wgsl/sem/index_accessor_expression.h"
 
 using namespace tint::core::fluent_types;     // NOLINT
 using namespace tint::core::number_suffixes;  // NOLINT

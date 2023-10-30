@@ -25,16 +25,16 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/raise/merge_return.h"
+#include "tint/lang/spirv/writer/raise/merge_return.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/utils/containers/reverse.h"
-#include "src/tint/utils/containers/transform.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/utils/containers/reverse.h"
+#include "tint/utils/containers/transform.h"
+#include "tint/utils/rtti/switch.h"
 
 using namespace tint::core::fluent_types;     // NOLINT
 using namespace tint::core::number_suffixes;  // NOLINT

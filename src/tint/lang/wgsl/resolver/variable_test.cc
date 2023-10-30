@@ -26,10 +26,10 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "gmock/gmock.h"
-#include "src/tint/lang/core/type/reference.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
-#include "src/tint/lang/wgsl/resolver/resolver.h"
-#include "src/tint/lang/wgsl/resolver/resolver_helper_test.h"
+#include "tint/lang/core/type/reference.h"
+#include "tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/wgsl/resolver/resolver.h"
+#include "tint/lang/wgsl/resolver/resolver_helper_test.h"
 
 namespace tint::resolver {
 namespace {

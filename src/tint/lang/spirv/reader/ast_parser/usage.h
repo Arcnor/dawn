@@ -30,8 +30,8 @@
 
 #include <string>
 
-#include "src/tint/utils/text/string_stream.h"
-#include "src/tint/utils/traits/traits.h"
+#include "tint/utils/text/string_stream.h"
+#include "tint/utils/traits/traits.h"
 
 namespace tint::spirv::reader::ast_parser {
 

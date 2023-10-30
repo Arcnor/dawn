@@ -25,9 +25,9 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/common/helper_test.h"
+#include "tint/lang/spirv/writer/common/helper_test.h"
 
-#include "src/tint/lang/core/ir/unary.h"
+#include "tint/lang/core/ir/unary.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 

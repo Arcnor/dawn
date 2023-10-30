@@ -32,15 +32,15 @@
 #include <string>
 #include <utility>
 
-#include "src/tint/lang/core/evaluation_stage.h"
-#include "src/tint/lang/wgsl/ast/pipeline_stage.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/sem_helper.h"
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/containers/scope_stack.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/diagnostic/source.h"
-#include "src/tint/utils/math/hash.h"
+#include "tint/lang/core/evaluation_stage.h"
+#include "tint/lang/wgsl/ast/pipeline_stage.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/sem_helper.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/containers/scope_stack.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/diagnostic/source.h"
+#include "tint/utils/math/hash.h"
 
 // Forward declarations
 namespace tint::ast {

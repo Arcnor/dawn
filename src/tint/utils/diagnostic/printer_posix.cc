@@ -31,7 +31,7 @@
 
 #include <cstring>
 
-#include "src/tint/utils/diagnostic/printer.h"
+#include "tint/utils/diagnostic/printer.h"
 
 namespace tint::diag {
 namespace {

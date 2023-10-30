@@ -37,8 +37,8 @@
 #include <string>
 
 #include "gtest/gtest-spi.h"
-#include "src/tint/lang/wgsl/diagnostic_severity.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/wgsl/diagnostic_severity.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::wgsl {
 namespace {

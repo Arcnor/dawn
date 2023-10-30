@@ -25,9 +25,9 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/expression_size.h"
+#include "tint/fuzzers/tint_ast_fuzzer/expression_size.h"
 
-#include "src/tint/lang/wgsl/ast/traverse_expressions.h"
+#include "tint/lang/wgsl/ast/traverse_expressions.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

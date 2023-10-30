@@ -25,11 +25,11 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/const_assert.h"
+#include "tint/lang/wgsl/ast/const_assert.h"
 
 #include "gtest/gtest-spi.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/wgsl/ast/helper_test.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/wgsl/ast/helper_test.h"
 
 using namespace tint::core::fluent_types;  // NOLINT
 

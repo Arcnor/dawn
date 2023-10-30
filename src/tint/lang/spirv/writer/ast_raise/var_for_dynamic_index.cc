@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/ast_raise/var_for_dynamic_index.h"
+#include "tint/lang/spirv/writer/ast_raise/var_for_dynamic_index.h"
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/ast/transform/hoist_to_decl_before.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/ast/transform/hoist_to_decl_before.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::spirv::writer::VarForDynamicIndex);
 

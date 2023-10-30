@@ -32,10 +32,10 @@
 
 #include <functional>
 
-#include "src/tint/utils/math/hash.h"
-#include "src/tint/utils/reflection/reflection.h"
-#include "src/tint/utils/text/string_stream.h"
-#include "src/tint/utils/traits/traits.h"
+#include "tint/utils/math/hash.h"
+#include "tint/utils/reflection/reflection.h"
+#include "tint/utils/text/string_stream.h"
+#include "tint/utils/traits/traits.h"
 
 namespace tint {
 

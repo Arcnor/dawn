@@ -25,24 +25,24 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/vertex_pulling.h"
+#include "tint/lang/wgsl/ast/transform/vertex_pulling.h"
 
 #include <algorithm>
 #include <utility>
 
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/wgsl/ast/assignment_statement.h"
-#include "src/tint/lang/wgsl/ast/bitcast_expression.h"
-#include "src/tint/lang/wgsl/ast/variable_decl_statement.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/containers/map.h"
-#include "src/tint/utils/macros/compiler.h"
-#include "src/tint/utils/math/math.h"
-#include "src/tint/utils/rtti/switch.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/wgsl/ast/assignment_statement.h"
+#include "tint/lang/wgsl/ast/bitcast_expression.h"
+#include "tint/lang/wgsl/ast/variable_decl_statement.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/containers/map.h"
+#include "tint/utils/macros/compiler.h"
+#include "tint/utils/math/math.h"
+#include "tint/utils/rtti/switch.h"
+#include "tint/utils/text/string_stream.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::VertexPulling);
 TINT_INSTANTIATE_TYPEINFO(tint::ast::transform::VertexPulling::Config);

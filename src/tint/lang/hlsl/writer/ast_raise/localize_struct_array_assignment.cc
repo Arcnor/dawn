@@ -25,23 +25,23 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/hlsl/writer/ast_raise/localize_struct_array_assignment.h"
+#include "tint/lang/hlsl/writer/ast_raise/localize_struct_array_assignment.h"
 
 #include <unordered_map>
 #include <utility>
 
-#include "src/tint/lang/core/type/reference.h"
-#include "src/tint/lang/wgsl/ast/assignment_statement.h"
-#include "src/tint/lang/wgsl/ast/transform/simplify_pointers.h"
-#include "src/tint/lang/wgsl/ast/traverse_expressions.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/member_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/macros/scoped_assignment.h"
+#include "tint/lang/core/type/reference.h"
+#include "tint/lang/wgsl/ast/assignment_statement.h"
+#include "tint/lang/wgsl/ast/transform/simplify_pointers.h"
+#include "tint/lang/wgsl/ast/traverse_expressions.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/member_accessor_expression.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/macros/scoped_assignment.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::hlsl::writer::LocalizeStructArrayAssignment);
 

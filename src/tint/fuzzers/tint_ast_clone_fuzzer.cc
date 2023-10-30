@@ -29,8 +29,8 @@
 #include <string>
 #include <unordered_set>
 
-#include "src/tint/lang/wgsl/reader/parser/parser.h"
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/lang/wgsl/reader/parser/parser.h"
+#include "tint/lang/wgsl/writer/writer.h"
 
 #define ASSERT_EQ(A, B)                                        \
     do {                                                       \

@@ -25,19 +25,19 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/reader/ast_lower/decompose_strided_array.h"
+#include "tint/lang/spirv/reader/ast_lower/decompose_strided_array.h"
 
 #include <memory>
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/wgsl/ast/transform/helper_test.h"
-#include "src/tint/lang/wgsl/ast/transform/simplify_pointers.h"
-#include "src/tint/lang/wgsl/ast/transform/unshadow.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/wgsl/ast/transform/helper_test.h"
+#include "tint/lang/wgsl/ast/transform/simplify_pointers.h"
+#include "tint/lang/wgsl/ast/transform/unshadow.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 using namespace tint::core::fluent_types;     // NOLINT

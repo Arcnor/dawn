@@ -30,9 +30,9 @@
 
 #include <string>
 
-#include "src/tint/lang/core/ir/terminator.h"
-#include "src/tint/lang/core/ir/value.h"
-#include "src/tint/utils/rtti/castable.h"
+#include "tint/lang/core/ir/terminator.h"
+#include "tint/lang/core/ir/value.h"
+#include "tint/utils/rtti/castable.h"
 
 // Forward declarations
 namespace tint::core::ir {

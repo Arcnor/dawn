@@ -31,8 +31,8 @@
 #include <string>
 #include <unordered_set>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/utils/result/result.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/utils/result/result.h"
 
 // Forward declarations.
 namespace tint::core::ir {

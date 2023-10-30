@@ -25,9 +25,9 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/common/option_builder.h"
+#include "tint/lang/spirv/writer/common/option_builder.h"
 
-#include "src/tint/utils/containers/hashset.h"
+#include "tint/utils/containers/hashset.h"
 
 namespace tint::spirv::writer {
 

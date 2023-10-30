@@ -41,7 +41,7 @@
 #pragma clang diagnostic ignored "-Wsuggest-destructor-override"
 #pragma clang diagnostic ignored "-Wreserved-identifier"
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/protobufs/tint_ast_fuzzer.pb.h"
+#include "tint/fuzzers/tint_ast_fuzzer/protobufs/tint_ast_fuzzer.pb.h"
 
 #pragma clang diagnostic pop
 

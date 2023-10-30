@@ -40,7 +40,7 @@
 #include <cstdint>
 #include <string>
 
-#include "src/tint/utils/traits/traits.h"
+#include "tint/utils/traits/traits.h"
 
 // \cond DO_NOT_DOCUMENT
 namespace tint::spirv {

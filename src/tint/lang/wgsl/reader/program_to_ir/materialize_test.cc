@@ -26,10 +26,10 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "gmock/gmock.h"
-#include "src/tint/lang/core/constant/scalar.h"
-#include "src/tint/lang/wgsl/ast/case_selector.h"
-#include "src/tint/lang/wgsl/ast/int_literal_expression.h"
-#include "src/tint/lang/wgsl/helpers/ir_program_test.h"
+#include "tint/lang/core/constant/scalar.h"
+#include "tint/lang/wgsl/ast/case_selector.h"
+#include "tint/lang/wgsl/ast/int_literal_expression.h"
+#include "tint/lang/wgsl/helpers/ir_program_test.h"
 
 namespace tint::wgsl::reader {
 namespace {

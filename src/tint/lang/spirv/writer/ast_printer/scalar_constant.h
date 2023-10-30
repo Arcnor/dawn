@@ -33,8 +33,8 @@
 #include <cstring>
 #include <functional>
 
-#include "src/tint/lang/core/number.h"
-#include "src/tint/utils/math/hash.h"
+#include "tint/lang/core/number.h"
+#include "tint/utils/math/hash.h"
 
 // Forward declarations
 namespace tint::sem {

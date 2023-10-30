@@ -33,12 +33,12 @@
 #include <unordered_map>
 #include <vector>
 
-#include "src/tint/lang/wgsl/ast/diagnostic_control.h"
-#include "src/tint/lang/wgsl/ast/node.h"
-#include "src/tint/lang/wgsl/sem/node.h"
-#include "src/tint/lang/wgsl/sem/type_mappings.h"
-#include "src/tint/utils/containers/unique_vector.h"
-#include "src/tint/utils/ice/ice.h"
+#include "tint/lang/wgsl/ast/diagnostic_control.h"
+#include "tint/lang/wgsl/ast/node.h"
+#include "tint/lang/wgsl/sem/node.h"
+#include "tint/lang/wgsl/sem/type_mappings.h"
+#include "tint/utils/containers/unique_vector.h"
+#include "tint/utils/ice/ice.h"
 
 // Forward declarations
 namespace tint::sem {

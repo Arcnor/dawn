@@ -29,14 +29,14 @@
 #include <cstddef>
 #include <cstdint>
 
-#include "src/tint/fuzzers/random_generator.h"
-#include "src/tint/fuzzers/tint_common_fuzzer.h"
-#include "src/tint/fuzzers/tint_regex_fuzzer/cli.h"
-#include "src/tint/fuzzers/tint_regex_fuzzer/override_cli_params.h"
-#include "src/tint/fuzzers/tint_regex_fuzzer/wgsl_mutator.h"
-#include "src/tint/fuzzers/transform_builder.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/fuzzers/random_generator.h"
+#include "tint/fuzzers/tint_common_fuzzer.h"
+#include "tint/fuzzers/tint_regex_fuzzer/cli.h"
+#include "tint/fuzzers/tint_regex_fuzzer/override_cli_params.h"
+#include "tint/fuzzers/tint_regex_fuzzer/wgsl_mutator.h"
+#include "tint/fuzzers/transform_builder.h"
+#include "tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/writer/writer.h"
 #include "testing/libfuzzer/libfuzzer_exports.h"
 
 namespace tint::fuzzers::regex_fuzzer {

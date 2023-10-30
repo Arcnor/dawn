@@ -25,10 +25,10 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/common/spv_dump_test.h"
+#include "tint/lang/spirv/writer/common/spv_dump_test.h"
 
 #include "spirv-tools/libspirv.hpp"
-#include "src/tint/lang/spirv/writer/common/binary_writer.h"
+#include "tint/lang/spirv/writer/common/binary_writer.h"
 
 namespace tint::spirv::writer {
 

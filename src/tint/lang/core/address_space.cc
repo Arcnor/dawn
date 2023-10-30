@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/address_space.h"
+#include "tint/lang/core/address_space.h"
 
 namespace tint::core {
 

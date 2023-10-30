@@ -25,12 +25,12 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/constant/eval_test.h"
+#include "tint/lang/core/constant/eval_test.h"
 
-#include "src/tint/utils/result/result.h"
+#include "tint/utils/result/result.h"
 
 #if TINT_BUILD_WGSL_READER
-#include "src/tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/reader/reader.h"
 #endif
 
 using namespace tint::core::fluent_types;     // NOLINT

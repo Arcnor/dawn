@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/core/interpolation_sampling.h"
+#include "tint/lang/core/interpolation_sampling.h"
 
 #include <string>
 

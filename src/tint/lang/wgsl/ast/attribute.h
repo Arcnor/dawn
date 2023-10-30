@@ -30,8 +30,8 @@
 
 #include <string>
 
-#include "src/tint/lang/wgsl/ast/node.h"
-#include "src/tint/utils/containers/vector.h"
+#include "tint/lang/wgsl/ast/node.h"
+#include "tint/utils/containers/vector.h"
 
 namespace tint::ast {
 

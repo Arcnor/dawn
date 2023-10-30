@@ -25,24 +25,24 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/builtin_polyfill.h"
+#include "tint/lang/wgsl/ast/transform/builtin_polyfill.h"
 
 #include <algorithm>
 #include <tuple>
 #include <unordered_map>
 #include <utility>
 
-#include "src/tint/lang/core/type/storage_texture.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/builtin_fn.h"
-#include "src/tint/lang/wgsl/sem/call.h"
-#include "src/tint/lang/wgsl/sem/type_expression.h"
-#include "src/tint/lang/wgsl/sem/value_conversion.h"
-#include "src/tint/utils/containers/map.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/core/type/storage_texture.h"
+#include "tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/builtin_fn.h"
+#include "tint/lang/wgsl/sem/call.h"
+#include "tint/lang/wgsl/sem/type_expression.h"
+#include "tint/lang/wgsl/sem/value_conversion.h"
+#include "tint/utils/containers/map.h"
+#include "tint/utils/rtti/switch.h"
 
 using namespace tint::core::fluent_types;     // NOLINT
 using namespace tint::core::number_suffixes;  // NOLINT

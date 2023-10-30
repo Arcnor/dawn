@@ -25,9 +25,9 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/ast_raise/clamp_frag_depth.h"
+#include "tint/lang/spirv/writer/ast_raise/clamp_frag_depth.h"
 
-#include "src/tint/lang/wgsl/ast/transform/helper_test.h"
+#include "tint/lang/wgsl/ast/transform/helper_test.h"
 
 namespace tint::spirv::writer {
 namespace {

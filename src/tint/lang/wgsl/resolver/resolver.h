@@ -36,20 +36,20 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/lang/core/constant/eval.h"
-#include "src/tint/lang/core/constant/value.h"
-#include "src/tint/lang/core/intrinsic/table.h"
-#include "src/tint/lang/wgsl/intrinsic/dialect.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/dependency_graph.h"
-#include "src/tint/lang/wgsl/resolver/sem_helper.h"
-#include "src/tint/lang/wgsl/resolver/validator.h"
-#include "src/tint/lang/wgsl/sem/block_statement.h"
-#include "src/tint/lang/wgsl/sem/function.h"
-#include "src/tint/lang/wgsl/sem/struct.h"
-#include "src/tint/utils/containers/bitset.h"
-#include "src/tint/utils/containers/unique_vector.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/lang/core/constant/eval.h"
+#include "tint/lang/core/constant/value.h"
+#include "tint/lang/core/intrinsic/table.h"
+#include "tint/lang/wgsl/intrinsic/dialect.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/dependency_graph.h"
+#include "tint/lang/wgsl/resolver/sem_helper.h"
+#include "tint/lang/wgsl/resolver/validator.h"
+#include "tint/lang/wgsl/sem/block_statement.h"
+#include "tint/lang/wgsl/sem/function.h"
+#include "tint/lang/wgsl/sem/struct.h"
+#include "tint/utils/containers/bitset.h"
+#include "tint/utils/containers/unique_vector.h"
 
 // Forward declarations
 namespace tint::ast {

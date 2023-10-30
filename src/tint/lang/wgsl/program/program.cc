@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/program/program.h"
+#include "tint/lang/wgsl/program/program.h"
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/sem/type_expression.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/sem/type_expression.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/utils/rtti/switch.h"
 
 namespace tint {
 namespace {

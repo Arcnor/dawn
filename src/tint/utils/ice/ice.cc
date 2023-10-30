@@ -25,12 +25,12 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/ice/ice.h"
+#include "tint/utils/ice/ice.h"
 
 #include <memory>
 #include <string>
 
-#include "src/tint/utils/debug/debugger.h"
+#include "tint/utils/debug/debugger.h"
 
 namespace tint {
 namespace {

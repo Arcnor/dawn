@@ -25,10 +25,10 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/reader/ast_parser/fail_stream.h"
+#include "tint/lang/spirv/reader/ast_parser/fail_stream.h"
 
 #include "gmock/gmock.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::spirv::reader::ast_parser {
 namespace {

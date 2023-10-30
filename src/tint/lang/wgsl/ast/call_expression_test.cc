@@ -26,7 +26,7 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include "gtest/gtest-spi.h"
-#include "src/tint/lang/wgsl/ast/helper_test.h"
+#include "tint/lang/wgsl/ast/helper_test.h"
 
 namespace tint::ast {
 namespace {

@@ -31,8 +31,8 @@
 #include <memory>
 #include <string>
 
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::spirv::reader::ast_parser {
 

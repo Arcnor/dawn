@@ -25,16 +25,16 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/ir/break_if.h"
+#include "tint/lang/core/ir/break_if.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/block.h"
-#include "src/tint/lang/core/ir/clone_context.h"
-#include "src/tint/lang/core/ir/loop.h"
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/core/ir/multi_in_block.h"
-#include "src/tint/utils/ice/ice.h"
+#include "tint/lang/core/ir/block.h"
+#include "tint/lang/core/ir/clone_context.h"
+#include "tint/lang/core/ir/loop.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/core/ir/multi_in_block.h"
+#include "tint/utils/ice/ice.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::core::ir::BreakIf);
 

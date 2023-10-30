@@ -25,8 +25,8 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/hlsl/writer/ast_printer/helper_test.h"
-#include "src/tint/lang/wgsl/ast/variable_decl_statement.h"
+#include "tint/lang/hlsl/writer/ast_printer/helper_test.h"
+#include "tint/lang/wgsl/ast/variable_decl_statement.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 

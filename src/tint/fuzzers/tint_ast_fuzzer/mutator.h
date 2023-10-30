@@ -28,13 +28,13 @@
 #ifndef SRC_TINT_FUZZERS_TINT_AST_FUZZER_MUTATOR_H_
 #define SRC_TINT_FUZZERS_TINT_AST_FUZZER_MUTATOR_H_
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation_finder.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/node_id_map.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/probability_context.h"
-#include "src/tint/fuzzers/tint_ast_fuzzer/protobufs/tint_ast_fuzzer.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation_finder.h"
+#include "tint/fuzzers/tint_ast_fuzzer/node_id_map.h"
+#include "tint/fuzzers/tint_ast_fuzzer/probability_context.h"
+#include "tint/fuzzers/tint_ast_fuzzer/protobufs/tint_ast_fuzzer.h"
 
-#include "src/tint/lang/wgsl/program/program.h"
+#include "tint/lang/wgsl/program/program.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 /// @file

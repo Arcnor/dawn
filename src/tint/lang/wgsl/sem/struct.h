@@ -30,12 +30,12 @@
 
 #include <optional>
 
-#include "src/tint/lang/core/address_space.h"
-#include "src/tint/lang/core/type/struct.h"
-#include "src/tint/lang/core/type/type.h"
-#include "src/tint/lang/wgsl/ast/struct.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/symbol/symbol.h"
+#include "tint/lang/core/address_space.h"
+#include "tint/lang/core/type/struct.h"
+#include "tint/lang/core/type/type.h"
+#include "tint/lang/wgsl/ast/struct.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/symbol/symbol.h"
 
 // Forward declarations
 namespace tint::ast {

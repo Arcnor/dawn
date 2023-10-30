@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/canonicalize_entry_point_io.h"
+#include "tint/lang/wgsl/ast/transform/canonicalize_entry_point_io.h"
 
 #include <algorithm>
 #include <string>
@@ -33,14 +33,14 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/wgsl/ast/disable_validation_attribute.h"
-#include "src/tint/lang/wgsl/ast/transform/unshadow.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/function.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/wgsl/ast/disable_validation_attribute.h"
+#include "tint/lang/wgsl/ast/transform/unshadow.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/function.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 using namespace tint::core::fluent_types;     // NOLINT

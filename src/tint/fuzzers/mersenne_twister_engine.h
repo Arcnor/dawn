@@ -30,7 +30,7 @@
 
 #include <random>
 
-#include "src/tint/fuzzers/random_generator_engine.h"
+#include "tint/fuzzers/random_generator_engine.h"
 
 namespace tint::fuzzers {
 

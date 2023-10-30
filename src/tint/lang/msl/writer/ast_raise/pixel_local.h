@@ -30,9 +30,9 @@
 
 #include <string>
 
-#include "src/tint/lang/wgsl/ast/internal_attribute.h"
-#include "src/tint/lang/wgsl/ast/transform/transform.h"
-#include "src/tint/utils/containers/hashmap.h"
+#include "tint/lang/wgsl/ast/internal_attribute.h"
+#include "tint/lang/wgsl/ast/transform/transform.h"
+#include "tint/utils/containers/hashmap.h"
 
 namespace tint::msl::writer {
 

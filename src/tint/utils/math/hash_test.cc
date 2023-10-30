@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/math/hash.h"
+#include "tint/utils/math/hash.h"
 
 #include <string>
 #include <tuple>
 #include <unordered_map>
 
 #include "gtest/gtest.h"
-#include "src/tint/utils/containers/vector.h"
+#include "tint/utils/containers/vector.h"
 
 namespace tint {
 namespace {

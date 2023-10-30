@@ -30,17 +30,17 @@
 
 #include <string>
 
-#include "src/tint/lang/core/ir/binary.h"
-#include "src/tint/lang/core/ir/block.h"
-#include "src/tint/lang/core/ir/call.h"
-#include "src/tint/lang/core/ir/if.h"
-#include "src/tint/lang/core/ir/loop.h"
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/core/ir/switch.h"
-#include "src/tint/lang/core/ir/unary.h"
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/containers/hashset.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/ir/binary.h"
+#include "tint/lang/core/ir/block.h"
+#include "tint/lang/core/ir/call.h"
+#include "tint/lang/core/ir/if.h"
+#include "tint/lang/core/ir/loop.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/core/ir/switch.h"
+#include "tint/lang/core/ir/unary.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/containers/hashset.h"
+#include "tint/utils/text/string_stream.h"
 
 // Forward declarations.
 namespace tint::core::type {

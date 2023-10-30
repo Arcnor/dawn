@@ -27,14 +27,14 @@
 
 #include <algorithm>
 
-#include "src/tint/lang/wgsl/ast/block_statement.h"
-#include "src/tint/lang/wgsl/ast/identifier.h"
-#include "src/tint/lang/wgsl/ast/loop_statement.h"
-#include "src/tint/lang/wgsl/ast/statement.h"
-#include "src/tint/lang/wgsl/ast/variable.h"
-#include "src/tint/lang/wgsl/sem/block_statement.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
+#include "tint/lang/wgsl/ast/block_statement.h"
+#include "tint/lang/wgsl/ast/identifier.h"
+#include "tint/lang/wgsl/ast/loop_statement.h"
+#include "tint/lang/wgsl/ast/statement.h"
+#include "tint/lang/wgsl/ast/variable.h"
+#include "tint/lang/wgsl/sem/block_statement.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/variable.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::sem::Statement);
 TINT_INSTANTIATE_TYPEINFO(tint::sem::CompoundStatement);

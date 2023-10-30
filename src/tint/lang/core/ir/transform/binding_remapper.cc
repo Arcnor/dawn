@@ -25,15 +25,15 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/ir/transform/binding_remapper.h"
+#include "tint/lang/core/ir/transform/binding_remapper.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/core/ir/var.h"
-#include "src/tint/utils/result/result.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/core/ir/var.h"
+#include "tint/utils/result/result.h"
+#include "tint/utils/text/string.h"
 
 using namespace tint::core::number_suffixes;  // NOLINT
 

@@ -25,13 +25,13 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/function.h"
+#include "tint/lang/wgsl/ast/function.h"
 
-#include "src/tint/lang/wgsl/ast/builder.h"
-#include "src/tint/lang/wgsl/ast/clone_context.h"
-#include "src/tint/lang/wgsl/ast/stage_attribute.h"
-#include "src/tint/lang/wgsl/ast/type.h"
-#include "src/tint/lang/wgsl/ast/workgroup_attribute.h"
+#include "tint/lang/wgsl/ast/builder.h"
+#include "tint/lang/wgsl/ast/clone_context.h"
+#include "tint/lang/wgsl/ast/stage_attribute.h"
+#include "tint/lang/wgsl/ast/type.h"
+#include "tint/lang/wgsl/ast/workgroup_attribute.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::ast::Function);
 

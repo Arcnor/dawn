@@ -30,7 +30,7 @@
 
 #include <vector>
 
-#include "src/tint/lang/wgsl/ast/variable.h"
+#include "tint/lang/wgsl/ast/variable.h"
 
 namespace tint::ast {
 

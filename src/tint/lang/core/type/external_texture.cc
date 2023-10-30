@@ -25,10 +25,10 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/type/external_texture.h"
+#include "tint/lang/core/type/external_texture.h"
 
-#include "src/tint/lang/core/type/manager.h"
-#include "src/tint/lang/core/type/texture_dimension.h"
+#include "tint/lang/core/type/manager.h"
+#include "tint/lang/core/type/texture_dimension.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::core::type::ExternalTexture);
 

@@ -25,8 +25,8 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/hlsl/writer/ast_raise/remove_continue_in_switch.h"
-#include "src/tint/lang/wgsl/ast/transform/helper_test.h"
+#include "tint/lang/hlsl/writer/ast_raise/remove_continue_in_switch.h"
+#include "tint/lang/wgsl/ast/transform/helper_test.h"
 
 namespace tint::hlsl::writer {
 namespace {

@@ -28,7 +28,7 @@
 #ifndef SRC_TINT_FUZZERS_TINT_AST_FUZZER_OVERRIDE_CLI_PARAMS_H_
 #define SRC_TINT_FUZZERS_TINT_AST_FUZZER_OVERRIDE_CLI_PARAMS_H_
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/cli.h"
+#include "tint/fuzzers/tint_ast_fuzzer/cli.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

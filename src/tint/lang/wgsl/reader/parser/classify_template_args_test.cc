@@ -27,9 +27,9 @@
 
 #include "gmock/gmock.h"
 
-#include "src/tint/lang/wgsl/reader/parser/classify_template_args.h"
-#include "src/tint/lang/wgsl/reader/parser/lexer.h"
-#include "src/tint/utils/containers/transform.h"
+#include "tint/lang/wgsl/reader/parser/classify_template_args.h"
+#include "tint/lang/wgsl/reader/parser/lexer.h"
+#include "tint/utils/containers/transform.h"
 
 namespace tint::wgsl::reader {
 namespace {

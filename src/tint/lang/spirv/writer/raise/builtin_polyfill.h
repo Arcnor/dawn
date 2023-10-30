@@ -30,10 +30,10 @@
 
 #include <string>
 
-#include "src/tint/lang/core/ir/constant.h"
-#include "src/tint/lang/core/type/type.h"
-#include "src/tint/utils/diagnostic/diagnostic.h"
-#include "src/tint/utils/result/result.h"
+#include "tint/lang/core/ir/constant.h"
+#include "tint/lang/core/type/type.h"
+#include "tint/utils/diagnostic/diagnostic.h"
+#include "tint/utils/result/result.h"
 
 // Forward declarations.
 namespace tint::core::ir {

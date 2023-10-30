@@ -30,11 +30,11 @@
 
 #include <string>
 
-#include "src/tint/lang/wgsl/ast/const_assert.h"
-#include "src/tint/lang/wgsl/ast/diagnostic_directive.h"
-#include "src/tint/lang/wgsl/ast/enable.h"
-#include "src/tint/lang/wgsl/ast/function.h"
-#include "src/tint/utils/containers/vector.h"
+#include "tint/lang/wgsl/ast/const_assert.h"
+#include "tint/lang/wgsl/ast/diagnostic_directive.h"
+#include "tint/lang/wgsl/ast/enable.h"
+#include "tint/lang/wgsl/ast/function.h"
+#include "tint/utils/containers/vector.h"
 
 namespace tint::ast {
 

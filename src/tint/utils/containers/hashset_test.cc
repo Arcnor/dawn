@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/containers/hashset.h"
+#include "tint/utils/containers/hashset.h"
 
 #include <array>
 #include <random>
@@ -34,7 +34,7 @@
 #include <unordered_set>
 
 #include "gmock/gmock.h"
-#include "src/tint/utils/containers/predicates.h"
+#include "tint/utils/containers/predicates.h"
 
 namespace tint {
 namespace {

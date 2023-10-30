@@ -25,12 +25,12 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/sem/call_target.h"
+#include "tint/lang/wgsl/sem/call_target.h"
 
 #include <utility>
 
-#include "src/tint/utils/math/hash.h"
-#include "src/tint/utils/symbol/symbol_table.h"
+#include "tint/utils/math/hash.h"
+#include "tint/utils/symbol/symbol_table.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::sem::CallTarget);
 

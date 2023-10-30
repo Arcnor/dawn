@@ -34,10 +34,10 @@
 #include <tuple>
 #include <utility>
 
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/ice/ice.h"
-#include "src/tint/utils/math/hash.h"
-#include "src/tint/utils/traits/traits.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/ice/ice.h"
+#include "tint/utils/math/hash.h"
+#include "tint/utils/traits/traits.h"
 
 #define TINT_ASSERT_ITERATORS_NOT_INVALIDATED
 

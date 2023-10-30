@@ -27,8 +27,8 @@
 
 #include <cstddef>
 
-#include "src/tint/fuzzers/cli.h"
-#include "src/tint/fuzzers/fuzzer_init.h"
+#include "tint/fuzzers/cli.h"
+#include "tint/fuzzers/fuzzer_init.h"
 #include "testing/libfuzzer/libfuzzer_exports.h"
 
 namespace tint::fuzzers {

@@ -30,10 +30,10 @@
 
 #include <vector>
 
-#include "src/tint/lang/wgsl/ast/call_expression.h"
-#include "src/tint/lang/wgsl/sem/builtin_fn.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/utils/containers/vector.h"
+#include "tint/lang/wgsl/ast/call_expression.h"
+#include "tint/lang/wgsl/sem/builtin_fn.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/utils/containers/vector.h"
 
 namespace tint::sem {
 

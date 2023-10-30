@@ -30,9 +30,9 @@
 
 #include <string>
 
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/memory/bump_allocator.h"
-#include "src/tint/utils/symbol/symbol.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/memory/bump_allocator.h"
+#include "tint/utils/symbol/symbol.h"
 
 namespace tint {
 

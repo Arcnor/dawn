@@ -25,13 +25,13 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ir/builtin_call.h"
+#include "tint/lang/wgsl/ir/builtin_call.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/clone_context.h"
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/utils/ice/ice.h"
+#include "tint/lang/core/ir/clone_context.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/utils/ice/ice.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::wgsl::ir::BuiltinCall);
 

@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/builder.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/constant/scalar.h"
-#include "src/tint/lang/core/type/pointer.h"
-#include "src/tint/lang/core/type/reference.h"
-#include "src/tint/utils/ice/ice.h"
+#include "tint/lang/core/constant/scalar.h"
+#include "tint/lang/core/type/pointer.h"
+#include "tint/lang/core/type/reference.h"
+#include "tint/utils/ice/ice.h"
 
 namespace tint::core::ir {
 

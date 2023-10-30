@@ -28,7 +28,7 @@
 #ifndef SRC_TINT_LANG_WGSL_AST_TRANSFORM_FIRST_INDEX_OFFSET_H_
 #define SRC_TINT_LANG_WGSL_AST_TRANSFORM_FIRST_INDEX_OFFSET_H_
 
-#include "src/tint/lang/wgsl/ast/transform/transform.h"
+#include "tint/lang/wgsl/ast/transform/transform.h"
 
 namespace tint::ast::transform {
 

@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/inspector/inspector_builder_test.h"
+#include "tint/lang/wgsl/inspector/inspector_builder_test.h"
 
 #include <memory>
 #include <string>
@@ -34,8 +34,8 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
 
 using namespace tint::core::fluent_types;  // NOLINT
 

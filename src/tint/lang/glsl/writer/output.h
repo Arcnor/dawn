@@ -32,8 +32,8 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/api/options/texture_builtins_from_uniform.h"
-#include "src/tint/lang/wgsl/ast/pipeline_stage.h"
+#include "tint/api/options/texture_builtins_from_uniform.h"
+#include "tint/lang/wgsl/ast/pipeline_stage.h"
 
 namespace tint::glsl::writer {
 

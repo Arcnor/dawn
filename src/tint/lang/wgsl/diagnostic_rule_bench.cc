@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/wgsl/diagnostic_rule.h"
+#include "tint/lang/wgsl/diagnostic_rule.h"
 
 #include <array>
 

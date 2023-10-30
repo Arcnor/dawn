@@ -25,12 +25,12 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/type/abstract_float.h"
-#include "src/tint/lang/core/type/abstract_int.h"
-#include "src/tint/lang/core/type/array_count.h"
-#include "src/tint/lang/core/type/f16.h"
-#include "src/tint/lang/core/type/helper_test.h"
-#include "src/tint/lang/core/type/reference.h"
+#include "tint/lang/core/type/abstract_float.h"
+#include "tint/lang/core/type/abstract_int.h"
+#include "tint/lang/core/type/array_count.h"
+#include "tint/lang/core/type/f16.h"
+#include "tint/lang/core/type/helper_test.h"
+#include "tint/lang/core/type/reference.h"
 
 namespace tint::core::type {
 namespace {

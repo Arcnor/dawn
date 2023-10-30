@@ -31,8 +31,8 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
 
 namespace tint::sem {
 

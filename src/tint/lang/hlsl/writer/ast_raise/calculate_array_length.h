@@ -30,8 +30,8 @@
 
 #include <string>
 
-#include "src/tint/lang/wgsl/ast/internal_attribute.h"
-#include "src/tint/lang/wgsl/ast/transform/transform.h"
+#include "tint/lang/wgsl/ast/internal_attribute.h"
+#include "tint/lang/wgsl/ast/transform/transform.h"
 
 namespace tint::hlsl::writer {
 

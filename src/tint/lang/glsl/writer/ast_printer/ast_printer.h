@@ -34,14 +34,14 @@
 #include <unordered_set>
 #include <utility>
 
-#include "src/tint/api/options/texture_builtins_from_uniform.h"
-#include "src/tint/lang/core/builtin_value.h"
-#include "src/tint/lang/glsl/writer/common/version.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/utils/containers/scope_stack.h"
-#include "src/tint/utils/generator/text_generator.h"
-#include "src/tint/utils/math/hash.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/api/options/texture_builtins_from_uniform.h"
+#include "tint/lang/core/builtin_value.h"
+#include "tint/lang/glsl/writer/common/version.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/utils/containers/scope_stack.h"
+#include "tint/utils/generator/text_generator.h"
+#include "tint/utils/math/hash.h"
+#include "tint/utils/text/string_stream.h"
 
 // Forward declarations
 namespace tint::sem {

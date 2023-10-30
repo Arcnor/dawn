@@ -25,25 +25,25 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/type/builtin_structs.h"
+#include "tint/lang/core/type/builtin_structs.h"
 
 #include <algorithm>
 #include <string>
 #include <utility>
 
-#include "src/tint/lang/core/builtin_type.h"
-#include "src/tint/lang/core/type/abstract_float.h"
-#include "src/tint/lang/core/type/abstract_int.h"
-#include "src/tint/lang/core/type/bool.h"
-#include "src/tint/lang/core/type/f16.h"
-#include "src/tint/lang/core/type/f32.h"
-#include "src/tint/lang/core/type/i32.h"
-#include "src/tint/lang/core/type/manager.h"
-#include "src/tint/lang/core/type/u32.h"
-#include "src/tint/lang/core/type/vector.h"
-#include "src/tint/utils/rtti/switch.h"
-#include "src/tint/utils/symbol/symbol_table.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/core/builtin_type.h"
+#include "tint/lang/core/type/abstract_float.h"
+#include "tint/lang/core/type/abstract_int.h"
+#include "tint/lang/core/type/bool.h"
+#include "tint/lang/core/type/f16.h"
+#include "tint/lang/core/type/f32.h"
+#include "tint/lang/core/type/i32.h"
+#include "tint/lang/core/type/manager.h"
+#include "tint/lang/core/type/u32.h"
+#include "tint/lang/core/type/vector.h"
+#include "tint/utils/rtti/switch.h"
+#include "tint/utils/symbol/symbol_table.h"
+#include "tint/utils/text/string.h"
 
 namespace tint::core::type {
 

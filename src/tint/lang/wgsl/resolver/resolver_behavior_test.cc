@@ -25,15 +25,15 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/resolver/resolver.h"
+#include "tint/lang/wgsl/resolver/resolver.h"
 
 #include "gtest/gtest.h"
-#include "src/tint/lang/wgsl/resolver/resolver_helper_test.h"
-#include "src/tint/lang/wgsl/sem/for_loop_statement.h"
-#include "src/tint/lang/wgsl/sem/if_statement.h"
-#include "src/tint/lang/wgsl/sem/switch_statement.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/lang/wgsl/sem/while_statement.h"
+#include "tint/lang/wgsl/resolver/resolver_helper_test.h"
+#include "tint/lang/wgsl/sem/for_loop_statement.h"
+#include "tint/lang/wgsl/sem/if_statement.h"
+#include "tint/lang/wgsl/sem/switch_statement.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/lang/wgsl/sem/while_statement.h"
 
 namespace tint::resolver {
 namespace {

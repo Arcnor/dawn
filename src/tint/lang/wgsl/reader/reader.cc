@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/reader/reader.h"
 
 #include <utility>
 
-#include "src/tint/lang/wgsl/reader/lower/lower.h"
-#include "src/tint/lang/wgsl/reader/parser/parser.h"
-#include "src/tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/reader/lower/lower.h"
+#include "tint/lang/wgsl/reader/parser/parser.h"
+#include "tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
 
 namespace tint::wgsl::reader {
 

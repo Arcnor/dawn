@@ -32,16 +32,16 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/api/common/override_id.h"
+#include "tint/api/common/override_id.h"
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/lang/core/access.h"
-#include "src/tint/lang/core/address_space.h"
-#include "src/tint/lang/core/parameter_usage.h"
-#include "src/tint/lang/core/type/type.h"
-#include "src/tint/lang/wgsl/ast/parameter.h"
-#include "src/tint/lang/wgsl/sem/value_expression.h"
-#include "src/tint/utils/containers/unique_vector.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/lang/core/access.h"
+#include "tint/lang/core/address_space.h"
+#include "tint/lang/core/parameter_usage.h"
+#include "tint/lang/core/type/type.h"
+#include "tint/lang/wgsl/ast/parameter.h"
+#include "tint/lang/wgsl/sem/value_expression.h"
+#include "tint/utils/containers/unique_vector.h"
 
 // Forward declarations
 namespace tint::ast {

@@ -25,41 +25,41 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/api/tint.h"
+#include "tint/api/tint.h"
 
 ////////////////////////////////////////////////////////////////////////////////
 // The following includes are used by './tools/run gen' to add an implicit
 // dependency from 'tint/api' to the libraries used to make up the Tint API.
 ////////////////////////////////////////////////////////////////////////////////
-#include "src/tint/api/common/override_id.h"
-#include "src/tint/api/options/array_length_from_uniform.h"
+#include "tint/api/common/override_id.h"
+#include "tint/api/options/array_length_from_uniform.h"
 
 #if TINT_BUILD_GLSL_WRITER
-#include "src/tint/lang/glsl/writer/writer.h"  // nogncheck
+#include "tint/lang/glsl/writer/writer.h"  // nogncheck
 #endif
 
 #if TINT_BUILD_HLSL_WRITER
-#include "src/tint/lang/hlsl/writer/writer.h"  // nogncheck
+#include "tint/lang/hlsl/writer/writer.h"  // nogncheck
 #endif
 
 #if TINT_BUILD_MSL_WRITER
-#include "src/tint/lang/msl/writer/writer.h"  // nogncheck
+#include "tint/lang/msl/writer/writer.h"  // nogncheck
 #endif
 
 #if TINT_BUILD_SPV_READER
-#include "src/tint/lang/spirv/reader/reader.h"  // nogncheck
+#include "tint/lang/spirv/reader/reader.h"  // nogncheck
 #endif
 
 #if TINT_BUILD_SPV_WRITER
-#include "src/tint/lang/spirv/writer/writer.h"  // nogncheck
+#include "tint/lang/spirv/writer/writer.h"  // nogncheck
 #endif
 
 #if TINT_BUILD_WGSL_READER
-#include "src/tint/lang/wgsl/reader/reader.h"  // nogncheck
+#include "tint/lang/wgsl/reader/reader.h"  // nogncheck
 #endif
 
 #if TINT_BUILD_WGSL_WRITER
-#include "src/tint/lang/wgsl/writer/writer.h"  // nogncheck
+#include "tint/lang/wgsl/writer/writer.h"  // nogncheck
 #endif
 
 namespace tint {

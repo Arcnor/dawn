@@ -32,7 +32,7 @@
 #include <unordered_set>
 #include <utility>
 
-#include "src/tint/utils/memory/block_allocator.h"
+#include "tint/utils/memory/block_allocator.h"
 
 namespace tint {
 

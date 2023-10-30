@@ -28,9 +28,9 @@
 #include <string>
 
 #include "gtest/gtest-spi.h"
-#include "src/tint/lang/wgsl/ast/diagnostic_control.h"
-#include "src/tint/lang/wgsl/ast/helper_test.h"
-#include "src/tint/lang/wgsl/diagnostic_severity.h"
+#include "tint/lang/wgsl/ast/diagnostic_control.h"
+#include "tint/lang/wgsl/ast/helper_test.h"
+#include "tint/lang/wgsl/diagnostic_severity.h"
 
 namespace tint::ast {
 namespace {

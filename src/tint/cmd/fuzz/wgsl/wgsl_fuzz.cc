@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/cmd/fuzz/wgsl/wgsl_fuzz.h"
+#include "tint/cmd/fuzz/wgsl/wgsl_fuzz.h"
 
 #include <iostream>
 
-#include "src/tint/lang/wgsl/reader/reader.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/macros/defer.h"
-#include "src/tint/utils/macros/static_init.h"
+#include "tint/lang/wgsl/reader/reader.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/macros/defer.h"
+#include "tint/utils/macros/static_init.h"
 
 namespace tint::fuzz::wgsl {
 namespace {

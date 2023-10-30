@@ -27,9 +27,9 @@
 
 #include <algorithm>
 
-#include "src/tint/utils/containers/transform.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/utils/containers/transform.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/text/string.h"
 
 namespace tint {
 

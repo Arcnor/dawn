@@ -25,11 +25,11 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/helpers/append_vector.h"
-#include "src/tint/lang/wgsl/ast/helper_test.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolver.h"
-#include "src/tint/lang/wgsl/sem/value_constructor.h"
+#include "tint/lang/wgsl/helpers/append_vector.h"
+#include "tint/lang/wgsl/ast/helper_test.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolver.h"
+#include "tint/lang/wgsl/sem/value_constructor.h"
 
 #include "gmock/gmock.h"
 

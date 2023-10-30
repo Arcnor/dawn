@@ -34,7 +34,7 @@
 //                       Do not modify this file directly
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "src/tint/lang/wgsl/extension.h"
+#include "tint/lang/wgsl/extension.h"
 
 #include <array>
 

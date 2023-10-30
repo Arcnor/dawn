@@ -37,9 +37,9 @@
 #include <limits>
 #include <string>
 
-#include "src/tint/lang/core/intrinsic/dialect.h"
-#include "src/tint/lang/core/intrinsic/type_matchers.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/lang/core/intrinsic/dialect.h"
+#include "tint/lang/core/intrinsic/type_matchers.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::core::intrinsic {
 

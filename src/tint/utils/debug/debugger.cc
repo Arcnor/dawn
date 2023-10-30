@@ -25,7 +25,7 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/debug/debugger.h"
+#include "tint/utils/debug/debugger.h"
 
 #ifdef TINT_ENABLE_BREAK_IN_DEBUGGER
 

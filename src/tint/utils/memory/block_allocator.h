@@ -32,8 +32,8 @@
 #include <cstring>
 #include <utility>
 
-#include "src/tint/utils/math/math.h"
-#include "src/tint/utils/memory/bitcast.h"
+#include "tint/utils/math/math.h"
+#include "tint/utils/memory/bitcast.h"
 
 namespace tint {
 

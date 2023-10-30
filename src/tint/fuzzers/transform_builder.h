@@ -33,10 +33,10 @@
 
 #include "include/tint/tint.h"
 
-#include "src/tint/fuzzers/data_builder.h"
-#include "src/tint/fuzzers/shuffle_transform.h"
-#include "src/tint/lang/wgsl/ast/transform/binding_remapper.h"
-#include "src/tint/lang/wgsl/ast/transform/robustness.h"
+#include "tint/fuzzers/data_builder.h"
+#include "tint/fuzzers/shuffle_transform.h"
+#include "tint/lang/wgsl/ast/transform/binding_remapper.h"
+#include "tint/lang/wgsl/ast/transform/robustness.h"
 
 namespace tint::fuzzers {
 

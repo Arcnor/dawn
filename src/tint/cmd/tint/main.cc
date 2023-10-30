@@ -41,62 +41,62 @@
 #include "spirv-tools/libspirv.hpp"
 #endif  // TINT_BUILD_SPV_READER || TINT_BUILD_SPV_WRITER
 
-#include "src/tint/api/options/pixel_local.h"
-#include "src/tint/api/tint.h"
-#include "src/tint/cmd/common/generate_external_texture_bindings.h"
-#include "src/tint/cmd/common/helper.h"
-#include "src/tint/lang/core/ir/disassembler.h"
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/wgsl/ast/module.h"
-#include "src/tint/lang/wgsl/ast/transform/first_index_offset.h"
-#include "src/tint/lang/wgsl/ast/transform/manager.h"
-#include "src/tint/lang/wgsl/ast/transform/renamer.h"
-#include "src/tint/lang/wgsl/ast/transform/single_entry_point.h"
-#include "src/tint/lang/wgsl/ast/transform/substitute_override.h"
-#include "src/tint/lang/wgsl/helpers/flatten_bindings.h"
-#include "src/tint/utils/cli/cli.h"
-#include "src/tint/utils/command/command.h"
-#include "src/tint/utils/containers/transform.h"
-#include "src/tint/utils/diagnostic/formatter.h"
-#include "src/tint/utils/diagnostic/printer.h"
-#include "src/tint/utils/macros/defer.h"
-#include "src/tint/utils/text/string.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/api/options/pixel_local.h"
+#include "tint/api/tint.h"
+#include "tint/cmd/common/generate_external_texture_bindings.h"
+#include "tint/cmd/common/helper.h"
+#include "tint/lang/core/ir/disassembler.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/wgsl/ast/module.h"
+#include "tint/lang/wgsl/ast/transform/first_index_offset.h"
+#include "tint/lang/wgsl/ast/transform/manager.h"
+#include "tint/lang/wgsl/ast/transform/renamer.h"
+#include "tint/lang/wgsl/ast/transform/single_entry_point.h"
+#include "tint/lang/wgsl/ast/transform/substitute_override.h"
+#include "tint/lang/wgsl/helpers/flatten_bindings.h"
+#include "tint/utils/cli/cli.h"
+#include "tint/utils/command/command.h"
+#include "tint/utils/containers/transform.h"
+#include "tint/utils/diagnostic/formatter.h"
+#include "tint/utils/diagnostic/printer.h"
+#include "tint/utils/macros/defer.h"
+#include "tint/utils/text/string.h"
+#include "tint/utils/text/string_stream.h"
 
 #if TINT_BUILD_SPV_READER
-#include "src/tint/lang/spirv/reader/reader.h"
+#include "tint/lang/spirv/reader/reader.h"
 #endif  // TINT_BUILD_SPV_READER
 
 #if TINT_BUILD_WGSL_READER
-#include "src/tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
-#include "src/tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/reader/program_to_ir/program_to_ir.h"
+#include "tint/lang/wgsl/reader/reader.h"
 #endif  // TINT_BUILD_WGSL_READER
 
 #if TINT_BUILD_SPV_WRITER
-#include "src/tint/lang/spirv/writer/helpers/generate_bindings.h"
-#include "src/tint/lang/spirv/writer/writer.h"
+#include "tint/lang/spirv/writer/helpers/generate_bindings.h"
+#include "tint/lang/spirv/writer/writer.h"
 #endif  // TINT_BUILD_SPV_WRITER
 
 #if TINT_BUILD_WGSL_WRITER
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/lang/wgsl/writer/writer.h"
 #endif  // TINT_BUILD_WGSL_WRITER
 
 #if TINT_BUILD_MSL_WRITER
-#include "src/tint/lang/msl/validate/val.h"
-#include "src/tint/lang/msl/writer/writer.h"
+#include "tint/lang/msl/validate/val.h"
+#include "tint/lang/msl/writer/writer.h"
 #endif  // TINT_BUILD_MSL_WRITER
 
 #if TINT_BUILD_HLSL_WRITER
-#include "src/tint/lang/hlsl/validate/val.h"
-#include "src/tint/lang/hlsl/writer/writer.h"
+#include "tint/lang/hlsl/validate/val.h"
+#include "tint/lang/hlsl/writer/writer.h"
 #endif  // TINT_BUILD_HLSL_WRITER
 
 #if TINT_BUILD_GLSL_WRITER
-#include "src/tint/lang/glsl/writer/writer.h"
+#include "tint/lang/glsl/writer/writer.h"
 #endif  // TINT_BUILD_GLSL_WRITER
 
 #if TINT_BUILD_GLSL_VALIDATOR
-#include "src/tint/lang/glsl/validate/validate.h"
+#include "tint/lang/glsl/validate/validate.h"
 #endif  // TINT_BUILD_GLSL_VALIDATOR
 
 #if TINT_BUILD_SPV_WRITER

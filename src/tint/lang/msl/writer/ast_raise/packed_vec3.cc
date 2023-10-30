@@ -25,31 +25,31 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/msl/writer/ast_raise/packed_vec3.h"
+#include "tint/lang/msl/writer/ast_raise/packed_vec3.h"
 
 #include <algorithm>
 #include <string>
 #include <utility>
 
-#include "src/tint/lang/core/builtin_type.h"
-#include "src/tint/lang/core/fluent_types.h"
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/core/type/reference.h"
-#include "src/tint/lang/core/type/vector.h"
-#include "src/tint/lang/wgsl/ast/assignment_statement.h"
-#include "src/tint/lang/wgsl/program/clone_context.h"
-#include "src/tint/lang/wgsl/program/program_builder.h"
-#include "src/tint/lang/wgsl/resolver/resolve.h"
-#include "src/tint/lang/wgsl/sem/array_count.h"
-#include "src/tint/lang/wgsl/sem/index_accessor_expression.h"
-#include "src/tint/lang/wgsl/sem/load.h"
-#include "src/tint/lang/wgsl/sem/statement.h"
-#include "src/tint/lang/wgsl/sem/type_expression.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
-#include "src/tint/utils/containers/hashmap.h"
-#include "src/tint/utils/containers/hashset.h"
-#include "src/tint/utils/containers/vector.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/core/builtin_type.h"
+#include "tint/lang/core/fluent_types.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/core/type/reference.h"
+#include "tint/lang/core/type/vector.h"
+#include "tint/lang/wgsl/ast/assignment_statement.h"
+#include "tint/lang/wgsl/program/clone_context.h"
+#include "tint/lang/wgsl/program/program_builder.h"
+#include "tint/lang/wgsl/resolver/resolve.h"
+#include "tint/lang/wgsl/sem/array_count.h"
+#include "tint/lang/wgsl/sem/index_accessor_expression.h"
+#include "tint/lang/wgsl/sem/load.h"
+#include "tint/lang/wgsl/sem/statement.h"
+#include "tint/lang/wgsl/sem/type_expression.h"
+#include "tint/lang/wgsl/sem/variable.h"
+#include "tint/utils/containers/hashmap.h"
+#include "tint/utils/containers/hashset.h"
+#include "tint/utils/containers/vector.h"
+#include "tint/utils/rtti/switch.h"
 
 TINT_INSTANTIATE_TYPEINFO(tint::msl::writer::PackedVec3);
 

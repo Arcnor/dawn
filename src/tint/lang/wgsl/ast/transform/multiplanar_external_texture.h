@@ -31,11 +31,11 @@
 #include <unordered_map>
 #include <utility>
 
-#include "src/tint/api/common/binding_point.h"
-#include "src/tint/api/options/external_texture.h"
-#include "src/tint/lang/core/builtin_fn.h"
-#include "src/tint/lang/wgsl/ast/struct_member.h"
-#include "src/tint/lang/wgsl/ast/transform/transform.h"
+#include "tint/api/common/binding_point.h"
+#include "tint/api/options/external_texture.h"
+#include "tint/lang/core/builtin_fn.h"
+#include "tint/lang/wgsl/ast/struct_member.h"
+#include "tint/lang/wgsl/ast/transform/transform.h"
 
 namespace tint::ast::transform {
 

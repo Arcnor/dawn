@@ -27,9 +27,9 @@
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/transform/helper_test.h"
-#include "src/tint/lang/core/type/struct.h"
-#include "src/tint/lang/wgsl/writer/raise/raise.h"
+#include "tint/lang/core/ir/transform/helper_test.h"
+#include "tint/lang/core/type/struct.h"
+#include "tint/lang/wgsl/writer/raise/raise.h"
 
 namespace tint::wgsl::writer::raise {
 namespace {

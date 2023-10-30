@@ -30,11 +30,11 @@
 
 #include <utility>
 
-#include "src/tint/lang/core/constant/value.h"
-#include "src/tint/lang/core/number.h"
-#include "src/tint/lang/core/type/manager.h"
-#include "src/tint/utils/containers/unique_allocator.h"
-#include "src/tint/utils/math/hash.h"
+#include "tint/lang/core/constant/value.h"
+#include "tint/lang/core/number.h"
+#include "tint/lang/core/type/manager.h"
+#include "tint/utils/containers/unique_allocator.h"
+#include "tint/utils/math/hash.h"
 
 namespace tint::core::constant {
 class Splat;

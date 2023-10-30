@@ -28,11 +28,11 @@
 #ifndef SRC_TINT_FUZZERS_TINT_AST_FUZZER_MUTATIONS_CHANGE_BINARY_OPERATOR_H_
 #define SRC_TINT_FUZZERS_TINT_AST_FUZZER_MUTATIONS_CHANGE_BINARY_OPERATOR_H_
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation.h"
 
-#include "src/tint/lang/wgsl/ast/binary_expression.h"
-#include "src/tint/lang/wgsl/program/program.h"
-#include "src/tint/lang/wgsl/sem/variable.h"
+#include "tint/lang/wgsl/ast/binary_expression.h"
+#include "tint/lang/wgsl/program/program.h"
+#include "tint/lang/wgsl/sem/variable.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

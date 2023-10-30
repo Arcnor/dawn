@@ -30,9 +30,9 @@
 
 #include <string>
 
-#include "src/tint/lang/wgsl/ast/internal_attribute.h"
-#include "src/tint/lang/wgsl/ast/transform/transform.h"
-#include "src/tint/lang/wgsl/builtin_fn.h"
+#include "tint/lang/wgsl/ast/internal_attribute.h"
+#include "tint/lang/wgsl/ast/transform/transform.h"
+#include "tint/lang/wgsl/builtin_fn.h"
 
 namespace tint::spirv::reader {
 

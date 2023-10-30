@@ -28,10 +28,10 @@
 #ifndef SRC_TINT_LANG_WGSL_SEM_MODULE_H_
 #define SRC_TINT_LANG_WGSL_SEM_MODULE_H_
 
-#include "src/tint/lang/wgsl/ast/diagnostic_control.h"
-#include "src/tint/lang/wgsl/extension.h"
-#include "src/tint/lang/wgsl/sem/node.h"
-#include "src/tint/utils/containers/vector.h"
+#include "tint/lang/wgsl/ast/diagnostic_control.h"
+#include "tint/lang/wgsl/extension.h"
+#include "tint/lang/wgsl/sem/node.h"
+#include "tint/utils/containers/vector.h"
 
 // Forward declarations
 namespace tint::ast {

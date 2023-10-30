@@ -30,22 +30,22 @@
 #include <utility>
 #include <vector>
 
-#include "src/tint/cmd/bench/bench.h"
+#include "tint/cmd/bench/bench.h"
 
 #if TINT_BUILD_SPV_READER
-#include "src/tint/lang/spirv/reader/reader.h"
+#include "tint/lang/spirv/reader/reader.h"
 #endif
 
 #if TINT_BUILD_WGSL_WRITER
-#include "src/tint/lang/wgsl/writer/writer.h"
+#include "tint/lang/wgsl/writer/writer.h"
 #endif
 
 #if TINT_BUILD_WGSL_READER
-#include "src/tint/lang/wgsl/reader/reader.h"
+#include "tint/lang/wgsl/reader/reader.h"
 #endif
 
-#include "src/tint/utils/text/string.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/text/string.h"
+#include "tint/utils/text/string_stream.h"
 
 namespace tint::bench {
 namespace {

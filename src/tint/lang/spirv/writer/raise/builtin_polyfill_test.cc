@@ -25,18 +25,18 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/spirv/writer/raise/builtin_polyfill.h"
+#include "tint/lang/spirv/writer/raise/builtin_polyfill.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/transform/helper_test.h"
-#include "src/tint/lang/core/type/array.h"
-#include "src/tint/lang/core/type/atomic.h"
-#include "src/tint/lang/core/type/builtin_structs.h"
-#include "src/tint/lang/core/type/depth_texture.h"
-#include "src/tint/lang/core/type/multisampled_texture.h"
-#include "src/tint/lang/core/type/sampled_texture.h"
-#include "src/tint/lang/core/type/storage_texture.h"
+#include "tint/lang/core/ir/transform/helper_test.h"
+#include "tint/lang/core/type/array.h"
+#include "tint/lang/core/type/atomic.h"
+#include "tint/lang/core/type/builtin_structs.h"
+#include "tint/lang/core/type/depth_texture.h"
+#include "tint/lang/core/type/multisampled_texture.h"
+#include "tint/lang/core/type/sampled_texture.h"
+#include "tint/lang/core/type/storage_texture.h"
 
 namespace tint::spirv::writer::raise {
 namespace {

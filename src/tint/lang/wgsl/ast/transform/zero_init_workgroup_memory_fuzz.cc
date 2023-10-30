@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "src/tint/lang/wgsl/ast/transform/zero_init_workgroup_memory.h"
+#include "tint/lang/wgsl/ast/transform/zero_init_workgroup_memory.h"
 
-#include "src/tint/cmd/fuzz/wgsl/wgsl_fuzz.h"
-#include "src/tint/lang/wgsl/ast/module.h"
+#include "tint/cmd/fuzz/wgsl/wgsl_fuzz.h"
+#include "tint/lang/wgsl/ast/module.h"
 
 namespace tint::ast::transform {
 

@@ -25,14 +25,14 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/ast/transform/std140.h"
+#include "tint/lang/wgsl/ast/transform/std140.h"
 
 #include <string>
 #include <utility>
 #include <vector>
 
-#include "src/tint/lang/wgsl/ast/transform/helper_test.h"
-#include "src/tint/utils/text/string.h"
+#include "tint/lang/wgsl/ast/transform/helper_test.h"
+#include "tint/utils/text/string.h"
 
 // This file contains the should-run tests and a trival empty module test for Std140 transform.
 // For testing transform results with clear readability, please refer to std140_f32_test.cc for f32

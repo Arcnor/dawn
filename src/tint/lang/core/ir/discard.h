@@ -30,8 +30,8 @@
 
 #include <string>
 
-#include "src/tint/lang/core/ir/call.h"
-#include "src/tint/utils/rtti/castable.h"
+#include "tint/lang/core/ir/call.h"
+#include "tint/utils/rtti/castable.h"
 
 namespace tint::core::ir {
 

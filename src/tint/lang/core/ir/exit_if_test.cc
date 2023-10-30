@@ -25,10 +25,10 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/ir/exit_if.h"
+#include "tint/lang/core/ir/exit_if.h"
 
 #include "gmock/gmock.h"
-#include "src/tint/lang/core/ir/ir_helper_test.h"
+#include "tint/lang/core/ir/ir_helper_test.h"
 
 namespace tint::core::ir {
 namespace {

@@ -29,7 +29,7 @@
 
 #include "benchmark/benchmark.h"
 
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/utils/rtti/switch.h"
 
 namespace tint {
 namespace {

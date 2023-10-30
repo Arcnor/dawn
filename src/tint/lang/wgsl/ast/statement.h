@@ -30,7 +30,7 @@
 
 #include <vector>
 
-#include "src/tint/lang/wgsl/ast/node.h"
+#include "tint/lang/wgsl/ast/node.h"
 
 namespace tint::ast {
 

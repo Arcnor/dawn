@@ -25,12 +25,12 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/utils/text/string.h"
+#include "tint/utils/text/string.h"
 
 #include "gmock/gmock.h"
-#include "src/tint/utils/text/string_stream.h"
+#include "tint/utils/text/string_stream.h"
 
-#include "src/tint/utils/containers/transform.h"  // Used by ToStringList()
+#include "tint/utils/containers/transform.h"  // Used by ToStringList()
 
 namespace tint {
 namespace {

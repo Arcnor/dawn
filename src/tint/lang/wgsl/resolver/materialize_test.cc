@@ -25,13 +25,13 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/sem/materialize.h"
+#include "tint/lang/wgsl/sem/materialize.h"
 
-#include "src/tint/lang/core/type/helper_test.h"
-#include "src/tint/lang/wgsl/resolver/resolver.h"
-#include "src/tint/lang/wgsl/resolver/resolver_helper_test.h"
-#include "src/tint/lang/wgsl/sem/array.h"
-#include "src/tint/utils/rtti/switch.h"
+#include "tint/lang/core/type/helper_test.h"
+#include "tint/lang/wgsl/resolver/resolver.h"
+#include "tint/lang/wgsl/resolver/resolver_helper_test.h"
+#include "tint/lang/wgsl/sem/array.h"
+#include "tint/utils/rtti/switch.h"
 
 #include "gmock/gmock.h"
 

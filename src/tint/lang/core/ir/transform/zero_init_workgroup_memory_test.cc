@@ -25,11 +25,11 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/ir/transform/zero_init_workgroup_memory.h"
+#include "tint/lang/core/ir/transform/zero_init_workgroup_memory.h"
 
 #include <utility>
 
-#include "src/tint/lang/core/ir/transform/helper_test.h"
+#include "tint/lang/core/ir/transform/helper_test.h"
 
 namespace tint::core::ir::transform {
 namespace {

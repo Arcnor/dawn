@@ -25,16 +25,16 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/wgsl/writer/ir_to_program/rename_conflicts.h"
+#include "tint/lang/wgsl/writer/ir_to_program/rename_conflicts.h"
 
 #include <string>
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/disassembler.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/core/type/matrix.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/disassembler.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/core/type/matrix.h"
 
 namespace tint::wgsl::writer {
 namespace {

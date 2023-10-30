@@ -37,8 +37,8 @@
 #ifndef SRC_TINT_LANG_WGSL_EXTENSION_H_
 #define SRC_TINT_LANG_WGSL_EXTENSION_H_
 
-#include "src/tint/utils/containers/unique_vector.h"
-#include "src/tint/utils/traits/traits.h"
+#include "tint/utils/containers/unique_vector.h"
+#include "tint/utils/traits/traits.h"
 
 namespace tint::wgsl {
 

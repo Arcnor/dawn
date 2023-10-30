@@ -28,9 +28,9 @@
 #ifndef SRC_TINT_FUZZERS_TINT_AST_FUZZER_MUTATIONS_REPLACE_IDENTIFIER_H_
 #define SRC_TINT_FUZZERS_TINT_AST_FUZZER_MUTATIONS_REPLACE_IDENTIFIER_H_
 
-#include "src/tint/fuzzers/tint_ast_fuzzer/mutation.h"
+#include "tint/fuzzers/tint_ast_fuzzer/mutation.h"
 
-#include "src/tint/lang/wgsl/sem/variable.h"
+#include "tint/lang/wgsl/sem/variable.h"
 
 namespace tint::fuzzers::ast_fuzzer {
 

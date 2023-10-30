@@ -31,8 +31,8 @@
 #include <string>
 #include <unordered_map>
 
-#include "src/tint/lang/wgsl/diagnostic_severity.h"
-#include "src/tint/utils/diagnostic/diagnostic.h"
+#include "tint/lang/wgsl/diagnostic_severity.h"
+#include "tint/utils/diagnostic/diagnostic.h"
 
 // Forward declarations
 namespace tint::ast {

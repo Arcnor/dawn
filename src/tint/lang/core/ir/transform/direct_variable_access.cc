@@ -25,19 +25,19 @@
 // OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "src/tint/lang/core/ir/transform/direct_variable_access.h"
+#include "tint/lang/core/ir/transform/direct_variable_access.h"
 
 #include <string>
 #include <utility>
 
-#include "src/tint/lang/core/ir/builder.h"
-#include "src/tint/lang/core/ir/clone_context.h"
-#include "src/tint/lang/core/ir/module.h"
-#include "src/tint/lang/core/ir/traverse.h"
-#include "src/tint/lang/core/ir/user_call.h"
-#include "src/tint/lang/core/ir/validator.h"
-#include "src/tint/lang/core/ir/var.h"
-#include "src/tint/utils/containers/reverse.h"
+#include "tint/lang/core/ir/builder.h"
+#include "tint/lang/core/ir/clone_context.h"
+#include "tint/lang/core/ir/module.h"
+#include "tint/lang/core/ir/traverse.h"
+#include "tint/lang/core/ir/user_call.h"
+#include "tint/lang/core/ir/validator.h"
+#include "tint/lang/core/ir/var.h"
+#include "tint/utils/containers/reverse.h"
 
 using namespace tint::core::fluent_types;     // NOLINT
 using namespace tint::core::number_suffixes;  // NOLINT
