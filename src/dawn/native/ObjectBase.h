@@ -36,10 +36,6 @@
 #include "dawn/common/RefCounted.h"
 #include "dawn/native/Forward.h"
 
-namespace absl {
-class FormatSink;
-}
-
 namespace dawn::native {
 
 class ApiObjectBase;
